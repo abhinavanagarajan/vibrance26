@@ -1,0 +1,143 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    mix-blend-mode: difference;
+    color: white;
+    transition: padding 0.3s ease;
+}
+
+.nav-logo a {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.nav-logo .highlight {
+    color: var(--color-cyan);
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 2px;
+}
+
+.nav-link .link-underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-cyan);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.nav-link:hover .link-underline {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Mobile placeholder */
+.nav-mobile-toggle {
+    display: none;
+}
+
+.hamburger {
+    width: 30px;
+    height: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.hamburger.open span:nth-child(1) {
+    transform: translateY(5px) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+    transform: translateY(-5px) rotate(-45deg);
+}
+
+/* Mobile Menu Overlay */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-bg);
+    z-index: 1001;
+    /* Below toggle and logo but above everything else */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mobile-nav-link {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.mobile-nav-link:hover {
+    color: var(--color-cyan);
+    -webkit-text-stroke: 1px white;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-mobile-toggle {
+        display: block;
+    }
+
+    .navbar {
+        padding: 1rem 1.5rem;
+    }
+}

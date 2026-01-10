@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Syne:wght@400;700;800&display=swap');
+
+:root {
+  --color-bg: #0a0a0a;
+  --color-cyan: #00f3ff;
+  --color-purple: #bc13fe;
+  --color-pink: #ff0055;
+  --color-text: #ffffff;
+  
+  --font-main: 'Inter', sans-serif;
+  --font-display: 'Syne', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Lenis Scroll Setup */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Utilities */
+.hidden { display: none; }
+.flex-center { display: flex; justify-content: center; align-items: center; }
+.absolute-full { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* Selection */
+::selection {
+  background: var(--color-pink);
+  color: white;
+}

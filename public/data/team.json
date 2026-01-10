@@ -1,0 +1,72 @@
+[
+    {
+        "tier": "High Management",
+        "showTitle": false,
+        "members": [
+            {
+                "name": "Dr. V. S. Kanchana Bhaaskaran",
+                "role": "Vice Chancellor",
+                "image": "https://placehold.co/400x500/111/FFF?text=VC"
+            },
+            {
+                "name": "Dr. Thyagarajan T",
+                "role": "Pro Vice Chancellor",
+                "image": "https://placehold.co/400x500/111/FFF?text=Pro+VC"
+            }
+        ]
+    },
+    {
+        "tier": "Convenors",
+        "showTitle": true,
+        "members": [
+            {
+                "name": "Prof. John Doe",
+                "role": "Convenor",
+                "image": "https://placehold.co/400x500/111/FFF?text=Convenor"
+            }
+        ]
+    },
+    {
+        "tier": "Co-Convenors",
+        "showTitle": true,
+        "members": [
+            {
+                "name": "Prof. Jane Smith",
+                "role": "Co-Convenor",
+                "image": "https://placehold.co/400x500/111/FFF?text=Co-Convenor"
+            }
+        ]
+    },
+    {
+        "tier": "Faculty Organisers",
+        "showTitle": true,
+        "members": [
+            {
+                "name": "Dr. Alan Grant",
+                "role": "Discipline",
+                "image": "https://placehold.co/400x500/111/FFF?text=Faculty"
+            },
+            {
+                "name": "Dr. Ellie Sattler",
+                "role": "Hospitality",
+                "image": "https://placehold.co/400x500/111/FFF?text=Faculty"
+            }
+        ]
+    },
+    {
+        "tier": "Student Organisers",
+        "showTitle": true,
+        "members": [
+            {
+                "name": "Mike Ross",
+                "role": "Chairperson",
+                "image": "https://placehold.co/400x500/111/FFF?text=Student"
+            },
+            {
+                "name": "Rachel Zane",
+                "role": "Secretary",
+                "image": "https://placehold.co/400x500/111/FFF?text=Student"
+            }
+        ]
+    }
+]

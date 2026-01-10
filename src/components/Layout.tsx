@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import Lenis from '@studio-freight/lenis';
-import CustomCursor from './CustomCursor';
 import Navbar from './Navbar';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { Analytics } from "@vercel/analytics/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -52,6 +52,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             {/* <CustomCursor /> */}
             <Navbar />
             {children}
+            <Analytics />
         </div>
     );
 };

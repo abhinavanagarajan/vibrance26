@@ -1,0 +1,329 @@
+{
+    "sys": {
+        "type": "Array"
+    },
+    "total": 7,
+    "skip": 0,
+    "limit": 100,
+    "items": [
+        {
+            "sys": {
+                "id": "1",
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "id": "event"
+                    }
+                }
+            },
+            "fields": {
+                "eventName": "Vibrance Dance Off",
+                "clubName": "Dance Club",
+                "eventType": "DANCE",
+                "poster": {
+                    "sys": {
+                        "id": "img1",
+                        "linkType": "Asset",
+                        "type": "Link"
+                    }
+                },
+                "startDateAndTime": "2026-02-18T10:00:00Z",
+                "endDateAndTime": "2026-02-18T14:00:00Z",
+                "pricePerPerson": 500,
+                "participationType": "Team of 3-5",
+                "eventVenue": "Main Auditorium",
+                "shortDescription": "Show off your moves in this electrifying dance competition.",
+                "longDescription": "Prepare for the ultimate dance battle! Teams from across the country will compete in various styles including Hip-hop, Contemporary, and Classical fusion. Judges include renowned choreographers. Winners take home a cash prize of ₹50,000.",
+                "specialEvent": true,
+                "registrationLink": "https://forms.google.com/example"
+            }
+        },
+        {
+            "sys": {
+                "id": "2",
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "id": "event"
+                    }
+                }
+            },
+            "fields": {
+                "eventName": "Battle of Bands",
+                "clubName": "Music Club",
+                "eventType": "MUSIC",
+                "poster": {
+                    "sys": {
+                        "id": "img2",
+                        "linkType": "Asset",
+                        "type": "Link"
+                    }
+                },
+                "startDateAndTime": "2026-02-19T16:00:00Z",
+                "endDateAndTime": "2026-02-19T20:00:00Z",
+                "pricePerPerson": 1000,
+                "participationType": "Team of 3-5",
+                "eventVenue": "Open Air Theatre",
+                "shortDescription": "Rock the stage with your band!",
+                "longDescription": "The amplifier is set to 11! Bring your band and perform your best original compositions or covers. Open to all genres from Rock to Metal to Jazz. The crowd decides the winner!",
+                "specialEvent": true,
+                "registrationLink": "https://forms.google.com/example"
+            }
+        },
+        {
+            "sys": {
+                "id": "3",
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "id": "event"
+                    }
+                }
+            },
+            "fields": {
+                "eventName": "Code Marathon",
+                "clubName": "Tech Club",
+                "eventType": "TECHNICAL",
+                "poster": {
+                    "sys": {
+                        "id": "img3",
+                        "linkType": "Asset",
+                        "type": "Link"
+                    }
+                },
+                "startDateAndTime": "2026-02-20T09:00:00Z",
+                "endDateAndTime": "2026-02-20T21:00:00Z",
+                "pricePerPerson": 200,
+                "participationType": "Solo",
+                "eventVenue": "AB1 Lab 404",
+                "shortDescription": "24-hour coding hackathon.",
+                "longDescription": "A grueling test of endurance and logic. Participants will be given a set of problems ranging from algorithmic challenges to real-world application development. Pizza and energy drinks provided!",
+                "specialEvent": false,
+                "registrationLink": "https://forms.google.com/example"
+            }
+        },
+        {
+            "sys": {
+                "id": "4",
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "id": "event"
+                    }
+                }
+            },
+            "fields": {
+                "eventName": "Solo Singing",
+                "clubName": "Music Club",
+                "eventType": "MUSIC",
+                "poster": {
+                    "sys": {
+                        "id": "img4",
+                        "linkType": "Asset",
+                        "type": "Link"
+                    }
+                },
+                "startDateAndTime": "2026-02-18T11:00:00Z",
+                "endDateAndTime": "2026-02-18T13:00:00Z",
+                "pricePerPerson": 300,
+                "participationType": "Solo",
+                "eventVenue": "Auditorium Hall B",
+                "shortDescription": "Sing your heart out.",
+                "longDescription": "Showcase your vocal talent in our solo singing competition. backing tracks are allowed. Time limit: 4 minutes per participant. Categories: Classical, Western, and Light Music.",
+                "specialEvent": false,
+                "registrationLink": "https://forms.google.com/example"
+            }
+        },
+        {
+            "sys": {
+                "id": "5",
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "id": "event"
+                    }
+                }
+            },
+            "fields": {
+                "eventName": "Drama Queens",
+                "clubName": "Drama Club",
+                "eventType": "DRAMATICS",
+                "poster": {
+                    "sys": {
+                        "id": "img5",
+                        "linkType": "Asset",
+                        "type": "Link"
+                    }
+                },
+                "startDateAndTime": "2026-02-19T14:00:00Z",
+                "endDateAndTime": "2026-02-19T17:00:00Z",
+                "pricePerPerson": 400,
+                "participationType": "Team of 5-10",
+                "eventVenue": "Main Stage",
+                "shortDescription": "The stage is yours.",
+                "longDescription": "A theatrical extravaganza! Perform a skit, a one-act play, or a mime. Props and costumes are highly encouraged. Theme: 'Retro Future'.",
+                "specialEvent": false,
+                "registrationLink": "https://forms.google.com/example"
+            }
+        },
+        {
+            "sys": {
+                "id": "6",
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "id": "event"
+                    }
+                }
+            },
+            "fields": {
+                "eventName": "Valorant Tournament",
+                "clubName": "Gaming Club",
+                "eventType": "GAMING",
+                "poster": {
+                    "sys": {
+                        "id": "img6",
+                        "linkType": "Asset",
+                        "type": "Link"
+                    }
+                },
+                "startDateAndTime": "2026-02-21T10:00:00Z",
+                "endDateAndTime": "2026-02-21T18:00:00Z",
+                "pricePerPerson": 600,
+                "participationType": "Team of 5",
+                "eventVenue": "Gaming Lounge",
+                "shortDescription": "Tactical shooter tournament.",
+                "longDescription": "5v5 Valorant Tournament. Single elimination bracket. Bring your own peripherals if preferred. High-refresh rate monitors provided.",
+                "specialEvent": true,
+                "registrationLink": "https://forms.google.com/example"
+            }
+        },
+        {
+            "sys": {
+                "id": "7",
+                "type": "Entry",
+                "contentType": {
+                    "sys": {
+                        "id": "event"
+                    }
+                }
+            },
+            "fields": {
+                "eventName": "Art Exhibition",
+                "clubName": "Fine Arts Club",
+                "eventType": "FINE ARTS",
+                "poster": {
+                    "sys": {
+                        "id": "img7",
+                        "linkType": "Asset",
+                        "type": "Link"
+                    }
+                },
+                "startDateAndTime": "2026-02-18T09:00:00Z",
+                "endDateAndTime": "2026-02-21T18:00:00Z",
+                "pricePerPerson": 0,
+                "participationType": "Solo",
+                "eventVenue": "Art Gallery",
+                "shortDescription": "Display your masterpieces.",
+                "longDescription": "An open exhibition for student artists. Paintings, sketches, digital art, and sculptures are welcome. Theme is open.",
+                "specialEvent": false,
+                "registrationLink": "https://forms.google.com/example"
+            }
+        }
+    ],
+    "includes": {
+        "Asset": [
+            {
+                "sys": {
+                    "id": "img1"
+                },
+                "fields": {
+                    "title": "Dance",
+                    "file": {
+                        "url": "https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&q=80&w=1000",
+                        "fileName": "dance.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "sys": {
+                    "id": "img2"
+                },
+                "fields": {
+                    "title": "Music",
+                    "file": {
+                        "url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=1000",
+                        "fileName": "music.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "sys": {
+                    "id": "img3"
+                },
+                "fields": {
+                    "title": "Coding",
+                    "file": {
+                        "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1000",
+                        "fileName": "coding.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "sys": {
+                    "id": "img4"
+                },
+                "fields": {
+                    "title": "Singing",
+                    "file": {
+                        "url": "https://images.unsplash.com/photo-1516280440614-6697288d5d38?auto=format&fit=crop&q=80&w=1000",
+                        "fileName": "singing.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "sys": {
+                    "id": "img5"
+                },
+                "fields": {
+                    "title": "Drama",
+                    "file": {
+                        "url": "https://images.unsplash.com/photo-1507676184212-d03816b98f27?auto=format&fit=crop&q=80&w=1000",
+                        "fileName": "drama.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "sys": {
+                    "id": "img6"
+                },
+                "fields": {
+                    "title": "Gaming",
+                    "file": {
+                        "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=1000",
+                        "fileName": "gaming.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            },
+            {
+                "sys": {
+                    "id": "img7"
+                },
+                "fields": {
+                    "title": "Art",
+                    "file": {
+                        "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&q=80&w=1000",
+                        "fileName": "art.jpg",
+                        "contentType": "image/jpeg"
+                    }
+                }
+            }
+        ]
+    }
+}

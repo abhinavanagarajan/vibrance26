@@ -28,13 +28,16 @@ const Home = () => {
                     VIBRANCE <br />
                     <span style={{ color: 'white', WebkitTextStroke: '0' }}>2026</span>
                 </h1>
-                <p ref={subRef} style={{ marginTop: '2rem', fontSize: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.5rem', opacity: 0 }}>
+                <p style={{ marginTop: '1rem', fontSize: '1.2rem', textTransform: 'uppercase', letterSpacing: '0.3rem', opacity: 0.8 }}>
                     Live the <span style={{ color: 'var(--color-cyan)' }}>Beats</span>
+                </p>
+                <p ref={subRef} style={{ marginTop: '2rem', fontSize: '1.5rem', fontFamily: 'var(--font-display)', color: 'white', letterSpacing: '0.1em' }}>
+                    18 Feb  - 21 Feb
                 </p>
             </div>
 
             <div className="scroll-indicator" style={{ position: 'absolute', bottom: '2rem', left: '50%', transform: 'translateX(-50%)', opacity: 0.7 }}>
-                <p style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.2rem' }}>Scroll to Explore</p>
+                <p style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.2rem' }}></p>
             </div>
         </section>
     );

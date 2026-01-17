@@ -1,0 +1,736 @@
+.events-page-container {
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle at 50% 10%, #1a1a1a 0%, #0a0a0a 100%);
+    min-height: 100vh;
+    color: #fff;
+    padding: 2rem;
+    gap: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.events-page-container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0, 243, 255, 0.03) 0%, transparent 60%),
+        radial-gradient(circle at 80% 20%, rgba(188, 19, 254, 0.03) 0%, transparent 40%);
+    animation: rotateBackground 20s linear infinite;
+    pointer-events: none;
+    z-index: 0;
+}
+
+@keyframes rotateBackground {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (min-width: 1024px) {
+    .events-page-container {
+        flex-direction: row;
+    }
+}
+
+.filters-sidebar {
+    width: 100%;
+    padding-right: 1rem;
+}
+
+@media (min-width: 1024px) {
+    .filters-sidebar {
+        width: 25%;
+        position: sticky;
+        top: 20px;
+        height: fit-content;
+    }
+}
+
+.events-main {
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .events-main {
+        width: 75%;
+    }
+}
+
+/* Event List Styles */
+.events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.event-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    backdrop-filter: blur(10px);
+}
+
+.event-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.03), transparent);
+    transform: translateX(-100%);
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.event-card:hover::before {
+    transform: translateX(100%);
+}
+
+@media (min-width: 768px) {
+    .event-card {
+        flex-direction: row;
+        height: 220px;
+    }
+}
+
+.event-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-5px) scale(1.01);
+    border-color: transparent;
+    box-shadow: 0 10px 30px -10px rgba(0, 243, 255, 0.2);
+}
+
+/* Gradient borders on hover based on nth-child for variety */
+.event-card:nth-child(4n+1):hover {
+    box-shadow: 0 10px 30px -10px rgba(0, 243, 255, 0.3);
+    border: 1px solid var(--color-cyan);
+}
+
+.event-card:nth-child(4n+2):hover {
+    box-shadow: 0 10px 30px -10px rgba(188, 19, 254, 0.3);
+    border: 1px solid var(--color-purple);
+}
+
+.event-card:nth-child(4n+3):hover {
+    box-shadow: 0 10px 30px -10px rgba(255, 0, 85, 0.3);
+    border: 1px solid var(--color-pink);
+}
+
+.event-card:nth-child(4n+4):hover {
+    box-shadow: 0 10px 30px -10px rgba(255, 200, 0, 0.3);
+    border: 1px solid #ffc800;
+}
+
+.event-image-container {
+    width: 100%;
+    height: 200px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .event-image-container {
+        width: 300px;
+        height: 100%;
+    }
+}
+
+.event-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.event-details {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.event-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.event-club {
+    color: var(--color-cyan);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.event-price {
+    font-weight: 700;
+    color: var(--color-purple);
+    font-size: 1.25rem;
+}
+
+.event-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: auto;
+}
+
+.event-info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Filters Styles */
+.filters-container {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.filters-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.filters-header h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.filter-section {
+    margin-bottom: 2rem;
+}
+
+.filter-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--color-cyan);
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.2s;
+}
+
+.checkbox-label:hover {
+    color: white;
+}
+
+.hidden-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.custom-checkbox {
+    width: 18px;
+    height: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.checkbox-label:hover .custom-checkbox {
+    border-color: var(--color-cyan);
+}
+
+.hidden-checkbox:checked~.custom-checkbox {
+    background-color: var(--color-cyan);
+    border-color: var(--color-cyan);
+}
+
+.hidden-checkbox:checked~.custom-checkbox::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.hidden-checkbox:checked~.checkbox-text {
+    color: white;
+}
+
+/* Price Slider */
+.price-display {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.current-price {
+    color: var(--color-cyan);
+    font-weight: bold;
+}
+
+.range-slider-container {
+    position: relative;
+    width: 100%;
+    height: 20px;
+}
+
+.slider-track {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4px;
+    background: var(--color-cyan);
+    border-radius: 2px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Background track that is always full width */
+.range-slider-container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    z-index: 0;
+}
+
+.price-slider {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    pointer-events: none;
+    z-index: 2;
+    margin: 0;
+}
+
+/* Chrome/Safari */
+.price-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: var(--color-cyan);
+    border-radius: 50%;
+    cursor: pointer;
+    pointer-events: auto;
+    /* Enable pointer events on thumb */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.price-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+/* Firefox */
+.price-slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    background: var(--color-cyan);
+    border-radius: 50%;
+    cursor: pointer;
+    pointer-events: auto;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.price-slider::-moz-range-thumb:hover {
+    transform: scale(1.2);
+}
+
+.thumb-z-index-3 {
+    z-index: 3;
+}
+
+.thumb-z-index-4 {
+    z-index: 4;
+}
+
+/* Pagination Styles */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 3rem;
+}
+
+.pagination-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.pagination-btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--color-cyan);
+}
+
+.pagination-btn.active {
+    background: var(--color-cyan);
+    color: #000;
+    border-color: var(--color-cyan);
+    font-weight: bold;
+}
+
+.pagination-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Search Bar */
+.search-container {
+    margin-bottom: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: 10;
+}
+
+.search-input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem 1.5rem 1rem 3.5rem;
+    border-radius: 50px;
+    color: white;
+    font-family: var(--font-main);
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.search-input:focus {
+    border-color: var(--color-cyan);
+    box-shadow: 0 0 20px rgba(0, 243, 255, 0.1);
+}
+
+.search-input:focus+.search-icon {
+    /* Note: This selector won't work because icon is before input in DOM, standard CSS can't select previous sibling. I'll rely on input focus styling or just keep icon static or move icon after input in HTML but use absolute positioning. For now keeping static color is fine, or I can swap order in HTML.*/
+    color: var(--color-cyan);
+}
+
+/* Modal Styles */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+    padding: 1rem;
+}
+
+.modal-content {
+    background: #121212;
+    width: 100%;
+    max-width: 900px;
+    height: 90vh;
+    /* Fixed height to allow internal scrolling */
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    transform: scale(0.9);
+    animation: scaleIn 0.3s forwards;
+}
+
+@media (min-width: 768px) {
+    .modal-content {
+        flex-direction: row;
+        height: auto;
+        max-height: 85vh;
+    }
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.2s;
+}
+
+.modal-close-btn:hover {
+    background: var(--color-pink);
+    transform: rotate(90deg);
+}
+
+.modal-image-container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+    .modal-image-container {
+        width: 40%;
+        height: auto;
+    }
+}
+
+.modal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-image-placeholder {
+    width: 100%;
+    height: 100%;
+    background: #2a2a2a;
+}
+
+.modal-category-tag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    color: var(--color-cyan);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    border: 1px solid var(--color-cyan);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    backdrop-filter: blur(4px);
+}
+
+.modal-details {
+    padding: 2rem;
+    overflow-y: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Custom Scrollbar for modal details */
+.modal-details::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modal-details::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+.modal-details::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 3px;
+}
+
+.modal-details::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+}
+
+.modal-title {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(to right, #fff, #ccc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.modal-club {
+    color: var(--color-purple);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.modal-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+@media (max-width: 500px) {
+    .modal-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.modal-info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.info-label {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.info-value {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.modal-description h3 {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.modal-description p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.modal-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.special-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-cyan);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.register-btn {
+    background: var(--color-purple);
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s;
+    box-shadow: 0 0 15px rgba(188, 19, 254, 0.3);
+}
+
+.register-btn:hover {
+    background: #d43aff;
+    box-shadow: 0 0 25px rgba(188, 19, 254, 0.5);
+    transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    to {
+        transform: scale(1);
+    }
+}

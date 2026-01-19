@@ -24,12 +24,8 @@ const formatDateForFilter = (isoString: string): string => {
     const month = dateObj
         .toLocaleDateString("en-US", { month: "short", timeZone: "UTC" })
         .toUpperCase();
-    let daySuffix;
-    if (day.endsWith("1") && !day.endsWith("11")) daySuffix = "ST";
-    else if (day.endsWith("2") && !day.endsWith("12")) daySuffix = "ND";
-    else if (day.endsWith("3") && !day.endsWith("13")) daySuffix = "RD";
-    else daySuffix = "TH";
-    return `${day}${daySuffix} ${month}`;
+
+    return `${day} ${month}`;
 };
 
 interface EventsPageProps {
@@ -43,21 +39,17 @@ const EventsPage = ({ eventData, assetData }: EventsPageProps) => {
     const [selectedEvent, setSelectedEvent] = useState<EventItem | null>(null);
 
     const { uniqueDates, dateMap } = useMemo(() => {
-        const newDateMap: Record<string, string> = {};
-        const dates = new Set<string>();
-        eventData.forEach((event) => {
-            if (!event.fields.startDateAndTime) return;
-            const formattedDate = formatDateForFilter(event.fields.startDateAndTime);
-            const datePart = event.fields.startDateAndTime.substring(0, 10);
-            newDateMap[formattedDate] = datePart;
-            dates.add(formattedDate);
-        });
-        const sortedDates = Array.from(dates).sort(
-            (a, b) =>
-                new Date(newDateMap[a]).getTime() - new Date(newDateMap[b]).getTime()
-        );
-        return { uniqueDates: sortedDates, dateMap: newDateMap };
-    }, [eventData]);
+        const staticDates = ["18 FEB", "19 FEB", "20 FEB", "21 FEB"];
+
+        const staticDateMap: Record<string, string> = {
+            "18 FEB": "2026-02-18",
+            "19 FEB": "2026-02-19",
+            "20 FEB": "2026-02-20",
+            "21 FEB": "2026-02-21",
+        };
+
+        return { uniqueDates: staticDates, dateMap: staticDateMap };
+    }, []);
 
     const [filters, setFilters] = useState<FilterState>({
         eventType: [],

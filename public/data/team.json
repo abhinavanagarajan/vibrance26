@@ -31,7 +31,7 @@
         "showTitle": true,
         "members": [
             {
-                "name": "Prof. Jane Smith",
+                "name": "Prof. John Doe",
                 "role": "Co-Convenor",
                 "image": "https://placehold.co/400x500/111/FFF?text=Co-Convenor"
             }
@@ -42,12 +42,12 @@
         "showTitle": true,
         "members": [
             {
-                "name": "Dr. Alan Grant",
+                "name": "Prof. John Doe",
                 "role": "Discipline",
                 "image": "https://placehold.co/400x500/111/FFF?text=Faculty"
             },
             {
-                "name": "Dr. Ellie Sattler",
+                "name": "Prof. John Doe",
                 "role": "Hospitality",
                 "image": "https://placehold.co/400x500/111/FFF?text=Faculty"
             }
@@ -58,12 +58,12 @@
         "showTitle": true,
         "members": [
             {
-                "name": "Mike Ross",
+                "name": "John Doe",
                 "role": "Chairperson",
                 "image": "https://placehold.co/400x500/111/FFF?text=Student"
             },
             {
-                "name": "Rachel Zane",
+                "name": "John Doe",
                 "role": "Secretary",
                 "image": "https://placehold.co/400x500/111/FFF?text=Student"
             }

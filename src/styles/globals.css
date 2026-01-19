@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Syne:wght@400;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 
 :root {
   --color-bg: #0a0a0a;
@@ -6,7 +10,7 @@
   --color-purple: #bc13fe;
   --color-pink: #ff0055;
   --color-text: #ffffff;
-  
+
   --font-main: 'Inter', sans-serif;
   --font-display: 'Syne', sans-serif;
 }
@@ -17,7 +21,8 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   background-color: var(--color-bg);
@@ -29,7 +34,8 @@ html, body {
 }
 
 /* Lenis Scroll Setup */
-html.lenis, html.lenis body {
+html.lenis,
+html.lenis body {
   height: auto;
 }
 
@@ -50,9 +56,23 @@ html.lenis, html.lenis body {
 }
 
 /* Utilities */
-.hidden { display: none; }
-.flex-center { display: flex; justify-content: center; align-items: center; }
-.absolute-full { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.hidden {
+  display: none;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.absolute-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 /* Selection */
 ::selection {

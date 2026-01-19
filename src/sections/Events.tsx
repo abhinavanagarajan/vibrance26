@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import EventsPage from '../components/events/EventsPage';
 import { Asset, EventItem } from '@/interfaces/contentful';
+import { contentfulClient } from '@/utils/contentfulClient';
 
 const Events = () => {
     const [eventData, setEventData] = useState<EventItem[]>([]);
@@ -8,16 +9,27 @@ const Events = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('/data/events.json')
-            .then(res => res.json())
-            .then(data => {
-                setEventData(data.items);
-                setAssetData(data.includes.Asset);
+        contentfulClient.withoutLinkResolution
+            .getEntries({ content_type: 'event' })
+            .then((response) => {
+                // @ts-ignore - response structure matches our need but SDK types are strict
+                setEventData(response.items);
+                // @ts-ignore - response.includes is present in withoutLinkResolution
+                setAssetData(response.includes?.Asset || []);
                 setLoading(false);
             })
             .catch(err => {
-                console.error("Failed to load events", err);
-                setLoading(false);
+                console.error("Failed to load events from Contentful", err);
+                // Fallback to local JSON if Contentful fails (e.g. missing credentials)
+                console.log("Falling back to local JSON");
+                fetch('/data/events.json')
+                    .then(res => res.json())
+                    .then(data => {
+                        setEventData(data.items);
+                        setAssetData(data.includes.Asset);
+                        setLoading(false);
+                    })
+                    .catch(e => console.error("Local fallback failed", e));
             });
     }, []);
 

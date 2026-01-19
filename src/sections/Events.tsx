@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import EventsPage from '../components/events/EventsPage';
 import { Asset, EventItem } from '@/interfaces/contentful';
 import { contentfulClient } from '@/utils/contentfulClient';

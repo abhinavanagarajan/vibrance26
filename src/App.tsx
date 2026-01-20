@@ -8,6 +8,7 @@ import ProShows from './sections/ProShows';
 import Events from './sections/Events';
 import Sponsors from './sections/Sponsors';
 import Team from './sections/Team';
+import ComingSoon from './components/ComingSoon';
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/merch" element={<Merch />} />
-            <Route path="/proshows" element={<ProShows />} />
+            <Route path="/proshows" element={<ComingSoon />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/sponsors" element={<Sponsors />} />
+            <Route path="/sponsors" element={<ComingSoon />} />
             <Route path="/team" element={<Team />} />
           </Routes>
         </main>

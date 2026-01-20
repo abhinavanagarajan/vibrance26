@@ -2,7 +2,11 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Draggable } from 'gsap/Draggable';
-import InteractiveBento, { BentoItem } from '@/components/InteractiveBento';
+import { FocusRail } from '@/components/FocusRail';
+import { ContainerScroll } from '@/components/ContainerScroll';
+import FlowingMenu from '@/components/FlowingMenu';
+import Masonry from '@/components/Masonry';
+import CurvedLoop from '@/components/CurvedLoop';
 
 gsap.registerPlugin(ScrollTrigger, Draggable);
 
@@ -17,72 +21,139 @@ const Home = () => {
     const hypeTextRefs = useRef<(HTMLParagraphElement | null)[]>([]);
     const marqueeContainerRef = useRef<HTMLDivElement | null>(null);
 
-    // ... existing useEffects (Hero, Hype Animations, Magnet Logic) ...
-    // (omitted for brevity, assume they are preserved if I use exact match for replacement or just append/replace imports and usage)
 
-    // NOTE: I will only replace the top import area and the bottom rendering area to avoid modifying the complex logic in between.
 
-    // ...
-
-    const BENTO_ITEMS: BentoItem[] = [
+    const DEMO_ITEMS: FocusRailItem[] = [
         {
             id: 1,
-            type: 'image',
-            title: "Neon Tokyo",
-            description: "Experience the vibrant nightlife and illuminated streets of Shinjuku.",
-            src: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=1000&auto=format&fit=crop",
-            colSpan: 2,
-            rowSpan: 1
+            title: "Mainstage Madness",
+            description: "Feel the ground shake as the headliners take the stage.",
+            meta: "Concert • Live",
+            imageSrc: "https://cdn.a2ys.dev/images/IMG_3348.jpg",
+            href: "#proshows",
         },
         {
             id: 2,
-            type: 'image',
-            title: "Nordic Silence",
-            description: "Minimalist architecture meeting the raw beauty of the Icelandic coast.",
-            src: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=1000&auto=format&fit=crop",
-            colSpan: 1,
-            rowSpan: 1
+            title: "Decade Celebration",
+            description: "A 10-year legacy of culture and passion unfolding in every corner.",
+            meta: "Legacy • Festival",
+            imageSrc: "https://cdn.a2ys.dev/images/IMG_3366.jpg",
+            href: "#legacy",
         },
         {
             id: 3,
-            type: 'video',
-            title: "Live Energy",
-            description: "Feel the pulse of the crowd and the bass of the beat.",
-            src: "https://assets.mixkit.co/videos/preview/mixkit-concert-crowd-with-lights-2423-large.mp4", // Free stock video
-            colSpan: 1,
-            rowSpan: 2
+            title: "Golden Hour Vibes",
+            description: "Capturing the magic of the festival as the sun sets over the campus.",
+            meta: "Aesthetic • Mood",
+            imageSrc: "https://cdn.a2ys.dev/images/IMG_3360.jpg",
+            href: "#vibes",
         },
         {
             id: 4,
-            type: 'image',
-            title: "Cyber Future",
-            description: "A glimpse into a technological singularity where AI meets humanity.",
-            src: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop",
-            colSpan: 2,
-            rowSpan: 1
+            title: "The Energy Hub",
+            description: "Where technology meets the human spirit in a technological singularity.",
+            meta: "Tech • Innovation",
+            imageSrc: "https://cdn.a2ys.dev/images/IMG_3359.jpg",
+            href: "#tech",
         },
         {
             id: 5,
-            type: 'image',
-            title: "Deep Ocean",
-            description: "The crushing pressure and alien beauty of the Mariana Trench.",
-            src: "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?q=80&w=1000&auto=format&fit=crop",
-            colSpan: 1,
-            rowSpan: 1
+            title: "Underworld Beats",
+            description: "Deep rhythms from the underground scene hitting the frequency of the extraordinary.",
+            meta: "Music • Deep",
+            imageSrc: "https://cdn.a2ys.dev/images/IMG_3351.jpg",
+            href: "#beats",
         },
-        {
-            id: 6,
-            type: 'video',
-            title: "Rhythm & Soul",
-            description: "Dance like nobody's watching.",
-            src: "https://assets.mixkit.co/videos/preview/mixkit-people-dancing-at-a-concert-4578-large.mp4",
-            colSpan: 2,
-            rowSpan: 1
-        },
-
     ];
 
-    // ... render ...
+    const demoItems = [
+        { link: '#', text: 'Day 1', image: 'https://picsum.photos/600/400?random=1' },
+        { link: '#', text: 'Day 2', image: 'https://picsum.photos/600/400?random=2' },
+        { link: '#', text: 'Day 3', image: 'https://picsum.photos/600/400?random=3' },
+        { link: '#', text: 'Day 4', image: 'https://picsum.photos/600/400?random=4' }
+    ];
+
+
+    const items = [
+        {
+            id: "1",
+            img: "https://cdn.a2ys.dev/images/IMG_3346.jpg",
+            url: "#",
+            height: 400,
+        },
+        {
+            id: "2",
+            img: "https://cdn.a2ys.dev/images/IMG_3347.jpg",
+            url: "#",
+            height: 250,
+        },
+        {
+            id: "3",
+            img: "https://cdn.a2ys.dev/images/IMG_3350.jpg",
+            url: "#",
+            height: 600,
+        },
+        {
+            id: "4",
+            img: "https://cdn.a2ys.dev/images/IMG_3349.jpg",
+            url: "#",
+            height: 450,
+        },
+        {
+            id: "5",
+            img: "https://cdn.a2ys.dev/images/IMG_3348.jpg",
+            url: "#",
+            height: 300,
+        },
+        {
+            id: "6",
+            img: "https://cdn.a2ys.dev/images/IMG_3361.jpg",
+            url: "#",
+            height: 550,
+        },
+        {
+            id: "7",
+            img: "https://cdn.a2ys.dev/images/IMG_3358.jpg",
+            url: "#",
+            height: 350,
+        },
+        {
+            id: "8",
+            img: "https://cdn.a2ys.dev/images/IMG_3362.jpg",
+            url: "#",
+            height: 500,
+        },
+        {
+            id: "9",
+            img: "https://cdn.a2ys.dev/images/IMG_3357.jpg",
+            url: "#",
+            height: 400,
+        },
+        {
+            id: "10",
+            img: "https://cdn.a2ys.dev/images/IMG_3356.jpg",
+            url: "#",
+            height: 480,
+        },
+        {
+            id: "11",
+            img: "https://cdn.a2ys.dev/images/IMG_3354.jpg",
+            url: "#",
+            height: 320,
+        },
+        {
+            id: "12",
+            img: "https://cdn.a2ys.dev/images/IMG_3364.jpg",
+            url: "#",
+            height: 600,
+        },
+        {
+            id: "13",
+            img: "https://cdn.a2ys.dev/images/IMG_3363.jpg",
+            url: "#",
+            height: 280,
+        }
+    ];
 
 
     useEffect(() => {
@@ -269,6 +340,25 @@ const Home = () => {
         <div style={{ width: '100%', overflowX: 'hidden' }}>
             {/* HERO SECTION */}
             <section ref={containerRef} id="home" className="section-home" style={{ height: '100vh', width: '100%', position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                        zIndex: 1,
+                        opacity: 0.6 // Adjust to make text more readable
+                    }}
+                >
+                    <source src="https://cdn.a2ys.dev/videos/vibrance-trailer.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
                 <div className="home-content" style={{ zIndex: 10, textAlign: 'center', mixBlendMode: 'difference' }}>
                     <h1 ref={titleRef} style={{ fontSize: '10vw', lineHeight: 0.9, fontFamily: 'var(--font-display)', letterSpacing: '-0.05em', color: 'transparent', WebkitTextStroke: '2px white' }}>
                         VIBRANCE <br />
@@ -449,8 +539,105 @@ const Home = () => {
                 `}</style>
             </section >
 
-            {/* <InteractiveBento items={BENTO_ITEMS} /> */}
+            <FocusRail
+                items={DEMO_ITEMS}
+                autoPlay={true}
+                loop={true}
+            />
 
+            <div className="flex flex-col overflow-hidden">
+                <ContainerScroll
+                    titleComponent={
+                        <>
+                            <h1
+                                className="text-black dark:text-white text-center tracking-tight"
+                                style={{
+                                    fontSize: '3rem',
+                                    fontWeight: 900,
+                                    fontFamily: 'var(--font-display)',
+                                    lineHeight: 1.2
+                                }}
+                            >
+                                This year with more energy to <br /><span style={{ fontSize: '10vw', lineHeight: 0.9, fontFamily: 'var(--font-display)', letterSpacing: '-0.05em', color: 'transparent', WebkitTextStroke: '2px white' }}
+                                    className="text-white bg-magenta bg-gradient-to-r from-purple-500 to-pink-500">live the beats</span>
+                            </h1>
+                        </>
+                    }
+                >
+                    <video
+                        src="https://cdn.a2ys.dev/videos/cardvideo.mp4"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline // Added for better mobile support
+                        className="mx-auto rounded-2xl object-cover h-full w-full object-center" // Changed object-left-top to center
+                        draggable={false}
+                    />
+                </ContainerScroll>
+            </div>
+
+            <h2
+                className="text-black dark:text-white text-center tracking-tight"
+                style={{
+                    fontSize: '3rem',
+                    fontWeight: 900,
+                    fontFamily: 'var(--font-display)',
+                    lineHeight: 1.2
+                }}
+            >
+                ProShows like <span className="text-white bg-magenta bg-gradient-to-r from-purple-500 to-pink-500">never before</span>
+            </h2>
+
+            <div style={{ height: '600px', position: 'relative' }}>
+                <FlowingMenu items={demoItems}
+                    speed={15}
+                    textColor="#ffffff"
+                    bgColor="#060010"
+                    marqueeBgColor="#ffffff"
+                    marqueeTextColor="#060010"
+                    borderColor="#ffffff"
+                />
+            </div>
+
+            <section className="relative z-20 w-full bg-black py-20 flex flex-col items-center">
+                {/* 1. Masonry Container - Ensure it has enough bottom padding for the items to finish loading */}
+                <div className="relative w-full pb-32">
+                    <Masonry
+                        items={items}
+                        ease="power3.out"
+                        duration={0.6}
+                        stagger={0.05}
+                        animateFrom="center"
+                        scaleOnHover
+                        hoverScale={0.95}
+                        blurToFocus={false}
+                        colorShiftOnHover
+                    />
+                </div>
+
+                {/* 2. Visual Separation - Using a cleaner spacer */}
+                <div className="w-full h-[15vh] pointer-events-none" aria-hidden="true" />
+
+                {/* 3. Curved Loop Section - Fixed overlap and applied your style */}
+                <div className="relative w-full flex flex-col justify-center items-center py-24">
+                    <CurvedLoop
+                        marqueeText="Vibrance ✦ 2026 ✦ Decade ✦ Edition ✦"
+                        speed={2}
+                        curveAmount={350}
+                        direction="right"
+                        interactive
+                        style={{
+                            fontSize: '10vw',
+                            lineHeight: 0.9,
+                            fontFamily: 'var(--font-display)',
+                            letterSpacing: '-0.05em',
+                            color: 'transparent',
+                            WebkitTextStroke: '2px white'
+                        }}
+                        className="z-30"
+                    />
+                </div>
+            </section>
 
 
 

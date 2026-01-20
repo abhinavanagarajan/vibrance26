@@ -13,7 +13,7 @@ const navItems: NavItem[] = [
     { name: 'Merch', path: '/merch' },
     { name: 'ProShows', path: '/proshows' },
     { name: 'Events', path: '/events' },
-    { name: 'Sponsors', path: '/sponsors' },
+    // { name: 'Sponsors', path: '/sponsors' },
     { name: 'Team', path: '/team' },
 ];
 
@@ -69,7 +69,11 @@ const Navbar: React.FC = () => {
         <>
             <nav className="navbar">
                 <div className="nav-logo" style={{ zIndex: 1002 }}>
-                    <Link to="/">VIBRANCE <span className="highlight">'26</span></Link>
+                    <Link to="/" className="flex items-center gap-6">
+                        <img src="/vit-logo.png" alt="VIT Chennai" className="nav-links w-[140px] object-contain" />
+                        <img src="vibrance-transparent.png" className="ml-8 w-[130px] object-contain" />
+
+                    </Link>
                 </div>
 
                 {/* Desktop Links */}

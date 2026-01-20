@@ -81,7 +81,7 @@ const EventsPage = ({ eventData, assetData }: EventsPageProps) => {
                 event.fields.clubName.toLowerCase().includes(searchTerm.toLowerCase());
             const eventTypeMatch =
                 filters.eventType.length === 0 ||
-                filters.eventType.includes(event.fields.eventType.toUpperCase());
+                filters.eventType.includes(event.fields.eventFor.toUpperCase());
             const priceMatch =
                 event.fields.pricePerPerson >= filters.priceRange[0] &&
                 event.fields.pricePerPerson <= filters.priceRange[1];

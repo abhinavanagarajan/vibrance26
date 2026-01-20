@@ -14,7 +14,7 @@ interface EventFilterProps {
     availableDates: string[];
 }
 
-const EVENT_TYPES = ['DANCE', 'MUSIC', 'DRAMATICS', 'LITERARY', 'GAMING', 'FINE ARTS'];
+const EVENT_TYPES = ['VITIAN', 'NON-VITIAN', 'BOTH'];
 const TEAM_SIZES = ['Solo', 'Duo', 'Trio', 'Squad', 'Team']; // Simplified matching
 
 const EventFilter: React.FC<EventFilterProps> = ({ onFilterChange, availableDates }) => {

@@ -36,8 +36,31 @@ const Events = () => {
     if (loading) return <div style={{ minHeight: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'white', fontFamily: 'var(--font-display)', fontSize: '1.5rem' }}>LOADING EVENTS...</div>;
 
     return (
-        <section id="events" style={{ minHeight: '100vh', paddingTop: '100px', backgroundColor: '#0a0a0a' }}>
-            <h2 style={{ fontSize: '4rem', fontFamily: 'var(--font-display)', marginBottom: '1rem', textAlign: 'center', color: '#fff', textTransform: 'uppercase' }}>
+        <section
+            id="events"
+            style={{
+                minHeight: '100vh',
+                paddingTop: '100px',
+                backgroundColor: '#0a0a0a',
+                // Move background properties here
+                backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.a2ys.dev/images/IMG_3350.jpg")',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundAttachment: 'fixed' // Optional: adds a nice parallax effect
+            }}
+        >
+            <h2
+                style={{
+                    fontSize: '3rem',
+                    fontFamily: 'var(--font-display)',
+                    marginBottom: '1rem',
+                    textAlign: 'center',
+                    textTransform: 'uppercase',
+                    fontWeight: 900,
+                    color: '#ffffff', // Set text to white so it stands out
+                    textShadow: '2px 2px 10px rgba(0,0,0,0.5)' // Optional: helps readability
+                }}
+            >
                 Events
             </h2>
             <EventsPage eventData={eventData} assetData={assetData} />

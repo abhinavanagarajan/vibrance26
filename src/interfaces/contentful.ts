@@ -32,6 +32,7 @@ export interface EventFields {
     eventName: string;
     clubName: string;
     eventType: string;
+    eventFor: string;
     poster: {
         sys: ContentfulSys;
     };

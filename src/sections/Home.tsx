@@ -356,7 +356,7 @@ const Home = () => {
                         opacity: 0.6 // Adjust to make text more readable
                     }}
                 >
-                    <source src="https://cdn.a2ys.dev/videos/vibrance-trailer.mp4" type="video/mp4" />
+                    <source src="https://test-cdn-iota.vercel.app/videos/vibrance-trailer.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <div className="home-content" style={{ zIndex: 10, textAlign: 'center', mixBlendMode: 'difference' }}>
@@ -565,7 +565,7 @@ const Home = () => {
                     }
                 >
                     <video
-                        src="https://cdn.a2ys.dev/videos/cardvideo.mp4"
+                        src="https://test-cdn-iota.vercel.app/videos/cardvideo.mp4"
                         autoPlay
                         loop
                         muted

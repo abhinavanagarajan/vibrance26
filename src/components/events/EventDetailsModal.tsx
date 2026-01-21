@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { X, MapPin, Calendar, Clock, Trophy, BadgeCheck, ExternalLink, User, Users } from 'lucide-react';
+import { X, MapPin, Calendar, Clock, Trophy, BadgeCheck, ExternalLink, User, Users, Ticket, UserCheck2 } from 'lucide-react';
 import { Asset, EventItem } from '@/interfaces/contentful';
 import '../../styles/events.css';
 
@@ -102,11 +102,20 @@ const EventDetailsModal: React.FC<EventDetailsModalProps> = ({ event, assets, on
                             </div>
                         </div>
                         <div className="modal-info-item">
-                            <Trophy className="text-cyan-400" size={20} />
+                            <Ticket className="text-cyan-400" size={20} />
                             <div>
                                 <div className="info-label">Price</div>
                                 <div className="info-value">
                                     {fields.pricePerPerson === 0 ? 'FREE' : `₹${fields.pricePerPerson}`}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="modal-info-item">
+                            <UserCheck2 className="text-cyan-400" size={20} />
+                            <div>
+                                <div className="info-label">Participation</div>
+                                <div className="info-value">
+                                    {fields.eventFor === "Both" ? 'All Participants' : `${fields.eventFor}s only`}
                                 </div>
                             </div>
                         </div>

@@ -420,21 +420,24 @@ const Home = () => {
                     {/* Right Side: Stickers Graphic */}
                     <div className="relative h-[400px] w-full flex items-center justify-center" ref={marqueeContainerRef} style={{ perspective: '1000px' }}>
                         {[
-                            { text: "Four Days.", color: "#00d26a", top: "10%", left: "10%", rotate: "-15deg", z: 2 },
-                            { text: "Stars", color: "#eEFFbb", top: "30%", right: "5%", rotate: "10deg", z: 1, textColor: "#1a1a1a" },
-                            { text: "Merch", color: "#f8312f", bottom: "30%", left: "5%", rotate: "-5deg", z: 3 },
-                            { text: "Events", color: "#fcd53f", bottom: "10%", right: "20%", rotate: "5deg", z: 2 },
-                            { text: "Music", color: "#bc13fe", top: "5%", right: "15%", rotate: "15deg", z: 1 },
-                            { text: "Dance", color: "#00f3ff", bottom: "5%", left: "20%", rotate: "-10deg", z: 1, textColor: "#1a1a1a" },
-                            { text: "Proshows", color: "#ff0055", top: "50%", left: "0%", rotate: "-20deg", z: 2 },
-                            { text: "Vibrance", color: "white", top: "40%", right: "0%", rotate: "20deg", z: 3, textColor: "black" },
-                            { text: "2026", color: "#fcd53f", top: "20%", left: "30%", rotate: "5deg", z: 0 },
-                            { text: "Food", color: "#dcfce7", bottom: "45%", right: "10%", rotate: "-15deg", z: 1, textColor: "#1a1a1a" },
-                            { text: "Games", color: "#00d26a", bottom: "20%", left: "35%", rotate: "12deg", z: 1 },
-                            { text: "Vibe", color: "#f8312f", top: "15%", right: "40%", rotate: "-8deg", z: 0 },
-                            { text: "Energy", color: "#00f3ff", bottom: "55%", left: "15%", rotate: "18deg", z: 1, textColor: "#1a1a1a" }
+                            { text: "Four Days.", color: "#00d26a", top: "8%", left: "5%", rotate: "-12deg", z: 5 },
+                            { text: "Energy", color: "#00f3ff", top: "22%", left: "12%", rotate: "15deg", z: 2, textColor: "#1a1a1a" },
 
+                            { text: "Music", color: "#bc13fe", top: "7%", right: "8%", rotate: "14deg", z: 3 },
+                            { text: "Stars", color: "#eEFFbb", top: "25%", right: "15%", rotate: "-8deg", z: 4, textColor: "#1a1a1a" },
 
+                            { text: "Vibrance", color: "white", top: "45%", left: "35%", rotate: "5deg", z: 10, textColor: "black" },
+                            { text: "2026", color: "#fcd53f", top: "38%", right: "30%", rotate: "-5deg", z: 1 },
+                            { text: "Vibe", color: "#f8312f", top: "55%", right: "40%", rotate: "10deg", z: 6 },
+
+                            { text: "Proshows", color: "#ff0055", top: "50%", left: "2%", rotate: "-18deg", z: 4 },
+                            { text: "Food", color: "#dcfce7", top: "48%", right: "2%", rotate: "12deg", z: 2, textColor: "#1a1a1a" },
+
+                            { text: "Merch", color: "#f8312f", bottom: "15%", left: "8%", rotate: "-10deg", z: 7 },
+                            { text: "Dance", color: "#00f3ff", bottom: "5%", left: "25%", rotate: "8deg", z: 3, textColor: "#1a1a1a" },
+
+                            { text: "Events", color: "#fcd53f", bottom: "18%", right: "10%", rotate: "15deg", z: 5 },
+                            { text: "Games", color: "#00d26a", bottom: "8%", right: "30%", rotate: "-12deg", z: 2 }
                         ].map((sticker, i) => (
                             <div key={i}
                                 className="sticker-wrapper"
@@ -483,6 +486,7 @@ const Home = () => {
                     </div>
 
                 </div>
+
 
                 {/* Marquees */}
                 <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0', position: 'relative', zIndex: 10 }}>

@@ -188,8 +188,11 @@
 
 .event-price {
     font-weight: 700;
-    color: var(--color-purple);
+    color: var(--color-cyan);
     font-size: 1.25rem;
+    opacity: 0.8;
+    border-radius: 24px;
+    padding: 0.5rem;
 }
 
 .event-info-grid {
@@ -516,6 +519,7 @@
     flex-direction: column;
     overflow: hidden;
     position: relative;
+    z-index: 1001;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     transform: scale(0.9);
     animation: scaleIn 0.3s forwards;
@@ -600,6 +604,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    overscroll-behavior: contain;
 }
 
 /* Custom Scrollbar for modal details */
@@ -672,6 +677,12 @@
     font-weight: 500;
 }
 
+.modal-description {
+    overflow: auto;
+    height: 200px;
+    scrollbar-width: thin;
+}
+
 .modal-description h3 {
     font-family: var(--font-display);
     font-size: 1.2rem;
@@ -683,6 +694,7 @@
     color: rgba(255, 255, 255, 0.8);
     line-height: 1.6;
     font-size: 0.95rem;
+    overflow: auto;
 }
 
 .modal-footer {

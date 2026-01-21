@@ -1,7 +1,7 @@
 import React from 'react';
 import { Asset, EventItem } from '@/interfaces/contentful';
 import '../../styles/events.css';
-import { Calendar, Users, Tag, Search } from 'lucide-react';
+import { Calendar, Users, Tag, Search, UserCheck, UserCheck2 } from 'lucide-react';
 
 interface EventsListProps {
     events: EventItem[];
@@ -90,6 +90,10 @@ const EventsList: React.FC<EventsListProps> = ({ events, assets, searchTerm, onS
                                         <div className="event-info-item">
                                             <Tag size={16} className="text-cyan-400" />
                                             {event.fields.eventType}
+                                        </div>
+                                        <div className="event-info-item">
+                                            <UserCheck2 size={16} className="text-cyan-400" />
+                                            {event.fields.eventFor === "Both" ? "All Participants" : event.fields.eventFor + "s only"}
                                         </div>
                                     </div>
                                 </div>

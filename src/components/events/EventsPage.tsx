@@ -4,6 +4,7 @@ import EventFilter from "./Filters";
 import Pagination from "./Pagination";
 import EventDetailsModal from "./EventDetailsModal";
 import { Asset, EventItem } from "@/interfaces/contentful";
+
 import '../../styles/events.css';
 
 type FilterState = {
@@ -113,7 +114,11 @@ const EventsPage = ({ eventData, assetData }: EventsPageProps) => {
 
     return (
         <>
+            
+
             <div className="events-page-container">
+                {/* Dynamic class: 'active' will show the sidebar on mobile 
+                */}
                 <div className="filters-sidebar">
                     <EventFilter
                         onFilterChange={handleFilterChange}

@@ -18,11 +18,11 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/merch" element={<Merch />} />
+            <Route path="/merch" element={<ComingSoon />} />
             <Route path="/proshows" element={<ComingSoon />} />
             <Route path="/events" element={<Events />} />
             <Route path="/sponsors" element={<ComingSoon />} />
-            <Route path="/team" element={<Team />} />
+            {/* <Route path="/team" element={<Team />} /> */}
           </Routes>
         </main>
       </Layout>

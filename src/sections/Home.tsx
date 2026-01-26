@@ -1,3 +1,6 @@
+"use client";
+import React from 'react';
+
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -22,8 +25,16 @@ const Home = () => {
     const marqueeContainerRef = useRef<HTMLDivElement | null>(null);
 
 
+    const [isMobile, setIsMobile] = React.useState(false);
 
-    const DEMO_ITEMS: FocusRailItem[] = [
+    React.useEffect(() => {
+        const checkMobile = () => setIsMobile(window.innerWidth < 768);
+        checkMobile(); // Check on mount
+        window.addEventListener('resize', checkMobile);
+        return () => window.removeEventListener('resize', checkMobile);
+    }, []);
+
+    const focusRailImages: FocusRailItem[] = [
         {
             id: 1,
             title: "Mainstage Madness",
@@ -66,15 +77,15 @@ const Home = () => {
         },
     ];
 
-    const demoItems = [
-        { link: '#', text: 'Day 1', image: 'https://picsum.photos/600/400?random=1' },
-        { link: '#', text: 'Day 2', image: 'https://picsum.photos/600/400?random=2' },
-        { link: '#', text: 'Day 3', image: 'https://picsum.photos/600/400?random=3' },
-        { link: '#', text: 'Day 4', image: 'https://picsum.photos/600/400?random=4' }
+    const proshowsImages = [
+        { link: 'proshows', text: 'Day 1', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
+        { link: 'proshows', text: 'Day 2', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
+        { link: 'proshows', text: 'Day 3', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
+        { link: 'proshows', text: 'Day 4', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' }
     ];
 
 
-    const items = [
+    const galleryImages = [
         {
             id: "1",
             img: "https://cdn.a2ys.dev/images/IMG_3346.jpg",
@@ -356,7 +367,7 @@ const Home = () => {
                         opacity: 0.6 // Adjust to make text more readable
                     }}
                 >
-                    <source src="https://test-cdn-iota.vercel.app/videos/vibrance-trailer.mp4" type="video/mp4" />
+                    <source src="https://cdn.a2ys.dev/videos/trailer.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <div className="home-content" style={{ zIndex: 10, textAlign: 'center', mixBlendMode: 'difference' }}>
@@ -544,7 +555,7 @@ const Home = () => {
             </section >
 
             <FocusRail
-                items={DEMO_ITEMS}
+                items={focusRailImages}
                 autoPlay={true}
                 loop={true}
             />
@@ -569,7 +580,7 @@ const Home = () => {
                     }
                 >
                     <video
-                        src="https://test-cdn-iota.vercel.app/videos/cardvideo.mp4"
+                        src="https://cdn.a2ys.dev/videos/cardvideo.mp4"
                         autoPlay
                         loop
                         muted
@@ -593,7 +604,7 @@ const Home = () => {
             </h2>
 
             <div style={{ height: '600px', position: 'relative' }}>
-                <FlowingMenu items={demoItems}
+                <FlowingMenu items={proshowsImages}
                     speed={15}
                     textColor="#ffffff"
                     bgColor="#060010"
@@ -604,10 +615,10 @@ const Home = () => {
             </div>
 
             <section className="relative z-20 w-full bg-black py-20 flex flex-col items-center">
-                {/* 1. Masonry Container - Ensure it has enough bottom padding for the items to finish loading */}
-                <div className="relative w-full pb-32">
+                {/* 1. Masonry Container */}
+                <div className="relative w-full" style={{ paddingBottom: isMobile ? '40px' : '128px' }}>
                     <Masonry
-                        items={items}
+                        items={galleryImages}
                         ease="power3.out"
                         duration={0.6}
                         stagger={0.05}
@@ -619,11 +630,30 @@ const Home = () => {
                     />
                 </div>
 
-                {/* 2. Visual Separation - Using a cleaner spacer */}
-                <div className="w-full h-[15vh] pointer-events-none" aria-hidden="true" />
+                {/* 2. Visual Separation - Inline Hidden on Mobile */}
+                <div 
+                    style={{ 
+                        display: isMobile ? 'none' : 'block', 
+                        width: '100%', 
+                        height: '15vh', 
+                        pointerEvents: 'none' 
+                    }} 
+                    aria-hidden="true" 
+                />
 
-                {/* 3. Curved Loop Section - Fixed overlap and applied your style */}
-                <div className="relative w-full flex flex-col justify-center items-center py-24">
+                {/* 3. Curved Loop Section - Inline Hidden on Mobile */}
+                <div 
+                    style={{ 
+                        display: isMobile ? 'none' : 'flex', 
+                        position: 'relative',
+                        width: '100%',
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        paddingTop: '6rem',
+                        paddingBottom: '6rem'
+                    }}
+                >
                     <CurvedLoop
                         marqueeText="Vibrance ✦ 2026 ✦ Decade ✦ Edition ✦"
                         speed={2}

@@ -371,16 +371,15 @@ const Home = () => {
                     Your browser does not support the video tag.
                 </video>
                 <div className="home-content" style={{ zIndex: 10, textAlign: 'center', mixBlendMode: 'difference' }}>
-                    <h1 ref={titleRef} style={{ fontSize: '10vw', lineHeight: 0.9, fontFamily: 'var(--font-display)', letterSpacing: '-0.05em', color: 'transparent', WebkitTextStroke: '2px white' }}>
+                    <h1 ref={titleRef} style={{ fontSize: '15vw', lineHeight: 0.9, fontFamily: 'var(--font-display)', letterSpacing: '-0.05em', color: 'transparent', WebkitTextStroke: '2px white' }}>
                         VIBRANCE <br />
                         <span style={{ color: 'white', WebkitTextStroke: '0' }}>2026</span>
                     </h1>
-                    <p style={{ marginTop: '1rem', fontSize: '1.2rem', textTransform: 'uppercase', letterSpacing: '0.3rem', opacity: 0.8 }}>
-                        Live the <span style={{ color: 'var(--color-cyan)' }}>Beats</span>
+                    <p style={{ marginTop: '1rem', fontSize: '2rem', textTransform: 'uppercase', letterSpacing: '0.2rem', opacity: 0.8 }}>
+                        <span style={{fontFamily: 'var(--font-display)', WebkitTextStroke: '2px white' }}> Live the <span style={{ color: 'var(--color-cyan)' }}>Beats </span></span> 
                     </p>
-                    <p ref={subRef} style={{ marginTop: '2rem', fontSize: '1.5rem', fontFamily: 'var(--font-display)', color: 'white', letterSpacing: '0.1em' }}>
-                        18 Feb  - 21 Feb
-                    </p>
+                    <p ref={subRef} style={{ marginTop: '1.5rem', fontSize: '2rem',textTransform: 'uppercase', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto', color: 'white', opacity: 0.85 }}>18 Feb - 21 Feb </p>
+                    
                 </div>
 
                 <div className="scroll-indicator" style={{ position: 'absolute', bottom: '2rem', left: '50%', transform: 'translateX(-50%)', opacity: 0.7 }}>

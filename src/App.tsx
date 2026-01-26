@@ -9,6 +9,7 @@ import Events from './sections/Events';
 import Sponsors from './sections/Sponsors';
 import Team from './sections/Team';
 import ComingSoon from './components/ComingSoon';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/sponsors" element={<ComingSoon />} />
             {/* <Route path="/team" element={<Team />} /> */}
           </Routes>
+          <Footer/>
         </main>
       </Layout>
     </BrowserRouter>

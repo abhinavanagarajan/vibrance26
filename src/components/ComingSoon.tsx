@@ -14,6 +14,7 @@ const ComingSoon = () => {
                     alt="VIT Chennai"
                     className="w-[250px] h-auto object-contain"
                 />
+                
             </div>
 
             {/* Main Heading - Using the Vibrance Font Class */}

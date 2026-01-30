@@ -22,7 +22,7 @@ function App() {
             <Route path="/merch" element={<ComingSoon />} />
             <Route path="/proshows" element={<ComingSoon />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/sponsors" element={<ComingSoon />} />
+            <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/team" element={<Team />} />
           </Routes>
           <Footer/>

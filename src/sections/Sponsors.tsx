@@ -8,24 +8,23 @@ interface SponsorProps {
 const SponsorLogo: React.FC<SponsorProps> = ({ name, logo }) => (
     <div style={{
         padding: '1rem',
-        border: '1px solid rgba(255,255,255,0.1)',
         borderRadius: '12px',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        background: 'rgba(255,255,255,0.03)',
         backdropFilter: 'blur(5px)',
         aspectRatio: '3/2',
         position: 'relative',
         overflow: 'hidden',
-        transition: 'border-color 0.3s'
+        transition: 'border-color 0.3s',
+        maxWidth: '60%', 
+        maxHeight: '60%'
     }}
         onMouseEnter={(e) => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.5)'}
         onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'}
     >
-        <img src={logo} alt={name} style={{ maxWidth: '80%', maxHeight: '80%', objectFit: 'contain', filter: 'grayscale(100%) brightness(1.2)', transition: 'filter 0.3s' }}
-            onMouseEnter={(e) => e.currentTarget.style.filter = 'grayscale(0%) brightness(1)'}
-            onMouseLeave={(e) => e.currentTarget.style.filter = 'grayscale(100%) brightness(1.2)'}
+        <img src={logo} alt={name} style={{ maxWidth: '80%', maxHeight: '80%', objectFit: 'contain', filter: 'grayscale(0%) brightness(1)', transition: 'filter 0.3s' }}
+            onMouseEnter={(e) => e.currentTarget.style.filter = 'grayscale(0%) brightness(1.2)'}
         />
     </div>
 );
@@ -53,7 +52,7 @@ const Sponsors = () => {
 
             <div className="sponsors-wrapper" style={{ width: '100%', maxWidth: '1200px', display: 'flex', flexDirection: 'column', gap: '4rem' }}>
                 {sponsorData.map((tier, index) => (
-                    <div key={index} className="sponsor-tier" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <div key={index} className="sponsor-tier" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyItems: 'center', gap: '2rem' }}>
                         <h3 style={{
                             fontSize: '1.2rem',
                             fontFamily: 'var(--font-main)',
@@ -67,11 +66,13 @@ const Sponsors = () => {
                         </h3>
 
                         <div className="sponsors-grid" style={{
-                            display: 'grid',
-                            flexDirection: 'repeat(auto-fit, minmax(180px, 1fr))',
-                            gap: '2rem',
+                            display: 'flex',
+                            flexDirection: 'row',
+                            flexWrap: 'wrap', // Added: allows logos to wrap to next line if they don't fit
+                            gap: '2rem',      // Increased gap for better breathing room
                             width: '100%',
-                            justifyItems: 'center'
+                            justifyContent: 'center', // Fix: This centers the flex items horizontally
+                            alignItems: 'center',
                         }}>
                             {tier.sponsors.map((sponsor, sIndex) => (
                                 <SponsorLogo key={sIndex} name={sponsor.name} logo={sponsor.logo} />

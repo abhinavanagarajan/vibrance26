@@ -13,7 +13,7 @@ const navItems: NavItem[] = [
     { name: 'Merch', path: '/merch' },
     { name: 'ProShows', path: '/proshows' },
     { name: 'Events', path: '/events' },
-    // { name: 'Sponsors', path: '/sponsors' },
+    { name: 'Sponsors', path: '/sponsors' },
     { name: 'Team', path: '/team' },
 ];
 

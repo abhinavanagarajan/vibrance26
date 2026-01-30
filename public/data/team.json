@@ -1,71 +1,70 @@
 [
     {
-        "tier": "High Management",
-        "showTitle": false,
+        "tier": "Chief Patron",
+        "showTitle": true,
         "members": [
             {
-                "name": "Dr. V. S. Kanchana Bhaaskaran",
-                "role": "Vice Chancellor",
-                "image": "https://placehold.co/400x500/111/FFF?text=VC"
-            },
-            {
-                "name": "Dr. Thyagarajan T",
-                "role": "Pro Vice Chancellor",
-                "image": "https://placehold.co/400x500/111/FFF?text=Pro+VC"
+                "name": "Dr. G. Viswanathan",
+                "role": "Chancellor",
+                "image": "https://test-cdn-iota.vercel.app/images/chancellor.webp"
             }
         ]
     },
     {
-        "tier": "Convenors",
+        "tier": "Patrons",
+        "showTitle": true,
+        "members": [
+            {
+                "name": "Mr. Sankar Viswanathan",
+                "role": "Vice-President",
+                "image": "https://test-cdn-iota.vercel.app/images/sankar.webp"
+            },
+            {
+                "name": "Dr. Sekar Viswanathan",
+                "role": "Vice-President",
+                "image": "https://test-cdn-iota.vercel.app/images/sekar.webp"
+            },
+            {
+                "name": "Dr. G V Selvam",
+                "role": "Vice-President",
+                "image": "https://test-cdn-iota.vercel.app/images/selvam.webp"
+            }
+        ]
+    },
+    {
+        "tier": "Co-Patrons",
+        "showTitle": true,
+        "members": [
+            {
+                "name": "Dr. Kanchana Bhaaskaran V S",
+                "role": "Vice-Chancellor",
+                "image": "https://test-cdn-iota.vercel.app/images/kanchana.jpg"
+            },
+            {
+                "name": "Dr. Thyagarajan T",
+                "role": "Pro Vice-Chancellor",
+                "image": "https://test-cdn-iota.vercel.app/images/thyagarajan.jpg"
+            },
+            {
+                "name": "Dr. K Sathiyanarayanan",
+                "role": "Director",
+                "image": "https://test-cdn-iota.vercel.app/images/sathiyanarayanan.jpg"
+            },
+            {
+                "name": "Dr. P K Manoharan",
+                "role": "Additional Registrar",
+                "image": "https://test-cdn-iota.vercel.app/images/manoharan.jpg"
+            }
+        ]
+    },
+    {
+        "tier": "Convenor",
         "showTitle": true,
         "members": [
             {
                 "name": "Dr. Sankar Ganesh",
                 "role": "Convenor",
-                "image": "https://placehold.co/400x500/111/FFF?text=Convenor"
-            }
-        ]
-    },
-    {
-        "tier": "Co-Convenors",
-        "showTitle": true,
-        "members": [
-            {
-                "name": "Prof. John Doe",
-                "role": "Co-Convenor",
-                "image": "https://placehold.co/400x500/111/FFF?text=Co-Convenor"
-            }
-        ]
-    },
-    {
-        "tier": "Faculty Organisers",
-        "showTitle": true,
-        "members": [
-            {
-                "name": "Prof. John Doe",
-                "role": "Discipline",
-                "image": "https://placehold.co/400x500/111/FFF?text=Faculty"
-            },
-            {
-                "name": "Prof. John Doe",
-                "role": "Hospitality",
-                "image": "https://placehold.co/400x500/111/FFF?text=Faculty"
-            }
-        ]
-    },
-    {
-        "tier": "Student Organisers",
-        "showTitle": true,
-        "members": [
-            {
-                "name": "John Doe",
-                "role": "Chairperson",
-                "image": "https://placehold.co/400x500/111/FFF?text=Student"
-            },
-            {
-                "name": "John Doe",
-                "role": "Secretary",
-                "image": "https://placehold.co/400x500/111/FFF?text=Student"
+                "image": "https://test-cdn-iota.vercel.app/images/sankarganesh.jpg"
             }
         ]
     }

@@ -68,7 +68,7 @@ const Sponsors = () => {
 
                         <div className="sponsors-grid" style={{
                             display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+                            flexDirection: 'repeat(auto-fit, minmax(180px, 1fr))',
                             gap: '2rem',
                             width: '100%',
                             justifyItems: 'center'

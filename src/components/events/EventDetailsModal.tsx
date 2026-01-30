@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { X, MapPin, Calendar, Clock, Trophy, BadgeCheck, ExternalLink, User, Users, Ticket, UserCheck2 } from 'lucide-react';
 import { Asset, EventItem } from '@/interfaces/contentful';
 import '../../styles/events.css';
+import { delay } from 'framer-motion';
 
 interface EventDetailsModalProps {
     event: EventItem;
@@ -11,6 +12,7 @@ interface EventDetailsModalProps {
 
 const EventDetailsModal: React.FC<EventDetailsModalProps> = ({ event, assets, onClose }) => {
     const { fields } = event;
+    
 
     const getImageUrl = () => {
         if (!fields.poster || !fields.poster.sys) return null;
@@ -20,6 +22,49 @@ const EventDetailsModal: React.FC<EventDetailsModalProps> = ({ event, assets, on
     };
 
     const imageUrl = getImageUrl();
+
+    const handleRegistration = async (username, password, eventId) => {
+        try {
+            const response = await fetch('http://127.0.0.1:8000/api/register-bot', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ username, password, event_id: eventId })
+            });
+
+            const data = await response.json();
+
+            console.log(data);
+            if (data.success) {
+                const paymentWindow = window.open('', '_blank');
+
+                // 3. Inject the cookies into the current browser context
+                // These cookies are "shared" across all tabs for .vit.ac.in
+                document.cookie = `JSESSIONID=${data.jsessionid}; domain=.vit.ac.in; path=/vitchennai_vibrance; secure; samesite=lax`;
+                document.cookie = `SERVERID=${data.serverid}; domain=.vit.ac.in; path=/vitchennai_vibrance; secure; samesite=lax`;
+
+                // 4. Update the blank window's location to the VIT portal
+                // Because the cookies are already in the browser's jar, 
+                // the new window will carry them.
+                if (paymentWindow) {
+                    paymentWindow.location.href = data.targetUrl// <--- THIS is what actually triggers the navigation
+                } 
+            }
+        }catch (error) {
+                console.error("Bot failed:", error);
+            }
+        };
+
+    const handleRegisterFlow = (eventName: string) => {
+        window.open("https://chennaievents.vit.ac.in/vitchennai_vibrance/studentLogin", '_blank');
+        // const username = "23BCE1123"
+        // const password = "Three-Two1"
+
+        // if (username && password) {
+        //     handleRegistration(username, password, '284');
+        // } else {
+        //     alert("Username and Password are required for registration.");
+        // }
+    };
 
     // Close on escape key
     useEffect(() => {
@@ -135,10 +180,9 @@ const EventDetailsModal: React.FC<EventDetailsModalProps> = ({ event, assets, on
                         )}
                         {fields.registrationLink && (
                             <a
-                                href={fields.registrationLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
+                                onClick={() => handleRegisterFlow(fields.eventName)}
                                 className="register-btn"
+                                style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '8px' }}
                             >
                                 Register Now <ExternalLink size={18} />
                             </a>

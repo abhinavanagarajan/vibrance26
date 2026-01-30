@@ -7,7 +7,7 @@ interface TeamMemberProps {
 }
 
 const TeamMember: React.FC<TeamMemberProps> = ({ name, role, image }) => (
-    <div className="team-card" style={{ width: '250px', height: '350px', background: '#111', border: '1px solid #333', borderRadius: '12px', position: 'relative', overflow: 'hidden', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '1.5rem', transition: 'all 0.3s ease', flexShrink: 0 }}
+    <div className="team-card" style={{ width: '300px', height: '350px', background: '#111', border: '1px solid #333', borderRadius: '12px', position: 'relative', overflow: 'hidden', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '1.5rem', transition: 'all 0.3s ease', flexShrink: 0 }}
         onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-10px)';
             e.currentTarget.style.borderColor = 'var(--color-cyan)';

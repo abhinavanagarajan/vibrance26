@@ -23,7 +23,7 @@ function App() {
             <Route path="/proshows" element={<ComingSoon />} />
             <Route path="/events" element={<Events />} />
             <Route path="/sponsors" element={<ComingSoon />} />
-            {/* <Route path="/team" element={<Team />} /> */}
+            <Route path="/team" element={<Team />} />
           </Routes>
           <Footer/>
         </main>

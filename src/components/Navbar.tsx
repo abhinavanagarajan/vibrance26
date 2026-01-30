@@ -14,7 +14,7 @@ const navItems: NavItem[] = [
     { name: 'ProShows', path: '/proshows' },
     { name: 'Events', path: '/events' },
     // { name: 'Sponsors', path: '/sponsors' },
-    // { name: 'Team', path: '/team' },
+    { name: 'Team', path: '/team' },
 ];
 
 const menuVariants: Variants = {

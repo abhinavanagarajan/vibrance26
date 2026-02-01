@@ -7,46 +7,77 @@ interface TeamMemberProps {
 }
 
 const TeamMember: React.FC<TeamMemberProps> = ({ name, role, image }) => (
-    <div className="team-card" style={{ width: '300px', height: '350px', background: '#111', border: '1px solid #333', borderRadius: '12px', position: 'relative', overflow: 'hidden', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '1.5rem', transition: 'all 0.3s ease', flexShrink: 0 }}
-        onMouseEnter={(e) => {
-            e.currentTarget.style.transform = 'translateY(-10px)';
-            e.currentTarget.style.borderColor = 'var(--color-cyan)';
-            const roleEl = e.currentTarget.querySelector('.role') as HTMLElement;
-            if (roleEl) roleEl.style.color = 'var(--color-pink)';
-            const imgEl = e.currentTarget.querySelector('.team-img-bg') as HTMLElement;
-            if (imgEl) imgEl.style.transform = 'scale(1.1)';
-        }}
-        onMouseLeave={(e) => {
-            e.currentTarget.style.transform = 'translateY(0)';
-            e.currentTarget.style.borderColor = '#333';
-            const roleEl = e.currentTarget.querySelector('.role') as HTMLElement;
-            if (roleEl) roleEl.style.color = '#a65454ff';
-            const imgEl = e.currentTarget.querySelector('.team-img-bg') as HTMLElement;
-            if (imgEl) imgEl.style.transform = 'scale(1)';
-        }}
+    <div className="team-card" style={{
+        width: '300px',
+        // Removed fixed height to allow the card to collapse if no image exists
+        minHeight: '100px',
+        background: '#111',
+        border: '1px solid #333',
+        borderRadius: '8px', // Added a slight radius for a "nicer" look
+        position: 'relative',
+        overflow: 'hidden',
+        display: 'flex',
+        flexDirection: 'column',
+        transition: 'all 0.3s ease',
+        flexShrink: 0
+    }}
+
     >
-        {/* Image Background */}
-        <div className="team-img-bg" style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
+        {image && (
+            <div className="team-img-container" style={{
+                position: 'relative',
+                width: '100%',
+                aspectRatio: '1/1',
+                overflow: 'hidden',
+            }}>
+                <div className="team-img-bg" style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    backgroundImage: `url(${image})`,
+                    backgroundSize: 'contain',
+                    backgroundPosition: 'center',
+                    transition: 'transform 0.5s ease'
+                }}></div>
+            </div>
+        )}
+
+        <div className="team-content" style={{
+            backgroundColor: 'white',
             width: '100%',
-            height: '100%',
-            backgroundImage: `url(${image})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            transition: 'transform 0.5s ease'
-        }}></div>
-
-        {/* Gradient Overlay */}
-        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to bottom, transparent 60%, #fafafa 95%)', zIndex: 1 }}></div>
-
-        {/* Content */}
-        <div style={{ position: 'relative', zIndex: 2 }}>
-            <h3 style={{ color: '#888', fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '0.2rem', textShadow: '0 2px 4px rgba(255,255,255,0.5)' }}>{name}</h3>
-            <p className="role" style={{ color: '#a65454ff', textAlign: 'right', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px', transition: '0.3s', fontWeight: 600 }}>{role}</p>
+            padding: '1.2rem', // Added padding so text isn't hitting the edges
+            boxSizing: 'border-box',
+            flexGrow: 1, // Ensures it fills the remaining space
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center' // Centers text vertically in the white box
+        }}>
+            <h3 style={{
+                color: '#444', // Darkened for better contrast on white background
+                fontFamily: 'var(--font-display)',
+                fontSize: '1.3rem',
+                margin: '0 0 0.4rem 0',
+                lineHeight: '1.2'
+            }}>
+                {name}
+            </h3>
+            <p className="role" style={{
+                color: '#a65454ff',
+                textAlign: 'left', // Switched to left for a more standard clean look
+                fontSize: '0.85rem',
+                textTransform: 'uppercase',
+                letterSpacing: '1px',
+                fontWeight: 700,
+                margin: 0,
+                transition: 'color 0.3s ease'
+            }}>
+                {role}
+            </p>
         </div>
     </div>
+
 );
 
 interface TeamTier {

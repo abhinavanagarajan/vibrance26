@@ -17,7 +17,7 @@
             {
                 "name": "Mr. Sankar Viswanathan",
                 "role": "Vice-President",
-                "image": "https://test-cdn-iota.vercel.app/images/sankar.webp"
+                "image": "https://test-cdn-iota.vercel.app/images/sankar.png"
             },
             {
                 "name": "Dr. Sekar Viswanathan",
@@ -63,8 +63,7 @@
         "members": [
             {
                 "name": "Dr. Sankar Ganesh",
-                "role": "Convenor",
-                "image": "https://test-cdn-iota.vercel.app/images/sankarganesh.jpg"
+                "role": "Convenor"
             }
         ]
     }

@@ -351,7 +351,7 @@ const Home = () => {
     return (
         <div style={{ width: '100%', overflowX: 'hidden' }}>
             {/* HERO SECTION */}
-            <section ref={containerRef} id="home" className="section-home" style={{ height: '100vh', width: '100%', position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+            <section ref={containerRef} id="home" className="section-home" style={{ backgroundColor: '#000', height: '100vh', width: '100%', position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                 <video
                     autoPlay
                     loop
@@ -383,9 +383,6 @@ const Home = () => {
 
                 </div>
 
-                <div className="scroll-indicator" style={{ position: 'absolute', bottom: '2rem', left: '50%', transform: 'translateX(-50%)', opacity: 0.7 }}>
-                    <p style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.2rem' }}></p>
-                </div>
             </section>
 
             {/* HYPE SECTION */}

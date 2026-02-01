@@ -25,7 +25,7 @@ const EventFilter: React.FC<EventFilterProps> = ({ onFilterChange, availableDate
         teamSize: [],
     });
 
-    const [isExpanded, setIsExpanded] = useState(true);
+    const [isExpanded, setIsExpanded] = useState(false);
 
     const [collapsed, setCollapsed] = useState({
         date: false,
@@ -70,8 +70,8 @@ const EventFilter: React.FC<EventFilterProps> = ({ onFilterChange, availableDate
 
     return (
         <div className="filters-container">
-            <div 
-                className="filters-header" 
+            <div
+                className="filters-header"
                 onClick={() => setIsExpanded(!isExpanded)}
                 style={{ cursor: 'pointer', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
             >

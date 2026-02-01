@@ -12,7 +12,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({ name, role, image }) => (
             e.currentTarget.style.transform = 'translateY(-10px)';
             e.currentTarget.style.borderColor = 'var(--color-cyan)';
             const roleEl = e.currentTarget.querySelector('.role') as HTMLElement;
-            if (roleEl) roleEl.style.color = 'var(--color-cyan)';
+            if (roleEl) roleEl.style.color = 'var(--color-pink)';
             const imgEl = e.currentTarget.querySelector('.team-img-bg') as HTMLElement;
             if (imgEl) imgEl.style.transform = 'scale(1.1)';
         }}
@@ -20,7 +20,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({ name, role, image }) => (
             e.currentTarget.style.transform = 'translateY(0)';
             e.currentTarget.style.borderColor = '#333';
             const roleEl = e.currentTarget.querySelector('.role') as HTMLElement;
-            if (roleEl) roleEl.style.color = '#888';
+            if (roleEl) roleEl.style.color = '#a65454ff';
             const imgEl = e.currentTarget.querySelector('.team-img-bg') as HTMLElement;
             if (imgEl) imgEl.style.transform = 'scale(1)';
         }}
@@ -39,12 +39,12 @@ const TeamMember: React.FC<TeamMemberProps> = ({ name, role, image }) => (
         }}></div>
 
         {/* Gradient Overlay */}
-        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to bottom, transparent 40%, #0a0a0a 95%)', zIndex: 1 }}></div>
+        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to bottom, transparent 60%, #fafafa 95%)', zIndex: 1 }}></div>
 
         {/* Content */}
         <div style={{ position: 'relative', zIndex: 2 }}>
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '0.2rem', textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>{name}</h3>
-            <p className="role" style={{ color: '#888', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px', transition: 'color 0.3s', fontWeight: 600 }}>{role}</p>
+            <h3 style={{ color: '#888', fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '0.2rem', textShadow: '0 2px 4px rgba(255,255,255,0.5)' }}>{name}</h3>
+            <p className="role" style={{ color: '#a65454ff', textAlign: 'right', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px', transition: '0.3s', fontWeight: 600 }}>{role}</p>
         </div>
     </div>
 );
@@ -99,10 +99,7 @@ const Team = () => {
                 ))}
             </div>
 
-            <footer style={{ marginTop: 'auto', paddingTop: '5rem', display: 'flex', justifyContent: 'space-between', opacity: 0.5, fontSize: '0.9rem' }}>
-                <p>&copy; 2026 VIBRANCE VIT CHENNAI. ALL RIGHTS RESERVED.</p>
-                <p>VIT CHENNAI</p>
-            </footer>
+
         </section>
     );
 };

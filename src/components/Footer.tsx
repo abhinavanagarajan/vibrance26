@@ -1,19 +1,27 @@
 import React from 'react';
-import { Instagram, Youtube, Linkedin, Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
     const [isMobile, setIsMobile] = React.useState(window.innerWidth < 768);
 
     React.useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+        const handleResize = () => setIsMobile(window.innerWidth < 768);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
     }, []);
+
+    const socialLinks = [
+        { name: 'facebook', href: 'https://www.facebook.com/VibranceVIT/', label: 'Facebook' },
+        { name: 'instagram', href: 'https://www.instagram.com/vibrancevitchennai/', label: 'Instagram' },
+        { name: 'youtube', href: 'https://www.youtube.com/@VITChennaic', label: 'YouTube' },
+        { name: 'x', href: 'https://x.com/vibrancevit', label: 'LinkedIn' },
+    ];
 
     return (
         <footer style={{
             position: 'relative',
-            backgroundColor: '#000000',
+            backgroundColor: 'rgba(122, 122, 122, 0.5)',
+            backdropFilter: 'blur(10px)',
             color: '#ffffff',
             overflow: 'hidden'
         }}>
@@ -46,7 +54,7 @@ const Footer = () => {
                 maxWidth: '80rem',
                 margin: '0 auto',
                 padding: '3rem 1rem',
-                
+
             }}>
                 {/* Top Section */}
                 <div style={{
@@ -59,7 +67,7 @@ const Footer = () => {
                 }}>
 
                     {/* Quick Links */}
-                    <div style={{display: isMobile ? 'none' : 'block'}}>
+                    <div style={{ display: isMobile ? 'none' : 'block' }}>
 
                         <h3 style={{
                             fontSize: '1.25rem',
@@ -78,12 +86,12 @@ const Footer = () => {
                             padding: 0,
                             margin: 0
                         }}>
-                            {['Events', 'Schedule', 'Gallery', 'Team', 'Contact'].map((link) => (
+                            {['Events', 'Gallery', 'Team'].map((link) => (
                                 <li key={link} style={{ marginBottom: '0.5rem' }}>
-                                    <a 
-                                        href={`#${link.toLowerCase()}`}
+                                    <a
+                                        href={`/${link.toLowerCase()}`}
                                         style={{
-                                            color: '#9ca3af',
+                                            color: 'white',
                                             textDecoration: 'none',
                                             textTransform: 'uppercase',
                                             fontSize: '0.875rem',
@@ -145,13 +153,13 @@ const Footer = () => {
                             Get in Touch
                         </h3>
                         <div>
-                            <a 
+                            <a
                                 href="mailto:vibrance@vit.ac.in"
                                 style={{
                                     display: 'flex',
                                     alignItems: 'center',
                                     gap: '0.5rem',
-                                    color: '#9ca3af',
+                                    color: 'white',
                                     textDecoration: 'none',
                                     marginBottom: '0.75rem',
                                     fontFamily: 'var(--font-main)',
@@ -167,7 +175,7 @@ const Footer = () => {
                                 display: 'flex',
                                 alignItems: 'flex-start',
                                 gap: '0.5rem',
-                                color: '#9ca3af',
+                                color: 'white',
                                 fontFamily: 'var(--font-main)'
                             }}>
                                 <MapPin size={16} style={{ marginTop: '0.25rem', flexShrink: 0 }} />
@@ -183,7 +191,7 @@ const Footer = () => {
 
                 {/* Social Media Section */}
                 <div style={{
-                    
+
                     paddingTop: '2rem',
                     marginBottom: '2rem'
                 }}>
@@ -192,44 +200,45 @@ const Footer = () => {
                         justifyContent: 'center',
                         gap: '1.5rem'
                     }}>
-                        {[
-                            { icon: Instagram, href: 'https://www.instagram.com/vibrancevitchennai/', label: 'Instagram' },
-                            { icon: Youtube, href: 'https://www.youtube.com/@VITChennaic', label: 'YouTube' },
-                            { icon: Linkedin, href: 'https://www.linkedin.com/company/vitchennai/', label: 'LinkedIn' }
-                        ].map(({ icon: IconComponent, href, label }) => (
+
+
+                        {socialLinks.map(({ name, href, label }) => (
                             <a
                                 key={label}
                                 href={href}
                                 aria-label={label}
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                className="social-link-btn"
                                 style={{
-                                    position: 'relative',
-                                    width: '3rem',
-                                    height: '3rem',
+                                    width: '2.5rem',
+                                    height: '2.5rem',
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'center',
                                     borderRadius: '9999px',
-                                    backgroundColor: 'rgba(147, 51, 234, 0.2)',
-                                    
-                                    transition: 'all 0.3s',
-                                    textDecoration: 'none'
+                                    transition: 'all 0.3s ease',
+                                    textDecoration: 'none',
+                                    border: '1px solid transparent'
                                 }}
-                                onMouseEnter={(e) => {
-                                    e.currentTarget.style.backgroundColor = 'rgba(168, 85, 247, 0.3)';
-                                    e.currentTarget.style.borderColor = '#c084fc';
-                                    const icon = e.currentTarget.querySelector('svg');
-                                    if (icon) icon.style.color = '#ffffff';
-                                }}
-                                onMouseLeave={(e) => {
-                                    e.currentTarget.style.backgroundColor = 'rgba(147, 51, 234, 0.2)';
-                                    e.currentTarget.style.borderColor = 'rgba(168, 85, 247, 0.3)';
-                                    const icon = e.currentTarget.querySelector('svg');
-                                    if (icon) icon.style.color = '#c084fc';
-                                }}
+
                             >
-                                <IconComponent size={20} style={{ color: '#fc84be', transition: 'color 0.3s' }} />
+                                <img
+                                    src={`https://test-cdn-iota.vercel.app/svgs/${name}.svg`}
+                                    alt={label}
+                                    style={{
+                                        width: '100%',
+                                        height: '100%',
+                                        transition: 'filter 0.3s ease',
+                                        filter: 'grayscale(100%)',
+                                        onMouseOver: (e) => {
+                                            e.currentTarget.style.filter = 'none';
+                                        },
+                                        onMouseOut: (e) => {
+                                            e.currentTarget.style.filter = 'grayscale(100%)';
+                                        }
+                                    }}
+                                />
                             </a>
                         ))}
                     </div>
@@ -246,7 +255,7 @@ const Footer = () => {
                 }}>
                     <p style={{
                         fontSize: '0.875rem',
-                        color: '#6b7280',
+                        color: '#bbb',
                         textTransform: 'uppercase',
                         letterSpacing: '0.15em',
                         fontFamily: 'var(--font-main)',

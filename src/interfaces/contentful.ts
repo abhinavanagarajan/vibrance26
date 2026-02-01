@@ -29,6 +29,7 @@ export interface Asset {
 }
 
 export interface EventFields {
+    eventId: number;
     eventName: string;
     clubName: string;
     eventType: string;

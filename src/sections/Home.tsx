@@ -78,10 +78,10 @@ const Home = () => {
     ];
 
     const proshowsImages = [
-        { link: 'proshows', text: 'Day 1', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
-        { link: 'proshows', text: 'Day 2', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
-        { link: 'proshows', text: 'Day 3', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
-        { link: 'proshows', text: 'Day 4', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' }
+        { link: '', text: 'Day 1', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
+        { link: '', text: 'Day 2', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
+        { link: '', text: 'Day 3', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
+        { link: '', text: 'Day 4', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' }
     ];
 
 
@@ -364,7 +364,7 @@ const Home = () => {
                         height: '100%',
                         objectFit: 'cover',
                         zIndex: 1,
-                        opacity: 0.6 // Adjust to make text more readable
+                        opacity: 0.9 // Adjust to make text more readable
                     }}
                 >
                     <source src="https://cdn.a2ys.dev/videos/trailer.mp4" type="video/mp4" />
@@ -376,10 +376,10 @@ const Home = () => {
                         <span style={{ color: 'white', WebkitTextStroke: '0' }}>2026</span>
                     </h1>
                     <p style={{ marginTop: '1rem', fontSize: '2rem', textTransform: 'uppercase', letterSpacing: '0.2rem', opacity: 0.8 }}>
-                        <span style={{fontFamily: 'var(--font-display)', WebkitTextStroke: '2px white' }}> Live the <span style={{ color: 'var(--color-cyan)' }}>Beats </span></span> 
+                        <span style={{ fontFamily: 'var(--font-display)', WebkitTextStroke: '2px white' }}> Live the <span style={{ color: 'var(--color-cyan)' }}>Beats </span></span>
                     </p>
-                    <p ref={subRef} style={{ marginTop: '1.5rem', fontSize: '2rem',textTransform: 'uppercase', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto', color: 'white', opacity: 0.85 }}>18 Feb - 21 Feb </p>
-                    
+                    <p ref={subRef} style={{ marginTop: '1.5rem', fontSize: '2rem', textTransform: 'uppercase', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto', color: 'white', opacity: 0.85 }}>18 Feb - 21 Feb </p>
+
                 </div>
 
                 <div className="scroll-indicator" style={{ position: 'absolute', bottom: '2rem', left: '50%', transform: 'translateX(-50%)', opacity: 0.7 }}>
@@ -400,10 +400,12 @@ const Home = () => {
                     justifyContent: 'center',
                     color: 'white',
                     padding: '4rem 0',
-                    overflow: 'hidden'
+                    overflow: 'hidden',
+                    /* The gradient: starts solid black at the top, ends transparent at the bottom */
+                    background: 'linear-gradient(to bottom, #000000 0%, transparent 100%)'
                 }}
             >
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full max-w-7xl mx-auto items-center px-[5%] mb-12">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full max-w-7xl mx-auto items-center px-[5%] mb-12 ">
 
                     {/* Left Side: Styled Text */}
                     <div style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', gap: '0.5rem', fontFamily: 'var(--font-display)' }}>
@@ -602,18 +604,18 @@ const Home = () => {
                 ProShows like <span className="text-white bg-magenta bg-gradient-to-r from-purple-500 to-pink-500">never before</span>
             </h2>
 
-            <div style={{ height: '600px', position: 'relative' }}>
+            <div style={{ height: '600px', position: 'relative', borderBottom: '1px solid #ffffff' }}>
                 <FlowingMenu items={proshowsImages}
                     speed={15}
                     textColor="#ffffff"
-                    bgColor="#060010"
+                    bgColor="transparent"
                     marqueeBgColor="#ffffff"
                     marqueeTextColor="#060010"
                     borderColor="#ffffff"
                 />
             </div>
 
-            <section className="relative z-20 w-full bg-black py-20 flex flex-col items-center">
+            <section className="relative z-20 w-full bg-transparent py-20 flex flex-col items-center">
                 {/* 1. Masonry Container */}
                 <div className="relative w-full" style={{ paddingBottom: isMobile ? '40px' : '128px' }}>
                     <Masonry
@@ -630,20 +632,20 @@ const Home = () => {
                 </div>
 
                 {/* 2. Visual Separation - Inline Hidden on Mobile */}
-                <div 
-                    style={{ 
-                        display: isMobile ? 'none' : 'block', 
-                        width: '100%', 
-                        height: '15vh', 
-                        pointerEvents: 'none' 
-                    }} 
-                    aria-hidden="true" 
+                <div
+                    style={{
+                        display: isMobile ? 'none' : 'block',
+                        width: '100%',
+                        height: '15vh',
+                        pointerEvents: 'none'
+                    }}
+                    aria-hidden="true"
                 />
 
                 {/* 3. Curved Loop Section - Inline Hidden on Mobile */}
-                <div 
-                    style={{ 
-                        display: isMobile ? 'none' : 'flex', 
+                <div
+                    style={{
+                        display: isMobile ? 'none' : 'flex',
                         position: 'relative',
                         width: '100%',
                         flexDirection: 'column',

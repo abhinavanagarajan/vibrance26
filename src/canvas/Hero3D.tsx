@@ -17,26 +17,8 @@ const Hero3D = () => {
     });
 
     return (
-        <group>
-            <Float speed={2} rotationIntensity={0.5} floatIntensity={1}>
-                <mesh ref={meshRef} position={[0, 0, -2]} scale={[1.5, 1.5, 1.5]}>
-                    <torusKnotGeometry args={[1, 0.3, 100, 16]} />
-                    <meshPhysicalMaterial
-                        color="#0a0a0a"
-                        emissive="#bc13fe"
-                        emissiveIntensity={0.5}
-                        roughness={0.1}
-                        metalness={1}
-                        clearcoat={1}
-                        clearcoatRoughness={0.1}
-                        wireframe={true}
-                    />
-                </mesh>
-            </Float>
-
-            {/* Background particles or fog could go here */}
-            <fog attach="fog" args={['#0a0a0a', 5, 20]} />
-        </group>
+        <>
+        </>
     );
 };
 

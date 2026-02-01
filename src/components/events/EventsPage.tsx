@@ -1,8 +1,8 @@
 import { useState, useMemo, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import EventsList from "./EventsList";
 import EventFilter from "./Filters";
 import Pagination from "./Pagination";
-import EventDetailsModal from "./EventDetailsModal";
 import { Asset, EventItem } from "@/interfaces/contentful";
 
 import '../../styles/events.css';
@@ -16,28 +16,15 @@ type FilterState = {
 
 const EVENTS_PER_PAGE = 5;
 
-const formatDateForFilter = (isoString: string): string => {
-    const dateObj = new Date(isoString);
-    const day = dateObj.toLocaleDateString("en-US", {
-        day: "numeric",
-        timeZone: "UTC", // Use UTC to avoid timezone shifts on dates
-    });
-    const month = dateObj
-        .toLocaleDateString("en-US", { month: "short", timeZone: "UTC" })
-        .toUpperCase();
-
-    return `${day} ${month}`;
-};
-
 interface EventsPageProps {
     eventData: EventItem[];
     assetData: Asset[];
 }
 
 const EventsPage = ({ eventData, assetData }: EventsPageProps) => {
+    const navigate = useNavigate();
     const [searchTerm, setSearchTerm] = useState("");
     const [currentPage, setCurrentPage] = useState(1);
-    const [selectedEvent, setSelectedEvent] = useState<EventItem | null>(null);
 
     const { uniqueDates, dateMap } = useMemo(() => {
         const staticDates = ["18 FEB", "19 FEB", "20 FEB", "21 FEB"];
@@ -70,7 +57,7 @@ const EventsPage = ({ eventData, assetData }: EventsPageProps) => {
     };
 
     const handleEventClick = (event: EventItem) => {
-        setSelectedEvent(event);
+        navigate(`/events/${event.sys.id}`);
     };
 
     const filteredEvents = useMemo(() => {
@@ -89,7 +76,7 @@ const EventsPage = ({ eventData, assetData }: EventsPageProps) => {
             const teamSizeMatch =
                 filters.teamSize.length === 0 ||
                 filters.teamSize.some((size) =>
-                    event.fields.participationType.includes(size) // Changed to simple includes for my dummy matching
+                    event.fields.participationType.includes(size)
                 );
             const dateMatch =
                 filters.dates.length === 0 ||
@@ -113,43 +100,30 @@ const EventsPage = ({ eventData, assetData }: EventsPageProps) => {
     }, [currentPage, filteredEvents]);
 
     return (
-        <>
-            
-
-            <div className="events-page-container">
-                {/* Dynamic class: 'active' will show the sidebar on mobile 
-                */}
-                <div className="filters-sidebar">
-                    <EventFilter
-                        onFilterChange={handleFilterChange}
-                        availableDates={uniqueDates}
-                    />
-                </div>
-                <div className="events-main">
-                    <EventsList
-                        events={currentEvents}
-                        assets={assetData}
-                        searchTerm={searchTerm}
-                        onSearchChange={handleSearchChange}
-                        onEventClick={handleEventClick}
-                    />
-
-                    <Pagination
-                        currentPage={currentPage}
-                        totalCount={filteredEvents.length}
-                        pageSize={EVENTS_PER_PAGE}
-                        onPageChange={(page) => setCurrentPage(page)}
-                    />
-                </div>
-            </div>
-            {selectedEvent && (
-                <EventDetailsModal
-                    event={selectedEvent}
-                    assets={assetData}
-                    onClose={() => setSelectedEvent(null)}
+        <div className="events-page-container">
+            <div className="filters-sidebar">
+                <EventFilter
+                    onFilterChange={handleFilterChange}
+                    availableDates={uniqueDates}
                 />
-            )}
-        </>
+            </div>
+            <div className="events-main">
+                <EventsList
+                    events={currentEvents}
+                    assets={assetData}
+                    searchTerm={searchTerm}
+                    onSearchChange={handleSearchChange}
+                    onEventClick={handleEventClick}
+                />
+
+                <Pagination
+                    currentPage={currentPage}
+                    totalCount={filteredEvents.length}
+                    pageSize={EVENTS_PER_PAGE}
+                    onPageChange={(page) => setCurrentPage(page)}
+                />
+            </div>
+        </div>
     );
 };
 

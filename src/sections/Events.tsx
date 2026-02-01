@@ -32,7 +32,7 @@ const Events = () => {
         //             })
         //             .catch(e => console.error("Local fallback failed", e));
         //     });
-        
+
         fetch('/data/events.json')
             .then(res => {
                 if (!res.ok) throw new Error("Failed to load events.json");
@@ -40,9 +40,9 @@ const Events = () => {
             })
             .then(data => {
                 // Since data is an ARRAY [], we use it directly
-                setEventData(data); 
+                setEventData(data);
                 // If assets aren't in this file, set to empty array to avoid errors
-                setAssetData([]); 
+                setAssetData([]);
                 setLoading(false);
             })
             .catch(err => {
@@ -60,12 +60,7 @@ const Events = () => {
             style={{
                 minHeight: '100vh',
                 paddingTop: '100px',
-                backgroundColor: '#0a0a0a',
-                // Move background properties here
-                backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.a2ys.dev/images/IMG_3350.jpg")',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundAttachment: 'fixed' // Optional: adds a nice parallax effect
+
             }}
         >
             <h2

@@ -12,12 +12,11 @@ const SponsorLogo: React.FC<SponsorProps> = ({ name, logo }) => (
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        backdropFilter: 'blur(5px)',
         aspectRatio: '3/2',
         position: 'relative',
         overflow: 'hidden',
         transition: 'border-color 0.3s',
-        maxWidth: '60%', 
+        maxWidth: '60%',
         maxHeight: '60%'
     }}
         onMouseEnter={(e) => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.5)'}

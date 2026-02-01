@@ -53,16 +53,26 @@
   padding: 0;
 }
 
-html,
+html {
+  background: url('/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
 body {
   width: 100%;
-  height: 100%;
-  background-color: var(--color-bg);
+  min-height: 100vh;
+  /* Remove the solid background-color so the image shows through */
+  /* Use a semi-transparent overlay to give the blur a "tint" */
+  background-color: rgba(10, 10, 10, 0.1);
+
+  /* This blurs the background image pinned to the html layer */
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+
   color: var(--color-text);
   font-family: var(--font-main);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Lenis Scroll Setup */

@@ -187,9 +187,9 @@ const Home = () => {
             const hypeTl = gsap.timeline({
                 scrollTrigger: {
                     trigger: hypeSectionRef.current,
-                    start: "top 60%", // Start animation when section is partially visible
+                    start: "top 90%", // Start animation when section is partially visible
                     end: "bottom bottom",
-                    toggleActions: "play none none reverse"
+                    toggleActions: "play none none"
                 }
             });
 

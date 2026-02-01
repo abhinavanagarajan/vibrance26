@@ -33,6 +33,9 @@ const EventsList: React.FC<EventsListProps> = ({ events, assets, searchTerm, onS
             <div className="search-container">
                 <Search className="search-icon" size={20} />
                 <input
+                    style={{
+                        color: 'white'
+                    }}
                     type="text"
                     placeholder="Search events or clubs..."
                     value={searchTerm}

@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     /* background: radial-gradient(circle at 50% 10%, #1a1a1a 0%, #0a0a0a 100%); */
-    background-color: rgba(122, 122, 122, 0.5);
-    backdrop-filter: blur(10px);
+    background-color: rgba(122, 122, 122, 0.7);
+    backdrop-filter: blur(5px);
     --webkit-backdrop-filter: blur(10px);
     min-height: 100vh;
     color: #fff;
@@ -865,4 +865,21 @@
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.2rem;
     padding: 0 0.5rem;
+}
+
+/* Modern Browsers */
+.search-input::placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox defaults to lower opacity, this ensures it's bright white */
+}
+
+/* Internet Explorer 10-11 */
+.search-input:-ms-input-placeholder {
+    color: white;
+}
+
+/* Microsoft Edge */
+.search-input::-ms-input-placeholder {
+    color: white;
 }

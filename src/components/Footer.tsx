@@ -25,7 +25,7 @@ const Footer = () => {
             color: '#ffffff',
             overflow: 'hidden'
         }}>
-            {/* Background Glow Effect */}
+            {/* Background Glow Effect
             <div style={{
                 position: 'absolute',
                 top: 0,
@@ -46,11 +46,11 @@ const Footer = () => {
                 borderRadius: '9999px',
                 filter: 'blur(120px)',
                 opacity: 0.2
-            }}></div>
+            }}></div> */}
 
             <div style={{
                 position: 'relative',
-                zIndex: 10,
+                zIndex: -999,
                 maxWidth: '80rem',
                 margin: '0 auto',
                 padding: '3rem 1rem',
@@ -86,7 +86,7 @@ const Footer = () => {
                             padding: 0,
                             margin: 0
                         }}>
-                            {['Events', 'Gallery', 'Team'].map((link) => (
+                            {['Events', 'Sponsors', 'Team'].map((link) => (
                                 <li key={link} style={{ marginBottom: '0.5rem' }}>
                                     <a
                                         href={`/${link.toLowerCase()}`}
@@ -99,8 +99,8 @@ const Footer = () => {
                                             fontFamily: 'var(--font-main)',
                                             transition: 'color 0.3s'
                                         }}
-                                        onMouseEnter={(e) => e.target.style.color = '#c084fc'}
-                                        onMouseLeave={(e) => e.target.style.color = '#9ca3af'}
+                                        onMouseEnter={(e) => e.currentTarget.style.color = '#c084fc'}
+                                        onMouseLeave={(e) => e.currentTarget.style.color = '#ffffff'}
                                     >
                                         {link}
                                     </a>
@@ -115,7 +115,7 @@ const Footer = () => {
                         gap: '1rem'
                     }}>
                         <img
-                            src="/vibrance-transparent.png"
+                            src="https://test-cdn-iota.vercel.app/images/assets/vibrance-transparent.webp"
                             alt="Vibrance Logo"
                             style={{
                                 width: '18rem',
@@ -231,12 +231,12 @@ const Footer = () => {
                                         height: '100%',
                                         transition: 'filter 0.3s ease',
                                         filter: 'grayscale(100%)',
-                                        onMouseOver: (e) => {
-                                            e.currentTarget.style.filter = 'none';
-                                        },
-                                        onMouseOut: (e) => {
-                                            e.currentTarget.style.filter = 'grayscale(100%)';
-                                        }
+                                    }}
+                                    onMouseOver={(e) => {
+                                        e.currentTarget.style.filter = 'none';
+                                    }}
+                                    onMouseOut={(e) => {
+                                        e.currentTarget.style.filter = 'grayscale(100%)';
                                     }}
                                 />
                             </a>

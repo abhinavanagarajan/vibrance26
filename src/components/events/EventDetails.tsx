@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { MapPin, Calendar, Clock, BadgeCheck, ExternalLink, User, Users, Ticket, UserCheck2, ArrowLeft } from 'lucide-react';
 import { Asset, EventItem } from '@/interfaces/contentful';
-import '../styles/events.css';
+import '../../styles/events.css';
 
 const EventDetails = () => {
     const { eventId } = useParams();
@@ -74,8 +74,8 @@ const EventDetails = () => {
 
     const handleRegisterFlow = (eventName: string) => {
         // Navigate to login page with event details
-        window.open("https://chennaievents.vit.ac.in/vitchennai_vibrance/studentLogin", "_blank");
-        //navigate('/login', { state: { eventId: fields.eventId, eventName: eventName } });
+        //window.open("https://chennaievents.vit.ac.in/vitchennai_vibrance/studentLogin", "_blank");
+        navigate('/login', { state: { eventId: fields.eventId, eventName: eventName } });
     };
 
     return (
@@ -111,7 +111,7 @@ const EventDetails = () => {
                             />
                         ) : (
                             <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <img src="/vibrancelogo.png" alt="Vibrance" style={{ width: '50%', height: 'auto', opacity: 0.5 }} />
+                                <img src="https://test-cdn-iota.vercel.app/images/assets/vibrancelogo.webp" alt="Vibrance" style={{ width: '50%', height: 'auto', opacity: 0.5 }} />
                             </div>
                         )}
                         <div className="modal-category-tag">

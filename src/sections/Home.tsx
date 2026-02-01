@@ -3,14 +3,14 @@ import React from 'react';
 
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Draggable } from 'gsap/Draggable';
+import { ScrollTrigger, Draggable } from 'gsap/all';
 import { FocusRail } from '@/components/FocusRail';
 import { ContainerScroll } from '@/components/ContainerScroll';
 import FlowingMenu from '@/components/FlowingMenu';
 import Masonry from '@/components/Masonry';
 import CurvedLoop from '@/components/CurvedLoop';
 import MovingText from '@/components/MovingText';
+import { FocusRailItem } from '@/components/FocusRail';
 
 gsap.registerPlugin(ScrollTrigger, Draggable);
 
@@ -288,7 +288,7 @@ const Home = () => {
 
         const handleMouseMove = (e: MouseEvent) => {
             // Need live centers because dragging moves them
-            magnetRefs.current.forEach((el, i) => {
+            magnetRefs.current.forEach((el, _) => {
                 if (!el) return;
 
                 // Live Rect check for accuracy with dragging
@@ -368,7 +368,7 @@ const Home = () => {
                         opacity: 0.9 // Adjust to make text more readable
                     }}
                 >
-                    <source src="https://cdn.a2ys.dev/videos/trailer.mp4" type="video/mp4" />
+                    <source src="https://test-cdn-iota.vercel.app/videos/vibrance-trailer.webm" type="video/webm" />
                     Your browser does not support the video tag.
                 </video>
                 <div className="home-content" style={{ marginTop: '10rem', zIndex: 10, justifyContent: 'center', alignItems: 'center', textAlign: 'center', mixBlendMode: 'difference' }}>
@@ -579,7 +579,7 @@ const Home = () => {
                     }
                 >
                     <video
-                        src="https://cdn.a2ys.dev/videos/cardvideo.mp4"
+                        src="https://test-cdn-iota.vercel.app/videos/cardvideo.webm"
                         autoPlay
                         loop
                         muted
@@ -732,22 +732,24 @@ const Home = () => {
                         paddingBottom: '6rem'
                     }}
                 >
-                    <CurvedLoop
-                        marqueeText="Vibrance ✦ 2026 ✦ Decade ✦ Edition ✦"
-                        speed={2}
-                        curveAmount={350}
-                        direction="right"
-                        interactive
-                        style={{
-                            fontSize: '10vw',
-                            lineHeight: 0.9,
-                            fontFamily: 'var(--font-display)',
-                            letterSpacing: '-0.05em',
-                            color: 'transparent',
-                            WebkitTextStroke: '2px white'
-                        }}
-                        className="z-30"
-                    />
+                    <div style={{
+                        fontSize: '10vw',
+                        width: '100%',
+                        lineHeight: 0.9,
+                        fontFamily: 'var(--font-display)',
+                        letterSpacing: '-0.05em',
+                        color: 'transparent',
+                        WebkitTextStroke: '2px white'
+                    }}>
+                        <CurvedLoop
+                            marqueeText="Vibrance ✦ 2026 ✦ Decade ✦ Edition ✦"
+                            speed={2}
+                            curveAmount={350}
+                            direction="right"
+                            interactive
+                            className="z-30"
+                        />
+                    </div>
                 </div>
             </section>
 

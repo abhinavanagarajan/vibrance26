@@ -70,8 +70,8 @@ const Navbar: React.FC = () => {
             <nav className="navbar">
                 <div className="nav-logo" style={{ zIndex: 1002 }}>
                     <Link to="/" className="flex items-center gap-6">
-                        <img src="/vit-logo.png" alt="VIT Chennai" className="nav-links w-[140px] object-contain" />
-                        <img src="vibrance-transparent.png" className="ml-8 w-[130px] object-contain" />
+                        <img src="https://test-cdn-iota.vercel.app/images/assets/vit-logo.webp" alt="VIT Chennai" className="nav-links w-[140px] object-contain" />
+                        <img src="https://test-cdn-iota.vercel.app/images/assets/vibrance-transparent.webp" className="ml-8 w-[130px] object-contain" />
 
                     </Link>
                 </div>
@@ -103,6 +103,7 @@ const Navbar: React.FC = () => {
                     <motion.div
                         className="mobile-menu"
                         variants={menuVariants}
+                        onClick={() => { setIsOpen(false) }}
                         initial="closed"
                         animate="open"
                         exit="closed"

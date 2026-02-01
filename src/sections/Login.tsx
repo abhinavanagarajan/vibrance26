@@ -49,33 +49,33 @@ const Login = () => {
         setTimeout(() => setToast(null), 5000);
     };
 
-    const handlePayment = () => {
-        // 1. Create a dynamic form
-        const form = document.createElement('form');
-        form.method = 'POST';
-        const paymentBaseUrl = import.meta.env.VITE_PAYMENT_URL || 'http://127.0.0.1:5001';
-        form.action = `${paymentBaseUrl}/pay`;
+    // const handlePayment = () => {
+    //     // 1. Create a dynamic form
+    //     const form = document.createElement('form');
+    //     form.method = 'POST';
+    //     const paymentBaseUrl = import.meta.env.VITE_PAYMENT_URL || 'http://127.0.0.1:5001';
+    //     form.action = `${paymentBaseUrl}/pay`;
 
-        // 2. Add your data
-        const data: Record<string, string> = {
-            username: username,
-            password: password,
-            validateVitian: isVitian ? '1' : '2',
-            eventId: eventId
-        };
+    //     // 2. Add your data
+    //     const data: Record<string, string> = {
+    //         username: username,
+    //         password: password,
+    //         validateVitian: isVitian ? '1' : '2',
+    //         eventId: eventId
+    //     };
 
-        for (const key in data) {
-            const input = document.createElement('input');
-            input.type = 'hidden';
-            input.name = key;
-            input.value = data[key];
-            form.appendChild(input);
-        }
+    //     for (const key in data) {
+    //         const input = document.createElement('input');
+    //         input.type = 'hidden';
+    //         input.name = key;
+    //         input.value = data[key];
+    //         form.appendChild(input);
+    //     }
 
-        // 3. Append and submit
-        document.body.appendChild(form);
-        form.submit();
-    };
+    //     // 3. Append and submit
+    //     document.body.appendChild(form);
+    //     form.submit();
+    // };
 
     const handleLoginSubmit = (e: React.FormEvent) => {
         e.preventDefault();
@@ -114,13 +114,19 @@ const Login = () => {
                     if (data.status) {
                         console.log('WS Response:', data);
                         if (data.status === 'success') {
-                            setWsLog(prev => [...prev, 'Registration successful! Redirecting to payment...']);
+                            setWsLog(prev => [...prev, 'Registration successful!']);
                             setSuccess(true);
                             ws.close();
                             // Trigger payment flow
+                            // setTimeout(() => {
+                            //     handlePayment();
+                            // }, 1500);
+
+                            //Redirect back to events
                             setTimeout(() => {
-                                handlePayment();
-                            }, 1500);
+                                navigate('/events');
+                            }, 2000);
+
                         } else if (data.status === 'error') {
                             setWsLog(prev => [...prev, `Error: ${data.message}`]);
                             setError(data.message);
@@ -238,7 +244,7 @@ const Login = () => {
                         </svg>
                     </div>
                     <h2 style={{ fontSize: '2rem', fontFamily: 'var(--font-display)' }}>Success!</h2>
-                    <p>Redirecting to payment...</p>
+                    <p>Redirecting back to events...</p>
                 </div>
             </div>
         );
@@ -563,7 +569,7 @@ const Login = () => {
                                 onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
                                 onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
                             >
-                                Create a new Team <ArrowRight size={16} style={{ verticalAlign: 'middle', marginLeft: '4px' }} />
+                                View Profile <ArrowRight size={16} style={{ verticalAlign: 'middle', marginLeft: '4px' }} />
                             </a>
                         </div>
 

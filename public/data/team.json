@@ -6,7 +6,7 @@
             {
                 "name": "Dr. G. Viswanathan",
                 "role": "Chancellor",
-                "image": "https://test-cdn-iota.vercel.app/images/chancellor.webp"
+                "image": "https://test-cdn-iota.vercel.app/images/team/chancellor.webp"
             }
         ]
     },
@@ -17,17 +17,17 @@
             {
                 "name": "Mr. Sankar Viswanathan",
                 "role": "Vice-President",
-                "image": "https://test-cdn-iota.vercel.app/images/sankar.png"
+                "image": "https://test-cdn-iota.vercel.app/images/team/sankar.webp"
             },
             {
                 "name": "Dr. Sekar Viswanathan",
                 "role": "Vice-President",
-                "image": "https://test-cdn-iota.vercel.app/images/sekar.webp"
+                "image": "https://test-cdn-iota.vercel.app/images/team/sekar.webp"
             },
             {
                 "name": "Dr. G V Selvam",
                 "role": "Vice-President",
-                "image": "https://test-cdn-iota.vercel.app/images/selvam.webp"
+                "image": "https://test-cdn-iota.vercel.app/images/team/selvam.webp"
             }
         ]
     },
@@ -38,22 +38,22 @@
             {
                 "name": "Dr. Kanchana Bhaaskaran V S",
                 "role": "Vice-Chancellor",
-                "image": "https://test-cdn-iota.vercel.app/images/kanchana.jpg"
+                "image": "https://test-cdn-iota.vercel.app/images/team/kanchana.webp"
             },
             {
                 "name": "Dr. Thyagarajan T",
                 "role": "Pro Vice-Chancellor",
-                "image": "https://test-cdn-iota.vercel.app/images/thyagarajan.jpg"
+                "image": "https://test-cdn-iota.vercel.app/images/team/thyagarajan.webp"
             },
             {
                 "name": "Dr. K Sathiyanarayanan",
                 "role": "Director",
-                "image": "https://test-cdn-iota.vercel.app/images/sathiyanarayanan.jpg"
+                "image": "https://test-cdn-iota.vercel.app/images/team/sathiyanarayanan.webp"
             },
             {
                 "name": "Dr. P K Manoharan",
                 "role": "Additional Registrar",
-                "image": "https://test-cdn-iota.vercel.app/images/manoharan.jpg"
+                "image": "https://test-cdn-iota.vercel.app/images/team/manoharan.webp"
             }
         ]
     },

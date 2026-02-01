@@ -1,4 +1,3 @@
-import React from 'react';
 
 const ComingSoon = () => {
     return (
@@ -10,11 +9,11 @@ const ComingSoon = () => {
             {/* VIT Logo */}
             <div className="mb-8 z-10">
                 <img
-                    src="/vibrancelogo.png"
+                    src="https://test-cdn-iota.vercel.app/images/assets/vibrancelogo.webp"
                     alt="VIT Chennai"
                     className="w-[250px] h-auto object-contain"
                 />
-                
+
             </div>
 
             {/* Main Heading - Using the Vibrance Font Class */}

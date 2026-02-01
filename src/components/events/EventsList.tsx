@@ -1,7 +1,7 @@
 import React from 'react';
 import { Asset, EventItem } from '@/interfaces/contentful';
 import '../../styles/events.css';
-import { Calendar, Users, Tag, Search, UserCheck, UserCheck2 } from 'lucide-react';
+import { Calendar, Users, Tag, Search, UserCheck2 } from 'lucide-react';
 
 interface EventsListProps {
     events: EventItem[];

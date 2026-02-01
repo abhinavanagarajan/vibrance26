@@ -6717,6 +6717,7 @@
             "locale": "en-US"
         },
         "fields": {
+            "eventId": 511,
             "eventName": "Gameshift",
             "clubName": "microsoft innovations club",
             "eventType": "Cyber Engage",

@@ -63,7 +63,7 @@ const EventsList: React.FC<EventsListProps> = ({ events, assets, searchTerm, onS
                                     {imageUrl ? (
                                         <img src={imageUrl} alt={event.fields.eventName} className="event-image" />
                                     ) : (
-                                        <div style={{ width: '100%', height: '100%', background: '#222' }} />
+                                        <img src="https://test-cdn-iota.vercel.app/images/assets/vibrancelogo.webp" alt={event.fields.eventName} className="event-image" />
                                     )}
                                 </div>
                                 <div className="event-details">

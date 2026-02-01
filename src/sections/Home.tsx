@@ -193,6 +193,8 @@ const Home = () => {
                 }
             });
 
+
+
             // Animate Text
             hypeTextRefs.current.forEach((el, index) => {
                 if (el) {

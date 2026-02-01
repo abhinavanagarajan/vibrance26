@@ -96,7 +96,7 @@ const Login = () => {
             const wsUrl = `${backendUrl.replace(/^https?:\/\//, '')}/ws/register`;
             const fullWsUrl = `${wsProtocol}://${wsUrl}`;
 
-            console.log('Connecting to:', fullWsUrl);
+            //console.log('Connecting to:', fullWsUrl);
             const ws = new WebSocket(fullWsUrl);
             wsRef.current = ws;
 
@@ -112,7 +112,7 @@ const Login = () => {
 
                     // If it's a structured JSON response
                     if (data.status) {
-                        console.log('WS Response:', data);
+                        //console.log('WS Response:', data);
                         if (data.status === 'success') {
                             setWsLog(prev => [...prev, 'Registration successful!']);
                             setSuccess(true);
@@ -124,8 +124,8 @@ const Login = () => {
 
                             //Redirect back to events
                             setTimeout(() => {
-                                navigate('/events');
-                            }, 2000);
+                                navigate('https://chennaievents.vit.ac.in/vitchennai_vibrance/studentLogin');
+                            }, 5000);
 
                         } else if (data.status === 'error') {
                             setWsLog(prev => [...prev, `Error: ${data.message}`]);
@@ -152,23 +152,23 @@ const Login = () => {
                     }
                 } catch (err) {
                     // If parse fails, it's a simple text message from backend
-                    console.log('WS Message:', event.data);
+                    //console.log('WS Message:', event.data);
                     setWsLog(prev => [...prev, event.data]);
                 }
             };
 
             ws.onerror = (error) => {
-                console.error('WebSocket Error:', error);
-                setError('Connection error. Please try again.');
+                //console.error('WebSocket Error:', error);
+                setError('Connection error. Please try again.' + error);
                 setLoading(false);
             };
 
             ws.onclose = () => {
-                console.log('Connection closed');
+                //console.log('Connection closed');
             };
 
         } catch (err: any) {
-            console.error('Setup error:', err);
+            //console.error('Setup error:', err);
             setError(err.message || 'An error occurred.');
             setLoading(false);
         }
@@ -244,7 +244,8 @@ const Login = () => {
                         </svg>
                     </div>
                     <h2 style={{ fontSize: '2rem', fontFamily: 'var(--font-display)' }}>Success!</h2>
-                    <p>Redirecting back to events...</p>
+                    <p>Redirecting to payments...</p>
+                    <p>Login<ArrowRight />Your Name<ArrowRight />Pay Now</p>
                 </div>
             </div>
         );
@@ -290,7 +291,7 @@ const Login = () => {
                         {stage === 'login' ? `to ${eventName}` : stage === 'create_team' ? 'No existing teams found' : 'Choose a team to join'}
                     </p>
 
-                    {wsLog.length > 0 && (
+                    {/* {wsLog.length > 0 && (
                         <div style={{
                             marginTop: '1rem',
                             padding: '0.5rem',
@@ -307,7 +308,7 @@ const Login = () => {
                                 <div key={i}>&gt; {log}</div>
                             ))}
                         </div>
-                    )}
+                    )} */}
                 </div>
 
                 {stage === 'login' ? (

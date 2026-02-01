@@ -10,6 +10,7 @@ import { ContainerScroll } from '@/components/ContainerScroll';
 import FlowingMenu from '@/components/FlowingMenu';
 import Masonry from '@/components/Masonry';
 import CurvedLoop from '@/components/CurvedLoop';
+import MovingText from '@/components/MovingText';
 
 gsap.registerPlugin(ScrollTrigger, Draggable);
 
@@ -370,14 +371,14 @@ const Home = () => {
                     <source src="https://cdn.a2ys.dev/videos/trailer.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
-                <div className="home-content" style={{ zIndex: 10, textAlign: 'center', mixBlendMode: 'difference' }}>
-                    <h1 ref={titleRef} style={{ fontSize: '15vw', lineHeight: 0.9, fontFamily: 'var(--font-display)', letterSpacing: '-0.05em', color: 'transparent', WebkitTextStroke: '2px white' }}>
+                <div className="home-content" style={{ marginTop: '10rem', zIndex: 10, justifyContent: 'center', alignItems: 'center', textAlign: 'center', mixBlendMode: 'difference' }}>
+                    <h1 ref={titleRef} style={{ fontSize: '15vw', lineHeight: 0.5, fontFamily: 'var(--font-display)', letterSpacing: '-0.05em', color: 'transparent', WebkitTextStroke: '2px white' }}>
                         VIBRANCE <br />
-                        <span style={{ color: 'white', WebkitTextStroke: '0' }}>2026</span>
+                        <span style={{ fontSize: '10vw', color: 'white', WebkitTextStroke: '0' }}>2026</span>
                     </h1>
-                    <p style={{ marginTop: '1rem', fontSize: '2rem', textTransform: 'uppercase', letterSpacing: '0.2rem', opacity: 0.8 }}>
-                        <span style={{ fontFamily: 'var(--font-display)', WebkitTextStroke: '2px white' }}> Live the <span style={{ color: 'var(--color-cyan)' }}>Beats </span></span>
-                    </p>
+                    <div style={{ marginTop: '0.01rem', fontSize: '2rem', textTransform: 'uppercase', letterSpacing: '0.2rem', opacity: 0.8 }}>
+                        <MovingText />
+                    </div>
                     <p ref={subRef} style={{ marginTop: '1.5rem', fontSize: '2rem', textTransform: 'uppercase', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto', color: 'white', opacity: 0.85 }}>18 Feb - 21 Feb </p>
 
                 </div>
@@ -555,11 +556,8 @@ const Home = () => {
                 `}</style>
             </section >
 
-            <FocusRail
-                items={focusRailImages}
-                autoPlay={true}
-                loop={true}
-            />
+
+
 
             <div className="flex flex-col overflow-hidden">
                 <ContainerScroll
@@ -590,6 +588,85 @@ const Home = () => {
                         draggable={false}
                     />
                 </ContainerScroll>
+            </div>
+
+            <div style={{ marginBottom: '200px', position: 'relative', width: '100%' }}>
+                <div style={{
+                    position: 'absolute',
+                    inset: 0,
+                    height: '100%',
+                    pointerEvents: 'none',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'space-between',
+                    zIndex: 10
+                }}>
+                    {/* TOP MARQUEE (Top 13.3%) */}
+                    <div style={{
+                        height: '13.3%',
+                        background: '#ffffff',
+                        display: 'flex',
+                        alignItems: 'center',
+                        overflow: 'hidden',
+                        borderBottom: '2px solid #000'
+                    }}>
+                        <div className="marquee-content">
+                            🤙 ✨ 💃 🫂 ❤️🔥 🎸 🔊 🙌 🤟 🎆 ✨ 🤙 ✨ 🌈 🫂 ❤️ 🔥 🎸 🔊 💃 🙌 🤟 🎆 ✨ 💃 🫂 ❤️ 🔥 🎸 🔊 🙌 🤟 🎆 ✨ 🤙 ✨ 🎸 🔊 💃 🙌 🤟 🎆
+                        </div>
+                    </div>
+
+                    {/* MIDDLE (The 73.4% Black/Transparent Gap) */}
+                    <div style={{
+                        flex: 1,
+                        background: 'rgba(0,0,0,0.4)', // Semi-transparent black so the rail shows
+                    }}></div>
+
+                    {/* BOTTOM MARQUEE (Bottom 13.3%) */}
+                    <div style={{
+                        height: '13.3%',
+                        background: '#ffffff',
+                        display: 'flex',
+                        alignItems: 'center',
+                        overflow: 'hidden',
+                        borderTop: '2px solid #000'
+                    }}>
+                        <div className="marquee-content marquee-reverse">
+                            🎹 🎆 💃 🕺 👯 💥 ⚡ 🎼 🎵 🎶  💖 ✨ 💃 🕺 👯  🎹 🎧 🎼 🎵 🎶 🔊 💖 ✨ 💃 🕺 👯 🎆 💥 ⚡ 🎹 🎆 💥 ⚡ 🎼 🎵 🎶  💖 ✨ 💃 🕺 👯  🎹 🎧 🎼 🎵 🎶 🔊 💖 ✨ 💃 🕺 👯 🎆 💥 ⚡
+                        </div>
+                    </div>
+
+                    <style>{`
+                    .marquee-content {
+                        white-space: nowrap;
+                        display: inline-block;
+                        font-family: var(--font-display, sans-serif);
+                        font-weight: 900;
+                        font-size: 2.5rem;
+                        color: #000;
+                    }
+
+                    
+
+                    
+                `}</style>
+                </div>
+
+                {/* The Gradient Overlay (if you want the black to be on top of the images) */}
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    height: '100%',
+                    pointerEvents: 'none', // Allows clicking through to the rail
+                    background: 'linear-gradient(to bottom, #ffffff 0%, #ffffff 13.3%, #333 13.3%, #333 86.7%, #ffffff 86.7%, #ffffff 100%)'
+                }}> </div>
+                <FocusRail
+                    items={focusRailImages}
+                    autoPlay={true}
+                    loop={true}
+                />
             </div>
 
             <h2

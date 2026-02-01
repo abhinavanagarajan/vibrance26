@@ -62,7 +62,7 @@ const Footer = () => {
                     alignItems: 'center',
                     justifyContent: 'center',
                     flexWrap: 'wrap',
-                    gap: '8rem',
+                    gap: isMobile ? '2rem' : '8rem',
                     marginBottom: '3rem'
                 }}>
 

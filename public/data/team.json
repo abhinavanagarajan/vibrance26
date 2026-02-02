@@ -62,8 +62,196 @@
         "showTitle": true,
         "members": [
             {
-                "name": "Dr. Sankar Ganesh",
-                "role": "Convenor"
+                "name": "Dr. Sankar Ganesh S",
+                "role": "Assistant Director, SW"
+            }
+        ]
+    },
+    {
+        "tier": "Co-Convenors",
+        "showTitle": true,
+        "members": [
+            {
+                "name": "Dr. V Vijayalakshmi",
+                "role": "Co-Convenor"
+            },
+            {
+                "name": "Dr. Ramalakshmi",
+                "role": "Co-Convenor"
+            },
+            {
+                "name": "Dr. Ravi Prakash",
+                "role": "Co-Convenor"
+            },
+            {
+                "name": "Dr. Santhosh",
+                "role": "Co-Convenor"
+            }
+        ]
+    },
+    {
+        "tier": "Faculty Organisers",
+        "showTitle": true,
+        "members": [
+            {
+                "name": "Dr.Rajitha K",
+                "role": "Reception"
+            },
+            {
+                "name": "Dr.S. Patchainayagi",
+                "role": "Registration"
+            },
+            {
+                "name": "Dr. S. Bharathi Raja",
+                "role": "Registration"
+            },
+            {
+                "name": "Dr.Reena Monica P",
+                "role": "Anchoring"
+            },
+            {
+                "name": "Dr.Govindarajan P",
+                "role": "Press and Media"
+            },
+            {
+                "name": "Dr.Jayasudha M",
+                "role": "Events"
+            },
+            {
+                "name": "Dr. Joseph Daniel",
+                "role": "Venue"
+            },
+            {
+                "name": "Dr.M.Revathi",
+                "role": "Venue"
+            },
+            {
+                "name": "Dr. Devi Yamini",
+                "role": "External Events"
+            },
+            {
+                "name": "Dr. Bhuvaneswari",
+                "role": "External Events"
+            },
+            {
+                "name": "Dr.V.Vijayalakshmi",
+                "role": "Documentation"
+            },
+            {
+                "name": "Dr.Nathiya N",
+                "role": "Stage"
+            },
+            {
+                "name": "Dr.Saheli Karmakar",
+                "role": "Ambience"
+            },
+            {
+                "name": "Dr. Raja Rajeswari",
+                "role": "Purchase"
+            },
+            {
+                "name": "Dr.Praveen Joe",
+                "role": "Sponsorship"
+            },
+            {
+                "name": "Lt. P.M. Bala Murali",
+                "role": "Sports"
+            },
+            {
+                "name": "Dr.Divya Priya A",
+                "role": "Sports"
+            },
+            {
+                "name": "Selva Ganesh G T",
+                "role": "Marathon"
+            },
+            {
+                "name": "Manjula S",
+                "role": "Marathon"
+            },
+            {
+                "name": "Dr.Ranjeet Kumar",
+                "role": "Marketing"
+            },
+            {
+                "name": "Dr.Kabilan K",
+                "role": "Publicity"
+            },
+            {
+                "name": "Dr.Imran",
+                "role": "Discipline"
+            },
+            {
+                "name": "Dr.Balamurugan B J",
+                "role": "Discipline"
+            },
+            {
+                "name": "Dr.Ilakiyaselvan",
+                "role": "Discipline"
+            },
+            {
+                "name": "Dr.Saurav Gupta",
+                "role": "Guest Care"
+            },
+            {
+                "name": "Dr.Naga Jayanthi",
+                "role": "Sales and Merchandise"
+            },
+            {
+                "name": "Dr. Pulak Konar",
+                "role": "Photography"
+            },
+            {
+                "name": "Dr.Jaganathan B",
+                "role": "Design and Priniting"
+            },
+            {
+                "name": "Dr.Manoj Kumar R",
+                "role": "Pro-Shows OffStage"
+            },
+            {
+                "name": "Dr.Bala Murugan",
+                "role": "Pro-Shows OffStage"
+            },
+            {
+                "name": "Dr.Sakthivel R",
+                "role": "Pro-Shows Entry"
+            },
+            {
+                "name": "Dr.Vasugi",
+                "role": "Finance & Budget"
+            },
+            {
+                "name": "Dr.Anuradha",
+                "role": "Finance & Budget"
+            },
+            {
+                "name": "Dr.Giridharan",
+                "role": "Stalls"
+            },
+            {
+                "name": "Dr.Senthilpandian M",
+                "role": "Stalls"
+            },
+            {
+                "name": "Dr.Shola Usharani",
+                "role": "Website"
+            },
+            {
+                "name": "Dr. Biswajit",
+                "role": "Pro-Shows On Stage"
+            },
+            {
+                "name": "Dr.Tiwari Mahalaxmi",
+                "role": "Pro-Shows On Stage"
+            },
+            {
+                "name": "Dr.Berlin Hency V",
+                "role": "Special Guest Care"
+            },
+            {
+                "name": "Shanthi Krishna",
+                "role": "Premium Events"
             }
         ]
     }

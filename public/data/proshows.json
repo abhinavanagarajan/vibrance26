@@ -1,0 +1,30 @@
+[
+    {
+        "day": "Day 1",
+        "artist": "Premgi Amaren & Mohan Sisters",
+        "color": "#00f3ff",
+        "backgroundImage": "https://test-cdn-iota.vercel.app/images/proshows/premgi.webp",
+        "backgroundVideo": ""
+    },
+    {
+        "day": "Day 2",
+        "artist": "Santhosh Narayanan & Pineapple Express",
+        "color": "#ff0055",
+        "backgroundImage": "https://test-cdn-iota.vercel.app/images/proshows/santhosh.webp",
+        "backgroundVideo": ""
+    },
+    {
+        "day": "Day 3",
+        "artist": "Makka Band ft. Sublahshini & Raftaar",
+        "color": "#bc13fe",
+        "backgroundImage": "https://test-cdn-iota.vercel.app/images/proshows/raftaar.webp",
+        "backgroundVideo": ""
+    },
+    {
+        "day": "Day 4",
+        "artist": "DJ Camilla Lynx & DJ Deepika",
+        "color": "#ffffff",
+        "backgroundImage": "https://images.unsplash.com/photo-1533174072545-e8d4aa97edf9?q=80&w=1974&auto=format&fit=crop",
+        "backgroundVideo": ""
+    }
+]

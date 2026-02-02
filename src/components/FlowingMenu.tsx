@@ -167,7 +167,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
 
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
-                style={{ color: textColor }}
+                style={{ color: textColor, fontFamily: 'var(--font-display)' }}
             >
                 {text}
             </a>
@@ -175,7 +175,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
                 <div className="marquee__inner-wrap">
                     <div className="marquee__inner" ref={marqueeInnerRef} aria-hidden="true">
                         {[...Array(repetitions)].map((_, idx) => (
-                            <div className="marquee__part" key={idx} style={{ color: marqueeTextColor }}>
+                            <div className="marquee__part" key={idx} style={{ color: marqueeTextColor, fontFamily: 'var(--font-display)' }}>
                                 <span>{text}</span>
                                 <div className="marquee__img" style={{ backgroundImage: `url(${image})` }} />
                             </div>

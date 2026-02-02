@@ -79,10 +79,10 @@ const Home = () => {
     ];
 
     const proshowsImages = [
-        { link: '', text: 'Day 1', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
-        { link: '', text: 'Day 2', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
-        { link: '', text: 'Day 3', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' },
-        { link: '', text: 'Day 4', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' }
+        { link: '', text: 'Premgi Amaren & Mohan Sisters', image: 'https://test-cdn-iota.vercel.app/images/proshows/premgi.webp' },
+        { link: '', text: 'Santosh Narayanan & Pineapple Express', image: 'https://test-cdn-iota.vercel.app/images/proshows/santhosh.webp' },
+        { link: '', text: 'Makka Band ft. Sublahshini & Raftaar', image: 'https://test-cdn-iota.vercel.app/images/proshows/raftaar.webp' },
+        { link: '', text: 'DJ Camilla Lynx & DJ Deepika', image: 'https://placehold.co/400x500/111/FFF?text=Coming+Soon' }
     ];
 
 

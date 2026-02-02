@@ -32,8 +32,6 @@ const TeamMember: React.FC<TeamMemberProps> = ({ name, role, image }) => (
             }}>
                 <div className="team-img-bg" style={{
                     position: 'absolute',
-                    top: 0,
-                    left: 0,
                     width: '100%',
                     height: '100%',
                     backgroundImage: `url(${image})`,
@@ -110,7 +108,7 @@ const Team = () => {
                                 fontSize: '2rem',
                                 fontFamily: 'var(--font-display)',
                                 marginBottom: '2rem',
-                                color: 'rgba(255,255,255,0.8)',
+                                color: 'rgba(255,255,255,1)',
                                 textAlign: 'center'
                             }}>
                                 {tier.tier}

@@ -1,127 +1,241 @@
-import React, { useRef } from 'react';
-import { gsap } from 'gsap';
-import { useGSAP } from '@gsap/react';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React from 'react';
+import {
+    HoverSlider,
+    HoverSliderImage,
+    HoverSliderImageWrap,
+    TextStaggerHover
+} from "@/components/AnimatedSlideShow"
 
-gsap.registerPlugin(ScrollTrigger);
+const SLIDES = [
+    {
+        id: "slide-1",
+        title: "Premgi Amaren & Mohan Sisters",
+        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/premgi.webp",
+        day: "Day 1"
+    },
+    {
+        id: "slide-2",
+        title: "Santhosh Narayanan & Pineapple Express",
+        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/santhosh.webp",
+        day: "Day 2"
+    },
+    {
+        id: "slide-3",
+        title: "Makka Band ft. Sublahshini & Raftaar",
+        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/raftaar.webp",
+        day: "Day 3"
+    },
+    {
+        id: "slide-4",
+        title: "DJ Camilla Lynx & DJ Deepika",
+        imageUrl: "https://images.unsplash.com/photo-1533174072545-e8d4aa97edf9?q=80&w=1974&auto=format&fit=crop",
+        day: "Day 4"
+    },
+]
 
-interface ShowData {
-    day: string;
-    artist: string;
-    genre: string;
-    color: string;
+export function ProShows() {
+    return (
+        <section style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+            <HoverSlider style={{
+                minHeight: '100vh',
+                width: '100%',
+                padding: '0 5vw',
+                backgroundColor: '#000',
+                color: '#fff',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+                overflowX: 'clip' // Changed from hidden to clip/visible to allow sticky children
+            }}>
+                <style dangerouslySetInnerHTML={{
+                    __html: `
+                    .proshows-content {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 100%;
+                        gap: 2rem;
+                        margin-top: 15vh;
+                        margin-bottom: 15vh;
+                        max-width: 1400px; /* Ensure max-width is respected */
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    .proshows-col {
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 4rem;
+                    }
+                    .proshows-col.left {
+                        text-align: right;
+                        padding-right: 1rem;
+                    }
+                    .proshows-col.right {
+                        text-align: left;
+                        padding-left: 1rem;
+                    }
+                    .proshows-center {
+                        flex: 0 0 400px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .proshows-img-wrapper {
+                        width: 100%;
+                        max-width: 400px;
+                        aspect-ratio: 4/5;
+                        border-radius: 20px;
+                        overflow: hidden;
+                        border: 1px solid rgba(255,255,255,0.2);
+                        box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+                        background-color: rgba(255,255,255,0.05);
+                    }
+
+                    @media (max-width: 1024px) {
+                        .proshows-content {
+                            flex-direction: column;
+                            gap: 3rem;
+                            margin-top: 150px; 
+                            margin-bottom: 100px; 
+                            padding-top: 0;
+                        }
+                        .proshows-col.left, .proshows-col.right {
+                            text-align: center !important;
+                            padding: 0 !important;
+                            width: 100%;
+                        }
+                        .proshows-center {
+                            flex: 0 0 auto;
+                            width: 100%;
+                            order: -1; 
+                            position: sticky;
+                            top: 120px; /* Offset to sit below navbar */
+                            z-index: 50;
+                            padding-bottom: 20px;
+                            /* Optional: Add a subtle backdrop or pointer-events logic if needed */
+                            pointer-events: none; /* Let clicks pass through to text if overlapping heavily? No, images might be interactive. Keep clicks. */
+                        }
+                        .proshows-img-wrapper {
+                            max-width: 300px; 
+                            box-shadow: 0 10px 40px rgba(0,0,0,0.9);
+                        }
+                    }
+                `}} />
+
+                <div style={{
+                    width: '100%',
+                    maxWidth: '1400px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+
+                }}>
+
+                    {/* Main Flex Container using Classes */}
+                    <div className="proshows-content">
+
+                        {/* Left Column: Days 1 & 2 */}
+                        <div className="proshows-col left">
+                            {SLIDES.slice(0, 2).map((slide, index) => (
+                                <div key={slide.id} style={{ position: 'relative', cursor: 'pointer' }}>
+                                    <span style={{
+                                        display: 'block',
+                                        fontSize: '1.3rem',
+                                        color: '#fff',
+                                        marginBottom: '0.5rem',
+                                        textTransform: 'uppercase',
+                                        letterSpacing: '0.2em'
+                                    }}>{slide.day}</span>
+
+                                    <TextStaggerHover
+                                        index={index}
+                                        style={{
+                                            fontSize: 'clamp(1.5rem, 3vw, 2.5rem)',
+                                            fontWeight: '900',
+                                            textTransform: 'uppercase',
+                                            letterSpacing: '-0.02em',
+                                            lineHeight: '1.1',
+                                            fontFamily: 'var(--font-display)',
+                                            display: 'block',
+                                            color: '#fff',
+                                            textShadow: '10px 10px 10px rgba(0,0,0,0.5)'
+                                        }}
+                                        text={slide.title}
+                                    />
+                                </div>
+                            ))}
+                        </div>
+
+                        {/* Center Column: Image Display */}
+                        <div className="proshows-center">
+                            <HoverSliderImageWrap className="proshows-img-wrapper">
+                                {SLIDES.map((slide, index) => (
+                                    <div key={slide.id} style={{ width: '100%', height: '100%' }}>
+                                        <HoverSliderImage
+                                            index={index}
+                                            imageUrl={slide.imageUrl}
+                                            src={slide.imageUrl}
+                                            alt={slide.title}
+                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                            loading="eager"
+                                            decoding="async"
+                                        />
+                                    </div>
+                                ))}
+                            </HoverSliderImageWrap>
+                        </div>
+
+                        {/* Right Column: Days 3 & 4 */}
+                        <div className="proshows-col right">
+                            {SLIDES.slice(2, 4).map((slide, i) => {
+                                const index = i + 2;
+                                return (
+                                    <div key={slide.id} style={{ position: 'relative', cursor: 'pointer' }}>
+                                        <span style={{
+                                            display: 'block',
+                                            fontSize: '1.3rem',
+                                            color: '#fff',
+                                            marginBottom: '0.5rem',
+                                            textTransform: 'uppercase',
+                                            letterSpacing: '0.2em'
+                                        }}>{slide.day}</span>
+
+                                        <TextStaggerHover
+                                            index={index}
+                                            style={{
+                                                fontSize: 'clamp(1.5rem, 3vw, 2.5rem)',
+                                                fontWeight: '900',
+                                                textTransform: 'uppercase',
+                                                letterSpacing: '-0.02em',
+                                                lineHeight: '1.1',
+                                                fontFamily: 'var(--font-display)',
+                                                display: 'block',
+                                                color: '#fff',
+                                                textShadow: '10px 10px 10px rgba(0,0,0,0.5)'
+                                            }}
+                                            text={slide.title}
+                                        />
+                                    </div>
+                                )
+                            })}
+                        </div>
+
+                    </div>
+                </div>
+            </HoverSlider>
+        </section>
+    )
 }
 
-const showList: ShowData[] = [
-    { day: "Day 1", artist: "RITVIZ", genre: "Indie Pop / Electronic", color: "#00f3ff" },
-    { day: "Day 2", artist: "NUCLEYA", genre: "Bass Raja", color: "#ff0055" },
-    { day: "Day 3", artist: "SALIM-SULAIMAN", genre: "Bollywood Symphony", color: "#bc13fe" },
-    { day: "Day 4", artist: "ALAN WALKER", genre: "International Headliner", color: "#ffffff" },
-];
-
-const ProShows: React.FC = () => {
-    const containerRef = useRef<HTMLElement | null>(null);
-    const bgRef = useRef<HTMLDivElement | null>(null);
-
-    useGSAP(() => {
-        const sections = gsap.utils.toArray<HTMLElement>('.show-slide');
-        const bg = bgRef.current;
-        const totalSlides = sections.length;
-
-        // Set initial state
-        gsap.set(sections, { autoAlpha: 0, y: 50 });
-        gsap.set(sections[0], { autoAlpha: 1, y: 0 });
-        if (bg) gsap.set(bg, { backgroundColor: showList[0].color, opacity: 0.1 });
-
-        const tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: containerRef.current,
-                start: "top top",
-                end: `+=${totalSlides * 100}%`,
-                pin: true,
-                scrub: 1,
-            }
-        });
-
-        sections.forEach((section, i) => {
-            if (i === sections.length - 1) return; // No transition after last slide
-
-            const nextSection = sections[i + 1];
-            const nextColor = showList[i + 1].color;
-
-            // Step 1: Current Slide Out
-            tl.to(section, {
-                autoAlpha: 0,
-                y: -50,
-                duration: 1,
-                ease: "power2.inOut"
-            })
-
-                // Step 2: Background Change (happens during the transition)
-                .to(bg, {
-                    backgroundColor: nextColor,
-                    duration: 1,
-                    ease: "power1.inOut"
-                }, "<0.5") // Start halfway through fade out
-
-                // Step 3: Next Slide In
-                .to(nextSection, {
-                    autoAlpha: 1,
-                    y: 0,
-                    duration: 1,
-                    ease: "power2.out"
-                }, ">-0.5"); // Overlap slightly with background change, but mostly after prev is gone
-        });
-
-    }, { scope: containerRef });
-
-    return (
-        <section ref={containerRef} id="proshows" style={{ height: '100vh', width: '100%', position: 'relative', overflow: 'hidden', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-            {/* Dynamic Background */}
-            <div ref={bgRef} className="proshows-bg" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>
-                <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'radial-gradient(circle at center, transparent 0%, #0a0a0a 90%)' }}></div>
-            </div>
-
-            {/* Slides */}
-            <div className="slides-container" style={{ position: 'relative', width: '100%', height: '100%', zIndex: 10 }}>
-                {showList.map((show, index) => (
-                    <div key={index} className="show-slide" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
-
-                        <div className="slide-content" style={{ position: 'relative', textAlign: 'center' }}>
-                            {/* Giant Background Text */}
-                            <h1 style={{
-                                position: 'absolute',
-                                top: '50%',
-                                left: '50%',
-                                transform: 'translate(-50%, -50%)',
-                                fontSize: '20vw',
-                                fontFamily: 'var(--font-display)',
-                                color: 'transparent',
-                                WebkitTextStroke: `2px ${show.color}`,
-                                opacity: 0.1,
-                                whiteSpace: 'nowrap',
-                                zIndex: -1
-                            }}>
-                                {show.day}
-                            </h1>
-
-                            <h3 style={{ color: show.color, fontSize: '2rem', textTransform: 'uppercase', letterSpacing: '0.5rem', marginBottom: '1rem' }}>{show.day}</h3>
-                            <h2 style={{ fontSize: '8vw', fontFamily: 'var(--font-display)', lineHeight: 0.9, textTransform: 'uppercase', marginBottom: '2rem' }}>
-                                {show.artist}
-                            </h2>
-                            <p style={{ fontSize: '1.5rem', fontFamily: 'var(--font-main)', opacity: 0.8, letterSpacing: '0.1rem' }}>
-                                {show.genre}
-                            </p>
-                        </div>
-                    </div>
-                ))}
-            </div>
-
-            <div className="scroll-hint" style={{ position: 'absolute', bottom: '2rem', left: '50%', transform: 'translateX(-50%)', opacity: 0.5, fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.2rem' }}>
-                Scroll for Lineup
-            </div>
-        </section>
-    );
-};
+// const ProShows: React.FC = () => {
+//     return (
+//         <section id="proshows" style={{ width: "100%", minHeight: "100vh", backgroundColor: "black" }}>
+//             <HoverSliderDemo />
+//         </section>
+//     )
+// };
 
 export default ProShows;

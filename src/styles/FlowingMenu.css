@@ -31,7 +31,7 @@
     height: 100%;
     position: relative;
     cursor: pointer;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     text-decoration: none;
     white-space: nowrap;
     font-weight: 600;
@@ -68,7 +68,7 @@
     align-items: center;
     position: relative;
     height: 100%;
-    width: fit-content;
+    width: cover;
     will-change: transform;
 }
 
@@ -80,7 +80,7 @@
 
 .marquee span {
     white-space: nowrap;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 400;
     font-size: 4vh;
     line-height: 1;
@@ -90,9 +90,7 @@
 .marquee__img {
     width: 200px;
     height: 7vh;
-    margin: 2em 2vw;
-    padding: 1em 0;
-    border-radius: 50px;
+    border-radius: 20px;
     background-size: cover;
     background-position: 50% 50%;
 }

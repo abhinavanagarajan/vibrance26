@@ -161,7 +161,6 @@ export function ProShows() {
                                             fontFamily: 'var(--font-display)',
                                             display: 'block',
                                             color: '#fff',
-                                            textShadow: '10px 10px 10px rgba(0,0,0,0.5)'
                                         }}
                                         text={slide.title}
                                     />
@@ -214,7 +213,6 @@ export function ProShows() {
                                                 fontFamily: 'var(--font-display)',
                                                 display: 'block',
                                                 color: '#fff',
-                                                textShadow: '10px 10px 10px rgba(0,0,0,0.5)'
                                             }}
                                             text={slide.title}
                                         />

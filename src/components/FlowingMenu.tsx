@@ -167,7 +167,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
 
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
-                style={{ color: textColor, fontFamily: 'var(--font-display)' }}
+                style={{ color: textColor, fontFamily: 'var(--font-display)', textWrap: 'wrap' }}
             >
                 {text}
             </a>

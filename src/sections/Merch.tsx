@@ -35,7 +35,7 @@ const Merch = () => {
                     }
                     .merch-image-wrapper {
                         flex: 1;
-                        width: 450px;
+                        width: 300px;
                         aspect-ratio: 1/1;
                         border-radius: 20px;
                         overflow: hidden;

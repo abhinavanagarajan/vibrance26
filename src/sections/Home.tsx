@@ -408,24 +408,13 @@ const Home = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full max-w-7xl mx-auto items-center px-[5%] mb-12 ">
 
                     {/* Left Side: Styled Text */}
-                    <div style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', gap: '0.5rem', fontFamily: 'var(--font-display)' }}>
-                        <p ref={addToHypeRefs} style={{ fontSize: 'clamp(1.8rem, 3vw, 3.5rem)', fontWeight: 700, lineHeight: 1.1 }}>
-                            <span style={{ color: '#00d26a' }}>Four Incredible Days.</span>
+                    <div style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', gap: '1.5rem', fontFamily: 'var(--font-display)' }}>
+                        <p ref={addToHypeRefs} style={{ fontSize: 'clamp(1.2rem, 2vw, 2.2rem)', fontWeight: 500, lineHeight: 1.4 }}>
+                            <span style={{ color: '#00d26a', fontWeight: 700 }}>Vibrance’26</span> is a grand celebration that brings together the spirit of sportsmanship and cultural creativity. The fest features a host of dynamic sports events including powerlifting, volleyball, and cricket.
                         </p>
-                        <p ref={addToHypeRefs} style={{ fontSize: 'clamp(1.5rem, 2.5vw, 2.5rem)', fontWeight: 600, lineHeight: 1.2 }}>
-                            <span style={{ color: '#dcfce7' }}>Shimmering Stars</span> Lighting Up Every Corner.
-                        </p>
-                        <p ref={addToHypeRefs} style={{ fontSize: 'clamp(1.5rem, 2.5vw, 2.5rem)', fontWeight: 600, lineHeight: 1.2 }}>
-                            <span style={{ color: '#fcd53f' }}>Epic Events</span> That Leave You Breathless.
-                        </p>
-                        <p ref={addToHypeRefs} style={{ fontSize: 'clamp(1.5rem, 2.5vw, 2.5rem)', fontWeight: 600, lineHeight: 1.2 }}>
-                            <span style={{ color: '#f8312f' }}>Celebrities</span> Bringing Charisma And Flair.
-                        </p>
-                        <p ref={addToHypeRefs} style={{ fontSize: 'clamp(1.5rem, 2.5vw, 2.5rem)', fontWeight: 600, lineHeight: 1.2 }}>
-                            This Is More Than An Experience.
-                        </p>
-                        <p ref={addToHypeRefs} style={{ fontSize: 'clamp(1.8rem, 3vw, 3.5rem)', fontWeight: 700, lineHeight: 1.1, marginTop: '0.5rem' }}>
-                            A Wave Of <span style={{ color: '#00d26a' }}>Pure,</span> <span style={{ color: '#fcd53f' }}>Unfiltered</span> <span style={{ color: '#f8312f' }}>Passion.</span>
+
+                        <p ref={addToHypeRefs} style={{ fontSize: 'clamp(1.2rem, 2vw, 2.2rem)', fontWeight: 500, lineHeight: 1.4 }}>
+                            With more than <span style={{ color: '#f8312f', fontWeight: 700 }}>20,000 expected participants</span>, including <span style={{ color: '#2f8af8ff', fontWeight: 700 }}>5,000+ inter-university entrants</span> and international students, Vibrance'26 fosters a joyful environment for talents to shine. Our renowned <span style={{ color: '#dcfce7', fontWeight: 700 }}>ProShow evenings</span> turn the campus into a vibrant hub of excitement and camaraderie.
                         </p>
                     </div>
 

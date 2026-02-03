@@ -57,7 +57,7 @@ const EventsPage = ({ eventData, assetData }: EventsPageProps) => {
     };
 
     const handleEventClick = (event: EventItem) => {
-        navigate(`/events/${event.sys.id}`);
+        navigate(`/events/${event.fields.eventId}`);
     };
 
     const filteredEvents = useMemo(() => {

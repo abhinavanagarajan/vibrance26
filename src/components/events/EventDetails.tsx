@@ -21,7 +21,7 @@ const EventDetails = () => {
                 return res.json();
             })
             .then((data: EventItem[]) => {
-                const found = data.find(e => e.sys.id === eventId);
+                const found = data.find(e => String(e.fields.eventId) === eventId);
                 setEvent(found || null);
                 setAssets([]);
                 setLoading(false);

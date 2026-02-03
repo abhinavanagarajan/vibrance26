@@ -650,11 +650,13 @@ const Home = () => {
                     pointerEvents: 'none', // Allows clicking through to the rail
                     background: 'linear-gradient(to bottom, #ffffff 0%, #ffffff 13.3%, #333 13.3%, #333 86.7%, #ffffff 86.7%, #ffffff 100%)'
                 }}> </div>
+
                 <FocusRail
                     items={focusRailImages}
                     autoPlay={true}
                     loop={true}
                 />
+
             </div>
 
             <div style={{ background: 'linear-gradient(to bottom, transparent, #060010)', paddingBottom: '2rem' }}>

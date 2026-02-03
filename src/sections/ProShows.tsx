@@ -10,25 +10,25 @@ const SLIDES = [
     {
         id: "slide-1",
         title: "Premgi Amaren & Mohan Sisters",
-        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/premgi.webp",
+        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/premgi-poster.jpeg",
         day: "Day 1"
     },
     {
         id: "slide-2",
         title: "Santhosh Narayanan & Pineapple Express",
-        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/santhosh.webp",
+        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/santhosh-poster.jpeg",
         day: "Day 2"
     },
     {
         id: "slide-3",
         title: "Makka Band ft. Sublahshini & Raftaar",
-        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/raftaar.webp",
+        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/sublahshini-poster.jpeg",
         day: "Day 3"
     },
     {
         id: "slide-4",
         title: "DJ Camilla Lynx & DJ Deepika",
-        imageUrl: "https://images.unsplash.com/photo-1533174072545-e8d4aa97edf9?q=80&w=1974&auto=format&fit=crop",
+        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/camilla-poster.jpeg",
         day: "Day 4"
     },
 ]
@@ -87,10 +87,9 @@ export function ProShows() {
                         width: 100%;
                         max-width: 400px;
                         aspect-ratio: 4/5;
-                        border-radius: 20px;
+                        border-radius: 10px;
                         overflow: hidden;
-                        border: 1px solid rgba(255,255,255,0.2);
-                        box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+                        border: 2px solid rgba(255,255,255,0.2);
                         background-color: rgba(255,255,255,0.05);
                     }
 

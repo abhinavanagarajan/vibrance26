@@ -26,6 +26,9 @@ interface MenuItemProps extends MenuItemData {
     marqueeTextColor: string;
     borderColor: string;
     isFirst: boolean;
+    onHover: (image: string) => void;
+    onLeave: () => void;
+    dimmed: boolean;
 }
 
 const FlowingMenu: React.FC<FlowingMenuProps> = ({
@@ -37,8 +40,15 @@ const FlowingMenu: React.FC<FlowingMenuProps> = ({
     marqueeTextColor = '#060010',
     borderColor = '#fff'
 }) => {
+    const [activeImage, setActiveImage] = useState(items[0]?.image || '');
+    const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
+    useEffect(() => {
+        if (items[0]) setActiveImage(items[0].image);
+    }, [items]);
+
     return (
-        <div className="menu-wrap" style={{ backgroundColor: bgColor }}>
+        <div className="menu-wrap" style={{ backgroundColor: bgColor, backgroundImage: `url(${activeImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <nav className="menu">
                 {items.map((item, idx) => (
                     <MenuItem
@@ -50,6 +60,12 @@ const FlowingMenu: React.FC<FlowingMenuProps> = ({
                         marqueeTextColor={marqueeTextColor}
                         borderColor={borderColor}
                         isFirst={idx === 0}
+                        onHover={(image) => {
+                            setActiveImage(image);
+                            setHoveredIndex(idx);
+                        }}
+                        onLeave={() => setHoveredIndex(null)}
+                        dimmed={hoveredIndex !== null && hoveredIndex !== idx}
                     />
                 ))}
             </nav>
@@ -66,7 +82,10 @@ const MenuItem: React.FC<MenuItemProps> = ({
     marqueeBgColor,
     marqueeTextColor,
     borderColor,
-    isFirst
+    isFirst,
+    onHover,
+    onLeave,
+    dimmed
 }) => {
     const itemRef = useRef<HTMLDivElement>(null);
     const marqueeRef = useRef<HTMLDivElement>(null);
@@ -134,6 +153,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
     }, [text, image, repetitions, speed]);
 
     const handleMouseEnter = (ev: React.MouseEvent<HTMLAnchorElement>) => {
+        onHover(image);
         if (!itemRef.current || !marqueeRef.current || !marqueeInnerRef.current) return;
         const rect = itemRef.current.getBoundingClientRect();
         const x = ev.clientX - rect.left;
@@ -148,6 +168,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
     };
 
     const handleMouseLeave = (ev: React.MouseEvent<HTMLAnchorElement>) => {
+        onLeave();
         if (!itemRef.current || !marqueeRef.current || !marqueeInnerRef.current) return;
         const rect = itemRef.current.getBoundingClientRect();
         const x = ev.clientX - rect.left;
@@ -161,7 +182,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
     };
 
     return (
-        <div className="menu__item" ref={itemRef} style={{ borderColor, borderTop: isFirst ? 'none' : undefined }}>
+        <div className="menu__item" ref={itemRef} style={{ borderColor, borderTop: isFirst ? 'none' : undefined, opacity: dimmed ? 0.3 : 1, transition: 'opacity 0.3s ease' }}>
             <a
                 className="menu__item-link"
 

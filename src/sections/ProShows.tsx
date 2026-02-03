@@ -9,25 +9,38 @@ const SLIDES = [
     {
         id: "slide-1",
         title: "Premgi Amaren & Mohan Sisters",
-        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/posters/premgi-poster.webp",
+        imageUrls: [
+            "https://test-cdn-iota.vercel.app/images/proshows/posters/premgi-poster.webp",
+            "https://test-cdn-iota.vercel.app/images/proshows/posters/mohans-poster.webp"
+        ],
         day: "Day 1"
     },
     {
         id: "slide-2",
         title: "Santhosh Narayanan & Pineapple Express",
-        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/posters/santhosh-poster.webp",
+        imageUrls: [
+            "https://test-cdn-iota.vercel.app/images/proshows/posters/santhosh-poster.webp",
+            "https://test-cdn-iota.vercel.app/images/proshows/posters/pineapple-poster.webp"
+        ],
         day: "Day 2"
     },
     {
         id: "slide-3",
         title: "Makka Band ft. Sublahshini & Raftaar",
-        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/posters/sublahshini-poster.webp",
+        imageUrls: [
+            "https://test-cdn-iota.vercel.app/images/proshows/posters/sublahshini-poster.webp",
+            "https://test-cdn-iota.vercel.app/images/proshows/posters/makka-poster.webp",
+            "https://test-cdn-iota.vercel.app/images/proshows/posters/raftaar-poster.webp"
+        ],
         day: "Day 3"
     },
     {
         id: "slide-4",
         title: "DJ Camilla Lynx & DJ Deepika",
-        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/posters/camilla-poster.webp",
+        imageUrls: [
+            "https://test-cdn-iota.vercel.app/images/proshows/posters/camilla-poster.webp",
+            "https://test-cdn-iota.vercel.app/images/proshows/posters/deepika-poster.webp"
+        ],
         day: "Day 4"
     },
 ]
@@ -40,18 +53,22 @@ export function ProShows() {
             <section style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
 
 
-                <HoverSlider style={{
-                    minHeight: '100vh',
-                    width: '100%',
-                    padding: '0 5vw',
-                    backgroundColor: '#000',
-                    color: '#fff',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    overflowX: 'clip' // Changed from hidden to clip/visible to allow sticky children
-                }}>
+                <HoverSlider
+                    itemCount={SLIDES.length}
+                    autoPlay={false}
+                    interval={5000}
+                    style={{
+                        minHeight: '100vh',
+                        width: '100%',
+                        padding: '0 5vw',
+                        backgroundColor: '#000',
+                        color: '#fff',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        overflowX: 'clip' // Changed from hidden to clip/visible to allow sticky children
+                    }}>
                     <style dangerouslySetInnerHTML={{
                         __html: `
                     .proshows-content {
@@ -178,12 +195,7 @@ export function ProShows() {
                                         <div key={slide.id} style={{ width: '100%', height: '100%' }}>
                                             <HoverSliderImage
                                                 index={index}
-                                                imageUrl={slide.imageUrl}
-                                                src={slide.imageUrl}
-                                                alt={slide.title}
-                                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                                loading="eager"
-                                                decoding="async"
+                                                imageUrls={slide.imageUrls}
                                             />
                                         </div>
                                     ))}

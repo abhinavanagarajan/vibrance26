@@ -10,9 +10,13 @@ interface TextStaggerHoverProps {
 }
 interface HoverSliderImageProps {
     index: number
-    imageUrl: string
+    imageUrls: string[]
 }
-interface HoverSliderProps { }
+interface HoverSliderProps {
+    itemCount?: number
+    autoPlay?: boolean
+    interval?: number
+}
 interface HoverSliderContextValue {
     activeSlide: number
     changeSlide: (index: number) => void
@@ -43,12 +47,23 @@ function useHoverSliderContext() {
 export const HoverSlider = React.forwardRef<
     HTMLElement,
     React.HTMLAttributes<HTMLElement> & HoverSliderProps
->(({ children, className, ...props }, ref) => {
+>(({ children, className, itemCount, autoPlay = false, interval = 3000, ...props }, ref) => {
     const [activeSlide, setActiveSlide] = React.useState<number>(0)
     const changeSlide = React.useCallback(
         (index: number) => setActiveSlide(index),
         [setActiveSlide]
     )
+
+    React.useEffect(() => {
+        if (!autoPlay || !itemCount) return
+
+        const timer = setInterval(() => {
+            setActiveSlide((prev) => (prev + 1) % itemCount)
+        }, interval)
+
+        return () => clearInterval(timer)
+    }, [autoPlay, itemCount, interval])
+
     return (
         <HoverSliderContext.Provider value={{ activeSlide, changeSlide }}>
             <div className={className}>{children}</div>
@@ -152,19 +167,44 @@ export const HoverSliderImageWrap = React.forwardRef<
 HoverSliderImageWrap.displayName = "HoverSliderImageWrap"
 
 export const HoverSliderImage = React.forwardRef<
-    HTMLImageElement,
-    HTMLMotionProps<"img"> & HoverSliderImageProps
->(({ index, imageUrl, children, className, ...props }, ref) => {
+    HTMLDivElement,
+    Omit<HTMLMotionProps<"div">, "children"> & HoverSliderImageProps
+>(({ index, imageUrls, className, ...props }, ref) => {
     const { activeSlide } = useHoverSliderContext()
+    const isActive = activeSlide === index
+    const [currentSubIndex, setCurrentSubIndex] = React.useState(0)
+
+    React.useEffect(() => {
+        if (imageUrls.length <= 1) return
+
+        const timer = setInterval(() => {
+            setCurrentSubIndex((prev) => (prev + 1) % imageUrls.length)
+        }, 3000) // Cycle internal images every 3s
+
+        return () => clearInterval(timer)
+    }, [imageUrls.length])
+
     return (
-        <motion.img
-            className={cn("inline-block align-middle", className)}
+        <motion.div
+            ref={ref}
+            className={cn("relative w-full h-full overflow-hidden", className)}
             transition={{ ease: [0.33, 1, 0.68, 1], duration: 0.8 }}
             variants={clipPathVariants}
-            animate={activeSlide === index ? "visible" : "hidden"}
-            ref={ref}
+            animate={isActive ? "visible" : "hidden"}
             {...props}
-        />
+        >
+            {imageUrls.map((url, i) => (
+                <motion.img
+                    key={`${url}-${i}`}
+                    src={url}
+                    alt=""
+                    className="absolute inset-0 w-full h-full object-cover"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: i === currentSubIndex ? 1 : 0 }}
+                    transition={{ duration: 0.5 }}
+                />
+            ))}
+        </motion.div>
     )
 })
 HoverSliderImage.displayName = "HoverSliderImage"

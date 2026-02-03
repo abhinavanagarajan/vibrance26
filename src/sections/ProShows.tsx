@@ -10,25 +10,25 @@ const SLIDES = [
     {
         id: "slide-1",
         title: "Premgi Amaren & Mohan Sisters",
-        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/premgi-poster.jpeg",
+        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/posters/premgi-poster.webp",
         day: "Day 1"
     },
     {
         id: "slide-2",
         title: "Santhosh Narayanan & Pineapple Express",
-        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/santhosh-poster.jpeg",
+        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/posters/santhosh-poster.webp",
         day: "Day 2"
     },
     {
         id: "slide-3",
         title: "Makka Band ft. Sublahshini & Raftaar",
-        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/sublahshini-poster.jpeg",
+        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/posters/sublahshini-poster.webp",
         day: "Day 3"
     },
     {
         id: "slide-4",
         title: "DJ Camilla Lynx & DJ Deepika",
-        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/camilla-poster.jpeg",
+        imageUrl: "https://test-cdn-iota.vercel.app/images/proshows/posters/camilla-poster.webp",
         day: "Day 4"
     },
 ]

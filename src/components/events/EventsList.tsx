@@ -88,7 +88,7 @@ const EventsList: React.FC<EventsListProps> = ({ events, assets, searchTerm, onS
                                         </div>
                                         <div className="event-info-item">
                                             <Users size={16} className="text-cyan-400" />
-                                            {event.fields.participationType}
+                                            {event.fields.participationType} ({event.fields.teamSize})
                                         </div>
                                         <div className="event-info-item">
                                             <Tag size={16} className="text-cyan-400" />

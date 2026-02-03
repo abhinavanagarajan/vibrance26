@@ -46,6 +46,7 @@ export interface EventFields {
     longDescription?: string;
     specialEvent?: boolean;
     registrationLink?: string;
+    teamSize?: string;
 }
 
 export interface EventItem {

@@ -187,7 +187,7 @@ const EventDetails = () => {
                                 )}
                                 <div>
                                     <div className="info-label">Type</div>
-                                    <div className="info-value">{fields.participationType}</div>
+                                    <div className="info-value">{fields.participationType} ({fields.teamSize})</div>
                                 </div>
                             </div>
                             <div className="modal-info-item">

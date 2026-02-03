@@ -154,7 +154,7 @@ const Footer = () => {
                         </h3>
                         <div>
                             <a
-                                href="mailto:vibrance@vit.ac.in"
+                                href="mailto:convenor.vibrance@vit.ac.in"
                                 style={{
                                     display: 'flex',
                                     alignItems: 'center',
@@ -169,7 +169,7 @@ const Footer = () => {
                                 onMouseLeave={(e) => e.currentTarget.style.color = '#9ca3af'}
                             >
                                 <Mail size={16} />
-                                <span style={{ fontSize: '0.875rem' }}>vibrance@vit.ac.in</span>
+                                <span style={{ fontSize: '0.875rem' }}>convenor.vibrance@vit.ac.in</span>
                             </a>
                             <div style={{
                                 display: 'flex',

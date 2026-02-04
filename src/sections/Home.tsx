@@ -79,10 +79,10 @@ const Home = () => {
     ];
 
     const proshowsImages = [
-        { link: '', text: 'Premgi Amaren & Mohan Sisters', image: 'https://test-cdn-iota.vercel.app/images/proshows/backgrounds/premgi.webp' },
-        { link: '', text: 'Santosh Narayanan & Pineapple Express', image: 'https://test-cdn-iota.vercel.app/images/proshows/backgrounds/santhosh.webp' },
-        { link: '', text: 'Makka Band ft. Sublahshini & Raftaar', image: 'https://test-cdn-iota.vercel.app/images/proshows/backgrounds/raftaar.webp' },
-        { link: '', text: 'DJ Camilla Lynx & DJ Deepika', image: 'https://test-cdn-iota.vercel.app/images/proshows/backgrounds/deepika.webp' }
+        { link: '', text: 'Premgi Amaren & Mohan Sisters', image: 'https://cdn.abhinavio.xyz/images/proshows/backgrounds/premgi.webp' },
+        { link: '', text: 'Santosh Narayanan & Pineapple Express', image: 'https://cdn.abhinavio.xyz/images/proshows/backgrounds/santhosh.webp' },
+        { link: '', text: 'Makka Band ft. Sublahshini & Raftaar', image: 'https://cdn.abhinavio.xyz/images/proshows/backgrounds/raftaar.webp' },
+        { link: '', text: 'DJ Camilla Lynx & DJ Deepika', image: 'https://cdn.abhinavio.xyz/images/proshows/backgrounds/deepika.webp' }
     ];
 
 
@@ -370,7 +370,7 @@ const Home = () => {
                         opacity: 0.9 // Adjust to make text more readable
                     }}
                 >
-                    <source src="https://test-cdn-iota.vercel.app/videos/vibrance-trailer.webm" type="video/webm" />
+                    <source src="https://cdn.abhinavio.xyz/videos/vibrance-trailer.webm" type="video/webm" />
                     Your browser does not support the video tag.
                 </video>
                 <div className="home-content" style={{ marginTop: '10rem', zIndex: 10, justifyContent: 'center', alignItems: 'center', textAlign: 'center', mixBlendMode: 'difference' }}>
@@ -567,7 +567,7 @@ const Home = () => {
                     }
                 >
                     <video
-                        src="https://test-cdn-iota.vercel.app/videos/cardvideo.webm"
+                        src="https://cdn.abhinavio.xyz/videos/cardvideo.webm"
                         autoPlay
                         loop
                         muted

@@ -10,8 +10,8 @@ const SLIDES = [
         id: "slide-1",
         title: "Premgi Amaren & Mohan Sisters",
         imageUrls: [
-            "https://test-cdn-iota.vercel.app/images/proshows/posters/premgi-poster.webp",
-            "https://test-cdn-iota.vercel.app/images/proshows/posters/mohans-poster.webp"
+            "https://cdn.abhinavio.xyz/images/proshows/posters/premgi-poster.webp",
+            "https://cdn.abhinavio.xyz/images/proshows/posters/mohans-poster.webp"
         ],
         day: "Day 1"
     },
@@ -19,8 +19,8 @@ const SLIDES = [
         id: "slide-2",
         title: "Santhosh Narayanan & Pineapple Express",
         imageUrls: [
-            "https://test-cdn-iota.vercel.app/images/proshows/posters/santhosh-poster.webp",
-            "https://test-cdn-iota.vercel.app/images/proshows/posters/pineapple-poster.webp"
+            "https://cdn.abhinavio.xyz/images/proshows/posters/santhosh-poster.webp",
+            "https://cdn.abhinavio.xyz/images/proshows/posters/pineapple-poster.webp"
         ],
         day: "Day 2"
     },
@@ -28,9 +28,9 @@ const SLIDES = [
         id: "slide-3",
         title: "Makka Band ft. Sublahshini & Raftaar",
         imageUrls: [
-            "https://test-cdn-iota.vercel.app/images/proshows/posters/sublahshini-poster.webp",
-            "https://test-cdn-iota.vercel.app/images/proshows/posters/makka-poster.webp",
-            "https://test-cdn-iota.vercel.app/images/proshows/posters/raftaar-poster.webp"
+            "https://cdn.abhinavio.xyz/images/proshows/posters/sublahshini-poster.webp",
+            "https://cdn.abhinavio.xyz/images/proshows/posters/makka-poster.webp",
+            "https://cdn.abhinavio.xyz/images/proshows/posters/raftaar-poster.webp"
         ],
         day: "Day 3"
     },
@@ -38,8 +38,8 @@ const SLIDES = [
         id: "slide-4",
         title: "DJ Camilla Lynx & DJ Deepika",
         imageUrls: [
-            "https://test-cdn-iota.vercel.app/images/proshows/posters/camilla-poster.webp",
-            "https://test-cdn-iota.vercel.app/images/proshows/posters/deepika-poster.webp"
+            "https://cdn.abhinavio.xyz/images/proshows/posters/camilla-poster.webp",
+            "https://cdn.abhinavio.xyz/images/proshows/posters/deepika-poster.webp"
         ],
         day: "Day 4"
     },

@@ -111,7 +111,7 @@ const EventDetails = () => {
                             />
                         ) : (
                             <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <img src="https://test-cdn-iota.vercel.app/images/assets/vibrancelogo.webp" alt="Vibrance" style={{ width: '50%', height: 'auto', opacity: 0.5 }} />
+                                <img src="https://cdn.abhinavio.xyz/images/assets/vibrancelogo.webp" alt="Vibrance" style={{ width: '50%', height: 'auto', opacity: 0.5 }} />
                             </div>
                         )}
                         <div className="modal-category-tag">

@@ -9,7 +9,7 @@ const ComingSoon = () => {
             {/* VIT Logo */}
             <div className="mb-8 z-10">
                 <img
-                    src="https://test-cdn-iota.vercel.app/images/assets/vibrancelogo.webp"
+                    src="https://cdn.abhinavio.xyz/images/assets/vibrancelogo.webp"
                     alt="VIT Chennai"
                     className="w-[250px] h-auto object-contain"
                 />

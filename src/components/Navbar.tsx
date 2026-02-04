@@ -70,8 +70,8 @@ const Navbar: React.FC = () => {
             <nav className="navbar">
                 <div className="nav-logo" style={{ zIndex: 1002 }}>
                     <Link to="/" className="flex items-center gap-6">
-                        <img src="https://test-cdn-iota.vercel.app/images/assets/vit-logo.webp" alt="VIT Chennai" className="nav-links w-[140px] object-contain" />
-                        <img src="https://test-cdn-iota.vercel.app/images/assets/vibrance-transparent.webp" className="ml-8 w-[130px] object-contain" />
+                        <img src="https://cdn.abhinavio.xyz/images/assets/vit-logo.webp" alt="VIT Chennai" className="nav-links w-[140px] object-contain" />
+                        <img src="https://cdn.abhinavio.xyz/images/assets/vibrance-transparent.webp" className="ml-8 w-[130px] object-contain" />
 
                     </Link>
                 </div>

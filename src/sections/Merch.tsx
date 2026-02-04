@@ -93,7 +93,7 @@ const Merch = () => {
                     {/* Front View */}
                     <div className="merch-image-wrapper">
                         <img
-                            src="https://test-cdn-iota.vercel.app/images/merch/merch-front.png"
+                            src="https://cdn.abhinavio.xyz/images/merch/merch-front.png"
                             alt="Vibrance 26 T-Shirt Front"
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                         />
@@ -102,7 +102,7 @@ const Merch = () => {
                     {/* Back View */}
                     <div className="merch-image-wrapper">
                         <img
-                            src="https://test-cdn-iota.vercel.app/images/merch/merch-back.png"
+                            src="https://cdn.abhinavio.xyz/images/merch/merch-back.png"
                             alt="Vibrance 26 T-Shirt Back"
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                         />

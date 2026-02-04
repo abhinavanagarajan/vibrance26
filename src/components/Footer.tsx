@@ -115,7 +115,7 @@ const Footer = () => {
                         gap: '1rem'
                     }}>
                         <img
-                            src="https://test-cdn-iota.vercel.app/images/assets/vibrance-transparent.webp"
+                            src="https://cdn.abhinavio.xyz/images/assets/vibrance-transparent.webp"
                             alt="Vibrance Logo"
                             style={{
                                 width: '18rem',
@@ -224,7 +224,7 @@ const Footer = () => {
 
                             >
                                 <img
-                                    src={`https://test-cdn-iota.vercel.app/svgs/${name}.svg`}
+                                    src={`https://cdn.abhinavio.xyz/svgs/${name}.svg`}
                                     alt={label}
                                     style={{
                                         width: '100%',

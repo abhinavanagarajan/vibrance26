@@ -3,6 +3,7 @@ import React from 'react';
 
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import { useGSAP } from '@gsap/react';
 import { ScrollTrigger, Draggable } from 'gsap/all';
 import { FocusRail } from '@/components/FocusRail';
 import { ContainerScroll } from '@/components/ContainerScroll';
@@ -199,36 +200,39 @@ const Home = () => {
     ];
 
 
-    useEffect(() => {
+    // Hype Section Animations Scope
+    useGSAP(() => {
         const tl = gsap.timeline();
 
         // Hero Animations
-        tl.fromTo(titleRef.current,
-            { opacity: 0, y: 100 },
-            { opacity: 1, y: 0, duration: 1.5, ease: "power3.out", delay: 0.5 }
-        )
-            .fromTo(subRef.current,
-                { opacity: 0, y: 30 },
-                { opacity: 1, y: 0, duration: 1, ease: "power3.out" },
-                "-=1"
-            );
+        if (titleRef.current && subRef.current) {
+            tl.fromTo(titleRef.current,
+                { opacity: 0, y: 100 },
+                { opacity: 1, y: 0, duration: 1.5, ease: "power3.out", delay: 0.5 }
+            )
+                .fromTo(subRef.current,
+                    { opacity: 0, y: 30 },
+                    { opacity: 1, y: 0, duration: 1, ease: "power3.out" },
+                    "-=1"
+                );
+        }
 
         // Hype Section Animations
         if (hypeSectionRef.current) {
             const hypeTl = gsap.timeline({
                 scrollTrigger: {
                     trigger: hypeSectionRef.current,
-                    start: "top 90%", // Start animation when section is partially visible
+                    start: "top 85%", // Slightly earlier for mobile
                     end: "bottom bottom",
-                    toggleActions: "play none none"
+                    toggleActions: "play none none reverse" // Reverse on scroll back up to replay if needed, or just none
                 }
             });
 
-
-
             // Animate Text
-            hypeTextRefs.current.forEach((el, index) => {
-                if (el) {
+            // Filter out nulls first
+            const validTextRefs = hypeTextRefs.current.filter(el => el !== null);
+            if (validTextRefs.length > 0) {
+                validTextRefs.forEach((el, index) => {
                     hypeTl.fromTo(el,
                         {
                             opacity: 0,
@@ -248,13 +252,13 @@ const Home = () => {
                         },
                         index * 0.15 // Stagger delay
                     );
-                }
-            });
+                });
+            }
 
             // Animate Marquee Entrance (Only once/play)
             if (marqueeContainerRef.current) {
                 // Ensure marquee elements are visible but animate in
-                gsap.set(marqueeContainerRef.current.children, { opacity: 1 }); // Ensure visibility logic is handled by fromTo
+                gsap.set(marqueeContainerRef.current.children, { opacity: 1 });
                 hypeTl.fromTo(marqueeContainerRef.current,
                     { opacity: 0, y: 50 },
                     {
@@ -268,33 +272,28 @@ const Home = () => {
             }
         }
 
-    }, []);
+        // Initialize Draggables inside same context for auto-cleanup
+        draggableRefs.current.forEach((el) => {
+            if (el) {
+                Draggable.create(el, {
+                    type: "x,y",
+                    bounds: marqueeContainerRef.current, // Constrain to container
+                    inertia: true,
+                    edgeResistance: 0.65,
+                });
+            }
+        });
 
-    // Sticker Refs
+    }, { scope: containerRef, dependencies: [] });
+
+    // Sticker Refs & Magnet Effect
     const draggableRefs = useRef<(HTMLDivElement | null)[]>([]); // For Draggable
     const magnetRefs = useRef<(HTMLDivElement | null)[]>([]);    // For Magnet Effect
     const stickerCenters = useRef<{ x: number, y: number }[]>([]);
 
     useEffect(() => {
-        // Initialize Draggables
-        const draggables: Draggable[] = [];
-        draggableRefs.current.forEach((el) => {
-            if (el) {
-                const d = Draggable.create(el, {
-                    type: "x,y",
-                    bounds: marqueeContainerRef.current, // Constrain to container
-                    inertia: true,
-                    edgeResistance: 0.65,
-                })[0];
-                draggables.push(d);
-            }
-        });
-
-        // Magnet Logic (Centers)
+        // Magnet Logic (Centers) - Keep this in useEffect as it adds specific window listeners
         const calculateCenters = () => {
-            // We calculate centers based on the MAGNET refs (visual center), 
-            // but we need to account for the fact that the parent might have moved.
-            // Actually, getBoundingClientRect() works regardless of transforms!
             if (!magnetRefs.current.length) return;
             stickerCenters.current = magnetRefs.current.map(el => {
                 if (!el) return { x: 0, y: 0 };
@@ -309,22 +308,10 @@ const Home = () => {
         calculateCenters();
         window.addEventListener('resize', calculateCenters);
 
-        // Update centers periodically or on drag end to ensure accuracy?
-        // Actually mousemove checks clientRect every time? No, expensive.
-        // We cached it. The cache becomes invalid if we Drag.
-        // So we should update `stickerCenters` during/after drag?
-        // Or just use `getBoundingClientRect` inside the loop (might be heavy but accurate)?
-
-        // Optimization: Updates centers on mouse move (throttle?) or just assume static if not dragging.
-        // Since we allow dragging, let's just make the loop check live positions EFFICIENTLY?
-        // No, checking 13 Rects per mousemove is OK on modern Desktops.
-
         const handleMouseMove = (e: MouseEvent) => {
-            // Need live centers because dragging moves them
             magnetRefs.current.forEach((el, _) => {
                 if (!el) return;
 
-                // Live Rect check for accuracy with dragging
                 const rect = el.getBoundingClientRect();
                 const centerX = rect.left + rect.width / 2;
                 const centerY = rect.top + rect.height / 2;
@@ -337,7 +324,6 @@ const Home = () => {
 
                 if (dist < maxDist) {
                     const force = (maxDist - dist) / maxDist;
-                    // Move the MAGNET ref, not the Draggable ref
                     const moveX = -(dx / dist) * force * maxMove;
                     const moveY = -(dy / dist) * force * maxMove;
 
@@ -365,7 +351,6 @@ const Home = () => {
         return () => {
             window.removeEventListener('resize', calculateCenters);
             window.removeEventListener('mousemove', handleMouseMove);
-            draggables.forEach(d => d.kill());
         };
     }, []);
 

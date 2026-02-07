@@ -260,12 +260,14 @@ const ValedictoryGuest: React.FC<ValedictoryGuestProps> = ({
                             ref={textRef}
                             className="guest-name-elegant"
                             style={{
-                                fontFamily: 'var(--font-cursive)', // Pinyon Script
+                                fontSize: 'clamp(120px, 20vw, 250px)',
+                                fontFamily: 'var(--font-cursive)', // Fleur De Leah
                                 color: '#ff0055',
                                 position: 'relative',
                                 display: 'inline-block',
                                 zIndex: 10
                             }}
+                            data-text={guestName}
                         >
                             {guestName}
                         </h2>
@@ -313,6 +315,36 @@ const ValedictoryGuest: React.FC<ValedictoryGuestProps> = ({
                     background-clip: text;
                     filter: drop-shadow(0 4px 10px rgba(0,0,0,0.5));
                     transform: rotate(-3deg);
+                }
+
+                .guest-name-elegant::before {
+                    content: attr(data-text);
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: -1;
+                    color: #ffffff; /* Blue offset text */
+                    transform: translate(-6px, -6px);
+                    opacity: 0.8;
+                    -webkit-background-clip: border-box;
+                    background-clip: border-box;
+                    background: none;
+                }
+
+                .guest-name-elegant::after {
+                    content: attr(data-text);
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: -1;
+                    color: rgba(255, 0, 85, 0.4); /* Pinkish shadow */
+                    transform: translate(8px, 8px);
+                    filter: blur(4px);
+                    opacity: 0.6;
+                    /* Ensure the shadow doesn't inherit background clip if expected */
+                    -webkit-background-clip: border-box;
+                    background-clip: border-box;
+                    background: none;
                 }
                 
                 /* Mobile tweaks */

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fleur+De+Leah&display=swap');
 @custom-variant dark (&:is(.dark *));
 
 @tailwind base;
@@ -16,7 +16,7 @@
   --font-main: 'Inter', sans-serif;
   --font-display: 'Syne', sans-serif;
   --font-cal: 'Caveat', cursive;
-  --font-cursive: 'Pinyon Script', cursive;
+  --font-cursive: 'Fleur De Leah', cursive;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.13 0.028 261.692);

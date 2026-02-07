@@ -11,6 +11,7 @@ import Masonry from '@/components/Masonry';
 import CurvedLoop from '@/components/CurvedLoop';
 import MovingText from '@/components/MovingText';
 import { FocusRailItem } from '@/components/FocusRail';
+import ValedictoryGuest from '@/components/ValedictoryGuest';
 
 gsap.registerPlugin(ScrollTrigger, Draggable);
 
@@ -658,6 +659,12 @@ const Home = () => {
                 />
 
             </div>
+
+            <ValedictoryGuest
+                imageSrc="https://cdn.a2ys.dev/images/photos/aeeaaec5-7783-464e-8fb3-a27e860c9b22-IMG_3742.webp"
+                guestName="Sreeleela"
+                role="Valedictory Chief Guest"
+            />
 
             <div style={{ background: 'linear-gradient(to bottom, transparent, #060010)', paddingBottom: '2rem' }}>
                 <h2

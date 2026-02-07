@@ -42,7 +42,7 @@ const Home = () => {
             title: "Mainstage Madness",
             description: "Feel the ground shake as the headliners take the stage.",
             meta: "Concert • Live",
-            imageSrc: "https://cdn.a2ys.dev/images/IMG_3348.jpg",
+            imageSrc: "https://cdn.a2ys.dev/images/photos/09b0a901-3993-409b-a1b6-5dd545313a6b-IMG_3348.webp",
             href: "#proshows",
         },
         {
@@ -50,7 +50,7 @@ const Home = () => {
             title: "Decade Celebration",
             description: "A 10-year legacy of culture and passion unfolding in every corner.",
             meta: "Legacy • Festival",
-            imageSrc: "https://cdn.a2ys.dev/images/IMG_3366.jpg",
+            imageSrc: "https://cdn.a2ys.dev/images/photos/e0192b63-e31e-4c25-8f2e-05fe1387dd4a-IMG_3366.webp",
             href: "#legacy",
         },
         {
@@ -58,7 +58,7 @@ const Home = () => {
             title: "Golden Hour Vibes",
             description: "Capturing the magic of the festival as the sun sets over the campus.",
             meta: "Aesthetic • Mood",
-            imageSrc: "https://cdn.a2ys.dev/images/IMG_3360.jpg",
+            imageSrc: "https://cdn.a2ys.dev/images/photos/7e705d98-62b3-499d-a46c-2855b45eeb71-IMG_3360.webp",
             href: "#vibes",
         },
         {
@@ -66,7 +66,7 @@ const Home = () => {
             title: "The Energy Hub",
             description: "Where technology meets the human spirit in a technological singularity.",
             meta: "Tech • Innovation",
-            imageSrc: "https://cdn.a2ys.dev/images/IMG_3359.jpg",
+            imageSrc: "https://cdn.a2ys.dev/images/photos/feb27b4f-0277-4e21-a93d-672cca40d39f-IMG_3359.webp",
             href: "#tech",
         },
         {
@@ -74,7 +74,7 @@ const Home = () => {
             title: "Underworld Beats",
             description: "Deep rhythms from the underground scene hitting the frequency of the extraordinary.",
             meta: "Music • Deep",
-            imageSrc: "https://cdn.a2ys.dev/images/IMG_3351.jpg",
+            imageSrc: "https://cdn.a2ys.dev/images/photos/6731955b-feb6-4e55-96f5-da644c1a4b14-IMG_3351.webp",
             href: "#beats",
         },
     ];

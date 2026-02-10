@@ -111,11 +111,11 @@ const Merch = () => {
 
                 {/* Product Info */}
                 <div className="merch-info">
-                    {/* <p style={{ fontFamily: 'var(--font-display)', color: 'red', fontSize: '1.2rem', opacity: 0.8, marginBottom: '0.5rem' }}>Only at</p>
-                    <p style={{ fontSize: '3rem', color: 'var(--color-pink)', fontWeight: 'bold', marginBottom: '2rem', fontFamily: 'var(--font-display)' }}>₹ 499</p> */}
-                    <p style={{ fontSize: '3rem', color: 'var(--color-pink)', fontWeight: 'bold', marginBottom: '2rem', fontFamily: 'var(--font-display)' }}>Coming Soon</p>
+                    <p style={{ fontFamily: 'var(--font-display)', color: 'red', fontSize: '1.2rem', opacity: 0.8, marginBottom: '0.5rem' }}>Only at</p>
+                    <p style={{ fontSize: '3rem', color: 'var(--color-pink)', fontWeight: 'bold', marginBottom: '2rem', fontFamily: 'var(--font-display)' }}>₹ 236</p>
+                    {/* <p style={{ fontSize: '3rem', color: 'var(--color-pink)', fontWeight: 'bold', marginBottom: '2rem', fontFamily: 'var(--font-display)' }}>Coming Soon</p> */}
 
-                    {/* <button style={{
+                    <button onClick={() => { window.open("https://chennaievents.vit.ac.in/vitchennai_vibrance/studentLogin") }} style={{
                         padding: '1rem 3rem',
                         fontSize: '1.5rem',
                         fontFamily: 'var(--font-display)',
@@ -129,7 +129,7 @@ const Merch = () => {
                         whiteSpace: 'nowrap'
                     }}>
                         BUY NOW
-                    </button> */}
+                    </button>
                 </div>
 
             </div>

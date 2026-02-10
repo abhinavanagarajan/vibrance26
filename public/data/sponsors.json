@@ -7,5 +7,14 @@
                 "logo": "https://cdn.abhinavio.xyz/images/sponsors/pepsi-logo.webp"
             }
         ]
+    },
+    {
+        "tierName": "Partner",
+        "sponsors": [
+            {
+                "name": "HelloFM",
+                "logo": "https://cdn.a2ys.dev/images/photos/3e9102fe-884d-45a1-b6ef-2de4e10c0c28-hellofm.webp"
+            }
+        ]
     }
 ]

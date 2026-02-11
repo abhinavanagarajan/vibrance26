@@ -58,6 +58,17 @@
         ]
     },
     {
+        "tier": "Office of Student Welfare",
+        "showTitle": true,
+        "members": [
+            {
+                "name": "Dr. Sathiya Narayanan",
+                "role": "Director, Students' Welfare",
+                "image": "https://cdn.a2ys.dev/images/photos/2ec7fdb6-6dfd-44a8-a141-512878ba30ad-dsw.webp"
+            }
+        ]
+    },
+    {
         "tier": "Convenor",
         "showTitle": true,
         "members": [

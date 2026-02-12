@@ -104,7 +104,10 @@ const EventDetails = () => {
                 <div className="event-page-card">
 
                     <div className="event-page-poster">
-                        {imageUrl ? (
+
+                        <img src={`https://chennaievents.vit.ac.in/vitchennai_vibrance/image/?id=${event.fields.eventId}`} alt={event.fields.eventName} className="event-image" />
+
+                        {/* {imageUrl ? (
                             <img
                                 src={imageUrl}
                                 alt={fields.eventName}
@@ -113,7 +116,7 @@ const EventDetails = () => {
                             <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                 <img src="https://cdn.abhinavio.xyz/images/assets/vibrancelogo.webp" alt="Vibrance" style={{ width: '50%', height: 'auto', opacity: 0.5 }} />
                             </div>
-                        )}
+                        )} */}
                         <div className="modal-category-tag">
                             {fields.eventType}
                         </div>

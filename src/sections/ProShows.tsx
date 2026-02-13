@@ -238,6 +238,7 @@ export function ProShows() {
 
                         </div>
 
+
                         {/* Book Now Button */}
                         <div style={{
                             display: 'flex',
@@ -250,8 +251,10 @@ export function ProShows() {
                             width: '100%',
                             fontFamily: '--var(--font-display)'
                         }}>
+                            <p>Don't miss the last chance!!</p>
+
                             <a
-                                href=""
+                                href="https://chennaievents.vit.ac.in/vitchennai_vibrance/studentLogin"
                                 style={{
                                     padding: '1rem 3rem',
                                     background: 'linear-gradient(45deg, #FF00FF, #00FFFF)',
@@ -267,7 +270,7 @@ export function ProShows() {
                                     textDecoration: 'none'
                                 }}
                             >
-                                Sold Out
+                                Book Now
                             </a>
                         </div>
                     </div>

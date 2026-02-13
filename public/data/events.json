@@ -12,6 +12,271 @@
                     "id": "cuzunz84pu17"
                 }
             },
+            "id": "event-119",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:10.246Z",
+            "updatedAt": "2026-02-13T11:09:18.743Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 292,
+            "eventName": "debate ae democracy",
+            "clubName": "Hindi literary Association ",
+            "eventType": "Literary Events",
+            "eventFor": "VITian",
+            "startDateAndTime": "2026-02-19T14:00:00+05:30",
+            "endDateAndTime": "2026-02-19T16:00:00+05:30",
+            "pricePerPerson": 80,
+            "participationType": "Solo",
+            "eventVenue": "AB3 - 001",
+            "shortDescription": "Experience Indian governance in this Lok Sabha simulation. Participants represent members of parliament, debating national issues using official protocols. This moderated event builds leadership, public speaking, and constitutional awareness.",
+            "longDescription": "Lok Sabha Simulation,  Debate aeDemocracy is an interactive literary event that aims to provide students with a realistic experience of India\u2019s parliamentary functioning. Participants will engage in a structured and safe debate on relevant social and national issues, following the official parliamentary mode of discussion. Each participant will represent a member of the Lok Sabha and present arguments, raise points, and respond to counter-views in a disciplined and democratic manner.\n\nThe session will be moderated by an experienced speaker, ensuring decorum, balanced participation, and meaningful dialogue throughout the debate. This event encourages students to develop critical thinking, public speaking, leadership, and constitutional awareness, while also promoting respectful disagreement and informed discussion.\n\nThe simulation is open to all students interested in politics, governance, and social issues. It offers a unique opportunity to understand the values of democracy beyond textbooks and actively participate in a vibrant exchange of ideas.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-18",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:56.668Z",
+            "updatedAt": "2026-02-13T11:04:31.641Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 5,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 385,
+            "eventName": "Sye",
+            "clubName": "Sirivennela - Telugu Literary Association",
+            "eventType": "Quiz",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-19T09:00:00+05:30",
+            "endDateAndTime": "2026-02-19T12:00:00+05:30",
+            "pricePerPerson": 50,
+            "participationType": "Solo",
+            "eventVenue": "Netaji Auditorium",
+            "shortDescription": "This quiz celebrates Telugu culture, covering history, language, and scriptures, with a primary focus on cinema. The event aims to entertain students and build social skills within the lively atmosphere of the Vibrance festival.",
+            "longDescription": "The event will feature a five-round quiz covering the Telugu Culture including the Language, History, Scriptures and besides that Majority of the Quiz revolves around Cinema. \nThe Objective of this event is to gather students in participation of an entertaining event and an to enlighten their evening alongside the hype of the Vibrance later on. The event intends to be both enjoyable and meaningful through helping the students build social skills, share experiences and to make a lasting memory within the lively atmosphere during the event with the rest of its community.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-72",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:26.509Z",
+            "updatedAt": "2026-02-13T10:34:17.672Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 4,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 456,
+            "eventName": "Death Mania",
+            "clubName": "The White Helmets Club",
+            "eventType": "Adventure Sports",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T10:00:00+05:30",
+            "endDateAndTime": "2026-02-20T16:00:00+05:30",
+            "pricePerPerson": 300,
+            "participationType": "Team",
+            "eventVenue": "AB1-409",
+            "shortDescription": "Human Snake and Ladder is a life-sized version of the classic game where players become the pieces. With dice rolls, surprise snakes and ladders, and fun tasks on each square, it promotes teamwork, laughter, and energetic group bonding for all ages.",
+            "longDescription": "Human Snake and Ladder is an exciting and interactive informal event designed to bring participants together through fun, teamwork, and friendly competition. Inspired by the classic board game, this life-sized version transforms players themselves into the game pieces, making the experience lively and engaging. Participants move across a large grid based on dice outcomes, encountering \u201csnakes\u201d and \u201cladders\u201d that add unexpected twists, challenges, and rewards. Each square may involve simple tasks, quizzes, or fun activities that encourage communication, creativity, and quick thinking.\n\nThe event promotes team bonding, coordination, and active participation while creating a cheerful and energetic atmosphere. Suitable for all age groups, Human Snake and Ladder ensures inclusivity and entertainment without requiring any prior skills. With laughter, suspense, and moments of surprise at every turn, the event offers a refreshing break from routine activities and helps participants connect in a relaxed and enjoyable setting.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "6"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-6",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:26:09.714Z",
+            "updatedAt": "2026-02-13T10:33:49.932Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 5,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 500,
+            "eventName": "Death Mania",
+            "clubName": "The White Helmets Club",
+            "eventType": "Adventure Sports",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T10:00:00+05:30",
+            "endDateAndTime": "2026-02-20T16:00:00+05:30",
+            "pricePerPerson": 150,
+            "participationType": "Trio",
+            "eventVenue": "AB1-409",
+            "shortDescription": "Human Snake and Ladder is a life-sized version of the classic game where players become the pieces. With dice rolls, surprise snakes and ladders, and fun tasks on each square, it promotes teamwork, laughter, and energetic group bonding for all ages.",
+            "longDescription": "Human Snake and Ladder is an exciting and interactive informal event designed to bring participants together through fun, teamwork, and friendly competition. Inspired by the classic board game, this life-sized version transforms players themselves into the game pieces, making the experience lively and engaging. Participants move across a large grid based on dice outcomes, encountering \u201csnakes\u201d and \u201cladders\u201d that add unexpected twists, challenges, and rewards. Each square may involve simple tasks, quizzes, or fun activities that encourage communication, creativity, and quick thinking.\n\nThe event promotes team bonding, coordination, and active participation while creating a cheerful and energetic atmosphere. Suitable for all age groups, Human Snake and Ladder ensures inclusivity and entertainment without requiring any prior skills. With laughter, suspense, and moments of surprise at every turn, the event offers a refreshing break from routine activities and helps participants connect in a relaxed and enjoyable setting.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "3"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-5",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:26:09.693Z",
+            "updatedAt": "2026-02-13T10:32:16.454Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 9,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 499,
+            "eventName": "Death Mania",
+            "clubName": "The White Helmets Club",
+            "eventType": "Adventure Sports",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T10:00:00+05:30",
+            "endDateAndTime": "2026-02-20T16:00:00+05:30",
+            "pricePerPerson": 50,
+            "participationType": "Solo",
+            "eventVenue": "AB1-409",
+            "shortDescription": "Human Snake and Ladder is a life-sized version of the classic game where players become the pieces. With dice rolls, surprise snakes and ladders, and fun tasks on each square, it promotes teamwork, laughter, and energetic group bonding for all ages.",
+            "longDescription": "Human Snake and Ladder is an exciting and interactive informal event designed to bring participants together through fun, teamwork, and friendly competition. Inspired by the classic board game, this life-sized version transforms players themselves into the game pieces, making the experience lively and engaging. Participants move across a large grid based on dice outcomes, encountering \u201csnakes\u201d and \u201cladders\u201d that add unexpected twists, challenges, and rewards. Each square may involve simple tasks, quizzes, or fun activities that encourage communication, creativity, and quick thinking.\n\nThe event promotes team bonding, coordination, and active participation while creating a cheerful and energetic atmosphere. Suitable for all age groups, Human Snake and Ladder ensures inclusivity and entertainment without requiring any prior skills. With laughter, suspense, and moments of surprise at every turn, the event offers a refreshing break from routine activities and helps participants connect in a relaxed and enjoyable setting.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
             "id": "event-1",
             "type": "Entry",
             "createdAt": "2026-02-03T18:26:09.758Z",
@@ -103,112 +368,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "5"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-6",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:26:09.714Z",
-            "updatedAt": "2026-02-03T18:26:09.714Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 500,
-            "eventName": "Death Mania",
-            "clubName": "Ieeeras",
-            "eventType": "Adventure Sports",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T10:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 150,
-            "participationType": "Trio",
-            "eventVenue": "AB1-409",
-            "shortDescription": "LaserTag is a high-energy game where players use infrared guns to tag opponents in a dark, obstacle-filled arena. Teams must employ strategy and quick reflexes to score points while avoiding hits, providing a safe and immersive experience.",
-            "longDescription": "LaserTag is a fast-paced, non-contact game where players use infrared laser guns to tag opponents wearing sensor vests. Played in a dark, obstacle-filled arena, the game focuses on teamwork, strategy, and quick reflexes. Players score points by tagging others while avoiding being hit themselves. Safe and exciting, LaserTag is popular for parties, entertainment centers, and team-building activities, offering a fun and immersive competitive experience.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "3"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-5",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:26:09.693Z",
-            "updatedAt": "2026-02-03T18:26:09.693Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 499,
-            "eventName": "Death Mania",
-            "clubName": "Ieeeras",
-            "eventType": "Adventure Sports",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T10:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 50,
-            "participationType": "Solo",
-            "eventVenue": "AB1-409",
-            "shortDescription": "LaserTag is a high-energy game where players use infrared guns to tag opponents in a dark, obstacle-filled arena. Teams must employ strategy and quick reflexes to score points while avoiding hits, providing a safe and immersive experience.",
-            "longDescription": "LaserTag is a fast-paced, non-contact game where players use infrared laser guns to tag opponents wearing sensor vests. Played in a dark, obstacle-filled arena, the game focuses on teamwork, strategy, and quick reflexes. Players score points by tagging others while avoiding being hit themselves. Safe and exciting, LaserTag is popular for parties, entertainment centers, and team-building activities, offering a fun and immersive competitive experience.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
         }
     },
     {
@@ -845,59 +1004,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "3"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-18",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:56.668Z",
-            "updatedAt": "2026-02-03T18:25:56.668Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 385,
-            "eventName": "Sye",
-            "clubName": "Sirivennela - Telugu Literary Association",
-            "eventType": "Quiz",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T09:00:00+05:30",
-            "endDateAndTime": "2026-02-19T12:00:00+05:30",
-            "pricePerPerson": 50,
-            "participationType": "Solo",
-            "eventVenue": "Kasturba Hall",
-            "shortDescription": "This quiz celebrates Telugu culture, covering history, language, and scriptures, with a primary focus on cinema. The event aims to entertain students and build social skills within the lively atmosphere of the Vibrance festival.",
-            "longDescription": "The event will feature a five-round quiz covering the Telugu Culture including the Language, History, Scriptures and besides that Majority of the Quiz revolves around Cinema. \nThe Objective of this event is to gather students in participation of an entertaining event and an to enlighten their evening alongside the hype of the Vibrance later on. The event intends to be both enjoyable and meaningful through helping the students build social skills, share experiences and to make a lasting memory within the lively atmosphere during the event with the rest of its community.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
         }
     },
     {
@@ -3828,59 +3934,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-72",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:26.509Z",
-            "updatedAt": "2026-02-03T18:25:26.509Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 456,
-            "eventName": "Death Mania",
-            "clubName": "Ieeeras",
-            "eventType": "Adventure Sports",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T10:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 300,
-            "participationType": "Team",
-            "eventVenue": "AB1-409",
-            "shortDescription": "LaserTag is a high-energy game where players use infrared guns to tag opponents in a dark, obstacle-filled arena. Teams must employ strategy and quick reflexes to score points while avoiding hits, providing a safe and immersive experience.",
-            "longDescription": "LaserTag is a fast-paced, non-contact game where players use infrared laser guns to tag opponents wearing sensor vests. Played in a dark, obstacle-filled arena, the game focuses on teamwork, strategy, and quick reflexes. Players score points by tagging others while avoiding being hit themselves. Safe and exciting, LaserTag is popular for parties, entertainment centers, and team-building activities, offering a fun and immersive competitive experience.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "6"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-77",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:26.493Z",
@@ -5185,7 +5238,7 @@
             "endDateAndTime": "2026-02-18T15:00:00+05:30",
             "pricePerPerson": 70,
             "participationType": "Duo",
-            "eventVenue": "AB1 Lawn",
+            "eventVenue": "AB3 junction",
             "shortDescription": "Desi Arcade is a vibrant, student-led event featuring nostalgic childhood games like musical chairs and snakes & ladders. With handmade decor and high campus engagement, it offers a creative space for friends to compete, relive memories, and boost univer",
             "longDescription": "Desi Arcade is a vibrant, crowd-pulling event where students jump into fun, interactive old-school childhood games like musical chairs, table-top challenges, giant snakes & ladders, and more. Our club designs and builds all the d\u00e9cor and game setups ourselves, giving the event a unique, handmade feel. Over the past two years, Desi Arcade has consistently drawn huge footfall, attracting students from across the campus as they pass through AB3. It\u2019s an open, lively space where friends gather, relive nostalgia, compete, and enjoy quick, engaging activities. Although the registration fee is minimal, the high participation comfortably covers the event costs. Desi Arcade not only boosts campus energy but also showcases our club\u2019s creativity and teamwork",
             "specialEvent": false,
@@ -6354,59 +6407,6 @@
             "eventVenue": "AB1 Mini Portico",
             "shortDescription": "Mehndi Maharani offers a cultural experience featuring professional henna artistry and a handicraft stall. Visitors can receive intricate live mehndi designs while exploring unique, handmade products that showcase traditional artistic talent.",
             "longDescription": "Event\u2013Mehndi Maharani\nEvent brings a vibrant cultural experience with Mehndi Maharani, featuring a professional mehndi artist along with a beautifully curated handicraft stall. The stall offers intricate mehndi designs and unique handcrafted products that reflect traditional artistry. Visitors can enjoy live mehndi application, explore handmade items, and immerse themselves in rich cultural creativity throughout the day.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-119",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:10.246Z",
-            "updatedAt": "2026-02-03T18:25:10.246Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 292,
-            "eventName": "debate ae democracy",
-            "clubName": "Hindi literary Association ",
-            "eventType": "Literary Events",
-            "eventFor": "VITian",
-            "startDateAndTime": "2026-02-19T14:00:00+05:30",
-            "endDateAndTime": "2026-02-19T16:00:00+05:30",
-            "pricePerPerson": 80,
-            "participationType": "Solo",
-            "eventVenue": "AB3 - 105",
-            "shortDescription": "Experience Indian governance in this Lok Sabha simulation. Participants represent members of parliament, debating national issues using official protocols. This moderated event builds leadership, public speaking, and constitutional awareness.",
-            "longDescription": "Lok Sabha Simulation,  Debate aeDemocracy is an interactive literary event that aims to provide students with a realistic experience of India\u2019s parliamentary functioning. Participants will engage in a structured and safe debate on relevant social and national issues, following the official parliamentary mode of discussion. Each participant will represent a member of the Lok Sabha and present arguments, raise points, and respond to counter-views in a disciplined and democratic manner.\n\nThe session will be moderated by an experienced speaker, ensuring decorum, balanced participation, and meaningful dialogue throughout the debate. This event encourages students to develop critical thinking, public speaking, leadership, and constitutional awareness, while also promoting respectful disagreement and informed discussion.\n\nThe simulation is open to all students interested in politics, governance, and social issues. It offers a unique opportunity to understand the values of democracy beyond textbooks and actively participate in a vibrant exchange of ideas.",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
@@ -12022,7 +12022,7 @@
             "endDateAndTime": "2026-02-20T16:00:00+05:30",
             "pricePerPerson": 50,
             "participationType": "Solo",
-            "eventVenue": "AB1-609,610,611,612",
+            "eventVenue": "AB1 - 212",
             "shortDescription": "Classrooms become escape rooms where teams solve literary clues. Themes include Murder Mystery, Harry Potter, and Mythology. Work together to decode puzzles and escape before time runs out in this immersive, story-driven team challenge.",
             "longDescription": "Classrooms will be turned into Escape rooms, where participants will go in as teams and try to escape the room by solving the series of literary clues provided to them.\nThemes:\nMurder mystery. Solve the murder mystery to get out or get killed by the killer.\nStranger things/Dungeons and dragons\nHarry Potter\nMedieval themed\nGreek/Roman mythology",
             "specialEvent": false,
@@ -12520,59 +12520,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-237",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:54.140Z",
-            "updatedAt": "2026-02-03T18:23:54.140Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 273,
-            "eventName": "Namma Mela 2.0 - Pottery",
-            "clubName": "Kannada Literary Association",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T08:00:00+05:30",
-            "endDateAndTime": "2026-02-21T16:00:00+05:30",
-            "pricePerPerson": 175,
-            "participationType": "Solo",
-            "eventVenue": "AB3 Junction",
-            "shortDescription": "Namma Mela 2.0 is a vibrant cultural carnival by the Kannada Literary Association featuring games, art, crafts, and hands-on workshops like painting, pottery, and Lippan art\u2014bringing students together through creativity, fun, and connection.\n",
-            "longDescription": "Namma Mela 2.0 is a warm, vibrant carnival organised by the Kannada Literary Association to bring students together through creativity, culture, and shared experiences. The event is designed as an open, interactive space where every participant can explore a new form of expression. Students can challenge their strength and team spirit in Arm Wrestling, or slow down and paint their thoughts on Canvas Painting stations. Those who enjoy crafts can create personalised accessories at the Bracelet Making booth, while the Wish Jar corner invites everyone to pause, reflect, and share their hopes for the year.\nTo celebrate art, we are hosting hands on Lippan Art and Pottery workshops, allowing participants to experience the joy of shaping something with their own hands.\nThis event aims to create a lively cultural atmosphere on campus, one that encourages creativity, connection, and a sense of belonging among\u00a0all\u00a0students.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-238",
             "type": "Entry",
             "createdAt": "2026-02-03T18:23:54.040Z",
@@ -12823,59 +12770,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-245",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:53.840Z",
-            "updatedAt": "2026-02-03T18:23:53.840Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 517,
-            "eventName": "Namma Mela 2.0 - Pottery",
-            "clubName": "Kannada Literary Association",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T08:00:00+05:30",
-            "endDateAndTime": "2026-02-21T16:00:00+05:30",
-            "pricePerPerson": 175,
-            "participationType": "Solo",
-            "eventVenue": "AB3 Junction",
-            "shortDescription": "",
-            "longDescription": "",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
         }
     },
     {

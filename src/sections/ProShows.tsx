@@ -265,7 +265,7 @@ export function ProShows() {
                                     letterSpacing: '0.1em',
                                     borderRadius: '50px',
                                     border: 'none',
-                                    cursor: 'not-allowed',
+                                    cursor: 'pointer',
                                     boxShadow: '0 0 20px rgba(255, 0, 255, 0.5)',
                                     textDecoration: 'none'
                                 }}

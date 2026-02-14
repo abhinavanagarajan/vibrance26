@@ -10,19 +10,38 @@ const SponsorLogo: React.FC<SponsorProps> = ({ name, logo }) => (
         padding: '1rem',
         borderRadius: '12px',
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
         aspectRatio: '3/2',
         position: 'relative',
         overflow: 'hidden',
         transition: 'border-color 0.3s',
-        width: '300px', // Fixed basis for consistent sizing
-        maxWidth: '100%', // Responsive shrink
-
-    }}
-
-    >
-        <img src={logo} alt={name} style={{ width: '100%', height: '100%', objectFit: 'contain', filter: 'brightness(1.2)', transition: 'filter 0.3s' }} />
+        width: '300px',
+        maxWidth: '100%',
+        gap: '1rem',
+    }}>
+        <img
+            src={logo}
+            alt={name}
+            style={{
+                width: '100%',
+                height: '80%',
+                objectFit: 'contain',
+                filter: 'brightness(1.2)',
+                transition: 'filter 0.3s'
+            }}
+        />
+        <p style={{
+            fontSize: '1.1rem',
+            fontWeight: '600',
+            color: 'var(--color-text)',
+            textAlign: 'center',
+            fontFamily: 'var(--font-main)',
+            marginTop: '1rem'
+        }}>
+            {name}
+        </p>
     </div>
 );
 
@@ -76,7 +95,9 @@ const Sponsors = () => {
                         <div className="sponsors-grid">
                             {tier.sponsors.map((sponsor, sIndex) => (
                                 <SponsorLogo key={sIndex} name={sponsor.name} logo={sponsor.logo} />
+
                             ))}
+
                         </div>
                     </div>
                 ))}

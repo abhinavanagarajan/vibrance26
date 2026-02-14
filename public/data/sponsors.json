@@ -3,7 +3,7 @@
         "tierName": "Title Sponsor",
         "sponsors": [
             {
-                "name": "Pepsi",
+                "name": "Title Sponsor",
                 "logo": "https://cdn.abhinavio.xyz/images/sponsors/pepsi-logo.webp"
             }
         ]
@@ -12,14 +12,12 @@
         "tierName": "Partner",
         "sponsors": [
             {
-                "name": "HelloFM",
+                "name": "Radio Partner",
                 "logo": "https://cdn.a2ys.dev/images/photos/3e9102fe-884d-45a1-b6ef-2de4e10c0c28-hellofm.webp"
             },
             {
-                "name": "PrintWear",
-                "logo": "https://cdn.a2ys.dev/images/photos/6b41f92f-a41e-40d7-8a37-f89494eb3e2c-print-wear-modified.webp
-
-"
+                "name": "Marathon Partner",
+                "logo": "https://cdn.a2ys.dev/images/photos/6b41f92f-a41e-40d7-8a37-f89494eb3e2c-print-wear-modified.webp"
             }
         ]
     }

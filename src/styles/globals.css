@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Fleur+De+Leah&family=Outfit:wght@100..900&family=Vast+Shadow&display=swap');
 @custom-variant dark (&:is(.dark *));
 
 @tailwind base;
@@ -17,6 +17,9 @@
   --font-display: 'Syne', sans-serif;
   --font-cal: 'Caveat', cursive;
   --font-cursive: 'Fleur De Leah', cursive;
+  --font-cinzel: 'Cinzel', serif;
+  --font-outfit: 'Outfit', sans-serif;
+  --font-vast: 'Vast Shadow', cursive;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.13 0.028 261.692);

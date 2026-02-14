@@ -13,6 +13,7 @@ import CurvedLoop from '@/components/CurvedLoop';
 import MovingText from '@/components/MovingText';
 import { FocusRailItem } from '@/components/FocusRail';
 import ValedictoryGuest from '@/components/ValedictoryGuest';
+import InauguralGuest from '@/components/InauguralGuest';
 
 gsap.registerPlugin(ScrollTrigger, Draggable);
 
@@ -674,6 +675,12 @@ const Home = () => {
                 />
 
             </div>
+
+            <InauguralGuest
+                imageSrc="https://cdn.a2ys.dev/images/photos/9cb2a3de-c134-4044-a927-f0cbc681fc35-arathiarun.webp"
+                guestName="Dr Arathi Arun"
+                role="Inaugural Chief Guest"
+            />
 
             <ValedictoryGuest
                 imageSrc="https://cdn.a2ys.dev/images/photos/aeeaaec5-7783-464e-8fb3-a27e860c9b22-IMG_3742.webp"

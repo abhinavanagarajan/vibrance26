@@ -16,15 +16,13 @@ const SponsorLogo: React.FC<SponsorProps> = ({ name, logo }) => (
         position: 'relative',
         overflow: 'hidden',
         transition: 'border-color 0.3s',
-        maxWidth: '60%',
-        maxHeight: '60%'
+        width: '300px', // Fixed basis for consistent sizing
+        maxWidth: '100%', // Responsive shrink
+
     }}
-        onMouseEnter={(e) => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.5)'}
-        onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'}
+
     >
-        <img src={logo} alt={name} style={{ maxWidth: '80%', maxHeight: '80%', objectFit: 'contain', filter: 'grayscale(0%) brightness(1)', transition: 'filter 0.3s' }}
-            onMouseEnter={(e) => e.currentTarget.style.filter = 'grayscale(0%) brightness(1.2)'}
-        />
+        <img src={logo} alt={name} style={{ width: '100%', height: '100%', objectFit: 'contain', filter: 'brightness(1.2)', transition: 'filter 0.3s' }} />
     </div>
 );
 
@@ -38,6 +36,7 @@ const Sponsors = () => {
 
     React.useEffect(() => {
         fetch('/data/sponsors.json')
+            // fetch('/data/temp-sponsors.json') // Fallback or testing
             .then(res => res.json())
             .then(data => setSponsorData(data))
             .catch(err => console.error("Failed to load sponsors", err));
@@ -45,34 +44,36 @@ const Sponsors = () => {
 
     return (
         <section id="sponsors" style={{ minHeight: '60vh', padding: '100px 5vw', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <style>{`
+                .sponsors-grid {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 2rem;
+                    width: 100%;
+                }
+            `}</style>
             <h2 style={{ fontSize: '3rem', fontFamily: 'var(--font-display)', marginBottom: '4rem', textAlign: 'center', opacity: 0.8 }}>
                 POWERED BY
             </h2>
 
             <div className="sponsors-wrapper" style={{ width: '100%', maxWidth: '1200px', display: 'flex', flexDirection: 'column', gap: '4rem' }}>
                 {sponsorData.map((tier, index) => (
-                    <div key={index} className="sponsor-tier" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyItems: 'center', gap: '2rem' }}>
+                    <div key={index} className="sponsor-tier" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
                         <h3 style={{
-                            fontSize: '1.2rem',
+                            fontSize: '1.5rem',
                             fontFamily: 'var(--font-main)',
                             textTransform: 'uppercase',
                             letterSpacing: '3px',
                             marginBottom: '2rem',
                             color: 'var(--color-cyan)',
-                            opacity: 0.8
+                            opacity: 0.9,
+                            textAlign: 'center'
                         }}>
                             {tier.tierName}
                         </h3>
 
-                        <div className="sponsors-grid" style={{
-                            display: 'flex',
-                            flexDirection: 'row',
-                            flexWrap: 'wrap', // Added: allows logos to wrap to next line if they don't fit
-                            gap: '2rem',      // Increased gap for better breathing room
-                            width: '100%',
-                            justifyContent: 'center', // Fix: This centers the flex items horizontally
-                            alignItems: 'center',
-                        }}>
+                        <div className="sponsors-grid">
                             {tier.sponsors.map((sponsor, sIndex) => (
                                 <SponsorLogo key={sIndex} name={sponsor.name} logo={sponsor.logo} />
                             ))}

@@ -14,6 +14,10 @@
             {
                 "name": "HelloFM",
                 "logo": "https://cdn.a2ys.dev/images/photos/3e9102fe-884d-45a1-b6ef-2de4e10c0c28-hellofm.webp"
+            },
+            {
+                "name": "PrintWear",
+                "logo": "https://cdn.a2ys.dev/images/photos/41fa88d4-6905-4f49-8fb4-295a604db5ff-print-wear.webp"
             }
         ]
     }

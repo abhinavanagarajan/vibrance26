@@ -251,10 +251,10 @@ export function ProShows() {
                             width: '100%',
                             fontFamily: '--var(--font-display)'
                         }}>
-                            <p>Don't miss the last chance!!</p>
+                            {/* <p>Don't miss the last chance!!</p> */}
 
                             <a
-                                href="https://chennaievents.vit.ac.in/vitchennai_vibrance/studentLogin"
+                                // href="https://chennaievents.vit.ac.in/vitchennai_vibrance/studentLogin"
                                 style={{
                                     padding: '1rem 3rem',
                                     background: 'linear-gradient(45deg, #FF00FF, #00FFFF)',
@@ -270,7 +270,7 @@ export function ProShows() {
                                     textDecoration: 'none'
                                 }}
                             >
-                                Book Now
+                                Sold Out
                             </a>
                         </div>
                     </div>

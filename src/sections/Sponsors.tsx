@@ -21,16 +21,6 @@ const SponsorLogo: React.FC<SponsorProps> = ({ name, logo }) => (
         maxWidth: '100%',
         gap: '1rem',
     }}>
-        <p style={{
-            fontSize: '1.1rem',
-            fontWeight: '600',
-            color: 'var(--color-text)',
-            textAlign: 'center',
-            fontFamily: 'var(--font-main)',
-            marginTop: '1rem'
-        }}>
-            {name}
-        </p>
         <img
             src={logo}
             alt={name}
@@ -42,6 +32,16 @@ const SponsorLogo: React.FC<SponsorProps> = ({ name, logo }) => (
                 transition: 'filter 0.3s'
             }}
         />
+        <p style={{
+            fontSize: '1.1rem',
+            fontWeight: '600',
+            color: 'var(--color-text)',
+            textAlign: 'center',
+            fontFamily: 'var(--font-main)',
+            marginTop: '1rem'
+        }}>
+            {name}
+        </p>
     </div>
 );
 

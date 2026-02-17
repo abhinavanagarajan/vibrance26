@@ -12,6 +12,218 @@
                     "id": "cuzunz84pu17"
                 }
             },
+            "id": "event-72",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:26.509Z",
+            "updatedAt": "2026-02-17T14:17:57.645Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 6,
+            "revision": 3,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 456,
+            "eventName": "Death Mania",
+            "clubName": "The White Helmets Club",
+            "eventType": "Adventure Sports",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T10:00:00+05:30",
+            "endDateAndTime": "2026-02-20T16:00:00+05:30",
+            "pricePerPerson": 300,
+            "participationType": "Team",
+            "eventVenue": "AB3-601",
+            "shortDescription": "Human Snake and Ladder is a life-sized version of the classic game where players become the pieces. With dice rolls, surprise snakes and ladders, and fun tasks on each square, it promotes teamwork, laughter, and energetic group bonding for all ages.",
+            "longDescription": "Human Snake and Ladder is an exciting and interactive informal event designed to bring participants together through fun, teamwork, and friendly competition. Inspired by the classic board game, this life-sized version transforms players themselves into the game pieces, making the experience lively and engaging. Participants move across a large grid based on dice outcomes, encountering \u201csnakes\u201d and \u201cladders\u201d that add unexpected twists, challenges, and rewards. Each square may involve simple tasks, quizzes, or fun activities that encourage communication, creativity, and quick thinking.\n\nThe event promotes team bonding, coordination, and active participation while creating a cheerful and energetic atmosphere. Suitable for all age groups, Human Snake and Ladder ensures inclusivity and entertainment without requiring any prior skills. With laughter, suspense, and moments of surprise at every turn, the event offers a refreshing break from routine activities and helps participants connect in a relaxed and enjoyable setting.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "6"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-6",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:26:09.714Z",
+            "updatedAt": "2026-02-17T14:17:45.570Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 7,
+            "revision": 3,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 500,
+            "eventName": "Death Mania",
+            "clubName": "The White Helmets Club",
+            "eventType": "Adventure Sports",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T10:00:00+05:30",
+            "endDateAndTime": "2026-02-20T16:00:00+05:30",
+            "pricePerPerson": 150,
+            "participationType": "Trio",
+            "eventVenue": "AB3-601",
+            "shortDescription": "Human Snake and Ladder is a life-sized version of the classic game where players become the pieces. With dice rolls, surprise snakes and ladders, and fun tasks on each square, it promotes teamwork, laughter, and energetic group bonding for all ages.",
+            "longDescription": "Human Snake and Ladder is an exciting and interactive informal event designed to bring participants together through fun, teamwork, and friendly competition. Inspired by the classic board game, this life-sized version transforms players themselves into the game pieces, making the experience lively and engaging. Participants move across a large grid based on dice outcomes, encountering \u201csnakes\u201d and \u201cladders\u201d that add unexpected twists, challenges, and rewards. Each square may involve simple tasks, quizzes, or fun activities that encourage communication, creativity, and quick thinking.\n\nThe event promotes team bonding, coordination, and active participation while creating a cheerful and energetic atmosphere. Suitable for all age groups, Human Snake and Ladder ensures inclusivity and entertainment without requiring any prior skills. With laughter, suspense, and moments of surprise at every turn, the event offers a refreshing break from routine activities and helps participants connect in a relaxed and enjoyable setting.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "3"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-5",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:26:09.693Z",
+            "updatedAt": "2026-02-17T14:17:33.203Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 12,
+            "revision": 3,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 499,
+            "eventName": "Death Mania",
+            "clubName": "The White Helmets Club",
+            "eventType": "Adventure Sports",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T10:00:00+05:30",
+            "endDateAndTime": "2026-02-20T16:00:00+05:30",
+            "pricePerPerson": 50,
+            "participationType": "Solo",
+            "eventVenue": "AB3-601",
+            "shortDescription": "Human Snake and Ladder is a life-sized version of the classic game where players become the pieces. With dice rolls, surprise snakes and ladders, and fun tasks on each square, it promotes teamwork, laughter, and energetic group bonding for all ages.",
+            "longDescription": "Human Snake and Ladder is an exciting and interactive informal event designed to bring participants together through fun, teamwork, and friendly competition. Inspired by the classic board game, this life-sized version transforms players themselves into the game pieces, making the experience lively and engaging. Participants move across a large grid based on dice outcomes, encountering \u201csnakes\u201d and \u201cladders\u201d that add unexpected twists, challenges, and rewards. Each square may involve simple tasks, quizzes, or fun activities that encourage communication, creativity, and quick thinking.\n\nThe event promotes team bonding, coordination, and active participation while creating a cheerful and energetic atmosphere. Suitable for all age groups, Human Snake and Ladder ensures inclusivity and entertainment without requiring any prior skills. With laughter, suspense, and moments of surprise at every turn, the event offers a refreshing break from routine activities and helps participants connect in a relaxed and enjoyable setting.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-242",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:53.882Z",
+            "updatedAt": "2026-02-17T14:15:21.993Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 516,
+            "eventName": "Laser tag",
+            "clubName": "IOTHINC Internet Of Things Community ",
+            "eventType": "Game",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-18T08:00:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00:00+05:30",
+            "pricePerPerson": 300,
+            "participationType": "Duo",
+            "eventVenue": "AB4 - 203",
+            "shortDescription": "",
+            "longDescription": "",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "2"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
             "id": "event-13",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:56.734Z",
@@ -1796,165 +2008,6 @@
             "eventVenue": "Netaji Auditorium",
             "shortDescription": "This quiz celebrates Telugu culture, covering history, language, and scriptures, with a primary focus on cinema. The event aims to entertain students and build social skills within the lively atmosphere of the Vibrance festival.",
             "longDescription": "The event will feature a five-round quiz covering the Telugu Culture including the Language, History, Scriptures and besides that Majority of the Quiz revolves around Cinema. \nThe Objective of this event is to gather students in participation of an entertaining event and an to enlighten their evening alongside the hype of the Vibrance later on. The event intends to be both enjoyable and meaningful through helping the students build social skills, share experiences and to make a lasting memory within the lively atmosphere during the event with the rest of its community.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-72",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:26.509Z",
-            "updatedAt": "2026-02-13T10:34:17.672Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 4,
-            "revision": 2,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 456,
-            "eventName": "Death Mania",
-            "clubName": "The White Helmets Club",
-            "eventType": "Adventure Sports",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T10:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 300,
-            "participationType": "Team",
-            "eventVenue": "AB1-409",
-            "shortDescription": "Human Snake and Ladder is a life-sized version of the classic game where players become the pieces. With dice rolls, surprise snakes and ladders, and fun tasks on each square, it promotes teamwork, laughter, and energetic group bonding for all ages.",
-            "longDescription": "Human Snake and Ladder is an exciting and interactive informal event designed to bring participants together through fun, teamwork, and friendly competition. Inspired by the classic board game, this life-sized version transforms players themselves into the game pieces, making the experience lively and engaging. Participants move across a large grid based on dice outcomes, encountering \u201csnakes\u201d and \u201cladders\u201d that add unexpected twists, challenges, and rewards. Each square may involve simple tasks, quizzes, or fun activities that encourage communication, creativity, and quick thinking.\n\nThe event promotes team bonding, coordination, and active participation while creating a cheerful and energetic atmosphere. Suitable for all age groups, Human Snake and Ladder ensures inclusivity and entertainment without requiring any prior skills. With laughter, suspense, and moments of surprise at every turn, the event offers a refreshing break from routine activities and helps participants connect in a relaxed and enjoyable setting.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "6"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-6",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:26:09.714Z",
-            "updatedAt": "2026-02-13T10:33:49.932Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 5,
-            "revision": 2,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 500,
-            "eventName": "Death Mania",
-            "clubName": "The White Helmets Club",
-            "eventType": "Adventure Sports",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T10:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 150,
-            "participationType": "Trio",
-            "eventVenue": "AB1-409",
-            "shortDescription": "Human Snake and Ladder is a life-sized version of the classic game where players become the pieces. With dice rolls, surprise snakes and ladders, and fun tasks on each square, it promotes teamwork, laughter, and energetic group bonding for all ages.",
-            "longDescription": "Human Snake and Ladder is an exciting and interactive informal event designed to bring participants together through fun, teamwork, and friendly competition. Inspired by the classic board game, this life-sized version transforms players themselves into the game pieces, making the experience lively and engaging. Participants move across a large grid based on dice outcomes, encountering \u201csnakes\u201d and \u201cladders\u201d that add unexpected twists, challenges, and rewards. Each square may involve simple tasks, quizzes, or fun activities that encourage communication, creativity, and quick thinking.\n\nThe event promotes team bonding, coordination, and active participation while creating a cheerful and energetic atmosphere. Suitable for all age groups, Human Snake and Ladder ensures inclusivity and entertainment without requiring any prior skills. With laughter, suspense, and moments of surprise at every turn, the event offers a refreshing break from routine activities and helps participants connect in a relaxed and enjoyable setting.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "3"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-5",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:26:09.693Z",
-            "updatedAt": "2026-02-13T10:32:16.454Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 9,
-            "revision": 2,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 499,
-            "eventName": "Death Mania",
-            "clubName": "The White Helmets Club",
-            "eventType": "Adventure Sports",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T10:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 50,
-            "participationType": "Solo",
-            "eventVenue": "AB1-409",
-            "shortDescription": "Human Snake and Ladder is a life-sized version of the classic game where players become the pieces. With dice rolls, surprise snakes and ladders, and fun tasks on each square, it promotes teamwork, laughter, and energetic group bonding for all ages.",
-            "longDescription": "Human Snake and Ladder is an exciting and interactive informal event designed to bring participants together through fun, teamwork, and friendly competition. Inspired by the classic board game, this life-sized version transforms players themselves into the game pieces, making the experience lively and engaging. Participants move across a large grid based on dice outcomes, encountering \u201csnakes\u201d and \u201cladders\u201d that add unexpected twists, challenges, and rewards. Each square may involve simple tasks, quizzes, or fun activities that encourage communication, creativity, and quick thinking.\n\nThe event promotes team bonding, coordination, and active participation while creating a cheerful and energetic atmosphere. Suitable for all age groups, Human Snake and Ladder ensures inclusivity and entertainment without requiring any prior skills. With laughter, suspense, and moments of surprise at every turn, the event offers a refreshing break from routine activities and helps participants connect in a relaxed and enjoyable setting.",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
@@ -9022,59 +9075,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-171",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:29.673Z",
-            "updatedAt": "2026-02-03T18:24:29.673Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 350,
-            "eventName": "Art for Change -  Painting & Drawing Competition",
-            "clubName": "YUVA (Young Indians)",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T10:00:00+05:30",
-            "endDateAndTime": "2026-02-20T12:00:00+05:30",
-            "pricePerPerson": 100,
-            "participationType": "Solo",
-            "eventVenue": "AB3-101",
-            "shortDescription": "Art for Change is a creative competition where participants use painting or drawing to address social issues like health and climate change. Artworks are judged on creativity and clarity, encouraging students to inspire action through art.",
-            "longDescription": "Art for Change is a creative platform that encourages participants to express their ideas and concerns about pressing social issues through painting and drawing. This edition focuses on themes of health awareness and climate change, allowing students to visually communicate messages that inspire reflection and action. Participants can use any medium, style, or technique to bring their concepts to life on paper or canvas. The artworks will be judged on creativity, originality, clarity of message, visual appeal, and relevance to the chosen theme. This event not only nurtures artistic talent but also raises awareness about important societal issues among participants and viewers alike. By combining art with meaningful social commentary, Art for Change aims to make participants think critically while providing an enjoyable and expressive experience.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-167",
             "type": "Entry",
             "createdAt": "2026-02-03T18:24:29.655Z",
@@ -11866,59 +11866,6 @@
             "eventVenue": "AB1 - 401",
             "shortDescription": "This leadership-themed escape room challenges teams to solve corporate crises through puzzles. Within 45 minutes, participants navigate ethics and conflict resolution, enhancing teamwork and decision-making skills in a high-pressure, engaging simulated b",
             "longDescription": "\u201cEscape the Boardroom\u201d is an immersive, leadership-themed escape room designed to help participants experience real corporate decision-making under pressure. The activity places teams inside a simulated \u201cboardroom crisis,\u201d where they must solve a sequence of business-based puzzles to escape within 45 minutes. Each stage represents a leadership challenge\u2014ethics, crisis communication, time management, conflict resolution, and vision building.\n\nTeams of 2-4 players move through 3\u20135 themed \u201clocks.\u201d For example, they analyze HR clues to solve an ethical dilemma, draft a PR response during a crisis, prioritize tasks under a strict deadline, match conflict-resolution strategies to different personality types, and reconstruct the company\u2019s mission from fragmented documents. These challenges require teamwork, clear communication, problem-solving, and quick, responsible decision-making.\n\nScoring is based on time taken, correctness of decisions, and teamwork as observed by facilitators. The event is easy to set up using printed clues, role cards, whiteboards, and a Game Master.\n\nOverall, Escape the Boardroom offers a fun, high-impact learning experience that builds leadership qualities, strengthens collaboration, and simulates real-world pressures in an engaging way.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-242",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:53.882Z",
-            "updatedAt": "2026-02-03T18:23:53.882Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 516,
-            "eventName": "Laser tag",
-            "clubName": "IOTHINC Internet Of Things Community ",
-            "eventType": "Game",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-18T08:00:00+05:30",
-            "endDateAndTime": "2026-02-21T16:00:00+05:30",
-            "pricePerPerson": 300,
-            "participationType": "Duo",
-            "eventVenue": "AB4 - 314",
-            "shortDescription": "",
-            "longDescription": "",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "2"

@@ -8386,59 +8386,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-142",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:53.365Z",
-            "updatedAt": "2026-02-03T18:24:53.365Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 319,
-            "eventName": "STRONGEST HUMAN VITC",
-            "clubName": "Fitness club vitc",
-            "eventType": "Adventure Sports",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T10:00:00+05:30",
-            "endDateAndTime": "2026-02-20T15:00:00+05:30",
-            "pricePerPerson": 500,
-            "participationType": "Solo",
-            "eventVenue": "Indoor Gym ",
-            "shortDescription": "This powerlifting competition tests raw strength through the squat, bench press, and deadlift. Open to all, athletes compete in specific weight categories. Judging focuses on maximum strength and proper technique to find the strongest human.",
-            "longDescription": "STRONGEST HUMAN  VITC\nStrongest Human  VITC is a powerlifting competition conducted by the Fitness Club, VIT Chennai, designed to test raw strength, discipline, and mental grit. The event features the three core powerlifting lifts \u2014 Squat, Bench Press, and Deadlift.\n\nThe competition is open to both internal and external participants and will be conducted under different weight categories to ensure fair and competitive lifting. Athletes will be judged based on maximum strength and proper lifting technique across all three lifts.\n\nThis event celebrates true power, consistency, and the spirit of competitive fitness.\n",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-143",
             "type": "Entry",
             "createdAt": "2026-02-03T18:24:53.342Z",
@@ -9163,59 +9110,6 @@
             "eventVenue": "AB1 Round Amphitheatre",
             "shortDescription": "Beaded Bonds is an interactive craft event where students design personalized friendship bracelets. Using provided materials, participants enjoy a relaxing, creative session that encourages connection, allowing friends to exchange handmade keepsakes whil",
             "longDescription": "Beaded Bonds is an interactive, fun, craft-based event designed to encourage creativity, collaboration, and meaningful connection among students. The setup features organized trays of beads, threads, and accessories, allowing participants to design and create personalized friendship bracelets. Simple instruction cards will be provided to guide beginners through basic knotting and beading techniques, making sure the event is accessible to all. It encourages pairs or groups of friends to sit together, craft bracelets, and exchange them as a symbol of friendship. This event offers a relaxed, colorful, and engaging space where students can create keepsakes while building bonds.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-157",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:52.762Z",
-            "updatedAt": "2026-02-03T18:24:52.762Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 335,
-            "eventName": "Mr.Physique",
-            "clubName": "FITNESS CLUB VITC",
-            "eventType": "Adventure Sports",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T06:00:00+05:30",
-            "endDateAndTime": "2026-02-19T14:00:00+05:30",
-            "pricePerPerson": 500,
-            "participationType": "Solo",
-            "eventVenue": "AB1 - 212",
-            "shortDescription": "A flagship bodybuilding competition celebrating aesthetics, strength, and discipline. Participants from various institutions showcase muscle definition and symmetry. Judges evaluate stage presence and conditioning to promote a healthy fitness culture.",
-            "longDescription": "Mr. Physique is a flagship bodybuilding competition organized by the Fitness Club to celebrate strength, aesthetics, discipline, and dedication to fitness. The event provides a competitive platform for both internal college students and external participants from other institutions and fitness communities to showcase their physique and training excellence.\n\nThe competition focuses on overall physique development, including muscle definition, symmetry, proportion, conditioning, and stage presence. Participants will be judged by a qualified panel following standard bodybuilding evaluation criteria to ensure fairness and professionalism.\n\nThrough Mr. Physique, the Fitness Club aims to promote a strong fitness culture on campus, encourage healthy competition, and inspire individuals to strive for physical and mental excellence. The event also offers participants valuable exposure, recognition, and competitive experience.\n",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"

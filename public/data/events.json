@@ -12,6 +12,112 @@
                     "id": "cuzunz84pu17"
                 }
             },
+            "id": "event-7",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:56.892Z",
+            "updatedAt": "2026-02-17T13:40:53.760Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 5,
+            "revision": 3,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 501,
+            "eventName": "Prelims : Aakar - Eastern Vocals",
+            "clubName": "Music Club",
+            "eventType": "Music",
+            "eventFor": "Non-VITian",
+            "startDateAndTime": "2026-02-21T13:30+05:30",
+            "endDateAndTime": "2026-02-21T14:00+05:30",
+            "pricePerPerson": 0,
+            "participationType": "Solo",
+            "eventVenue": "Netaji Auditorium",
+            "shortDescription": "Akaar is a solo singing contest for regional music. After online prelims, finalists perform live for five minutes. Judging focuses on vocal technique, pitch, and stage presence. Registration is Rs.250, and instrumental backing tracks are allowed.",
+            "longDescription": "Akaar- Eastern Vocals is a solo singing competition celebrating the richness of regional music through expressive and technically strong performances. The event follows an online preliminary round where participants submit their recordings, and a live final round for shortlisted performers. Each participant registers with a fee of Rs.250.\nFinalists may perform with or without instrumental or karaoke accompaniment; however, only the vocal performance will be evaluated. Backing tracks must be instrumental-only and submitted in advance. Each performer is allotted a maximum of five minutes on stage, with deductions for exceeding the time limit.\nJudging will focus on vocal technique, pitch and intonation, rhythm, creativity, song choice, stage presence, and overall impact. Any form of vulgarity will result in immediate disqualification, and the judges\u2019 decision will be final and binding.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-9",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:56.831Z",
+            "updatedAt": "2026-02-17T13:40:06.893Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 5,
+            "revision": 3,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 503,
+            "eventName": "Prelims : Polyphony - Western Battle of Bands",
+            "clubName": "Music Club",
+            "eventType": "Music",
+            "eventFor": "Non-VITian",
+            "startDateAndTime": "2026-02-20T08:00+05:30",
+            "endDateAndTime": "2026-02-20T16:00+05:30",
+            "pricePerPerson": 0,
+            "participationType": "Team",
+            "eventVenue": "MBA Amphitheatre",
+            "shortDescription": "Polyphony is a Western Battle of Bands for college groups. Featuring live English performances, the event focuses on originality and synchronization. Shortlisted bands from the online prelims will compete in a finale.",
+            "longDescription": "Polyphony - Western Battle of Bands is a competitive platform for college bands to showcase their musical talent through live English performances. Bands (4-9 members) will participate in an online preliminary round, followed by an on-stage finale for shortlisted teams. The event emphasizes originality, creativity, synchronization, and stage presence, with strict no-backing-track rules to maintain performance authenticity. Finalists will be given a defined stage time and must bring their own instruments (drum kit provided). Registration is Rs.300 per member for bands qualifying for the final round. Decisions by the judging panel will be final.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "4-9"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
             "id": "event-78",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:26.440Z",
@@ -527,112 +633,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-7",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:56.892Z",
-            "updatedAt": "2026-02-17T13:21:15.172Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 3,
-            "revision": 2,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 501,
-            "eventName": "Prelims : Aakar - Eastern Vocals",
-            "clubName": "Music Club",
-            "eventType": "Music",
-            "eventFor": "Non-VITian",
-            "startDateAndTime": "2026-02-21T09:00+05:30",
-            "endDateAndTime": "2026-02-21T14:00+05:30",
-            "pricePerPerson": 0,
-            "participationType": "Solo",
-            "eventVenue": "Netaji Auditorium",
-            "shortDescription": "Akaar is a solo singing contest for regional music. After online prelims, finalists perform live for five minutes. Judging focuses on vocal technique, pitch, and stage presence. Registration is Rs.250, and instrumental backing tracks are allowed.",
-            "longDescription": "Akaar- Eastern Vocals is a solo singing competition celebrating the richness of regional music through expressive and technically strong performances. The event follows an online preliminary round where participants submit their recordings, and a live final round for shortlisted performers. Each participant registers with a fee of Rs.250.\nFinalists may perform with or without instrumental or karaoke accompaniment; however, only the vocal performance will be evaluated. Backing tracks must be instrumental-only and submitted in advance. Each performer is allotted a maximum of five minutes on stage, with deductions for exceeding the time limit.\nJudging will focus on vocal technique, pitch and intonation, rhythm, creativity, song choice, stage presence, and overall impact. Any form of vulgarity will result in immediate disqualification, and the judges\u2019 decision will be final and binding.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-9",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:56.831Z",
-            "updatedAt": "2026-02-17T13:20:50.327Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 3,
-            "revision": 2,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 503,
-            "eventName": "Prelims : Polyphony - Western Battle of Bands",
-            "clubName": "Music Club",
-            "eventType": "Music",
-            "eventFor": "Non-VITian",
-            "startDateAndTime": "2026-02-20T11:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00+05:30",
-            "pricePerPerson": 0,
-            "participationType": "Team",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Polyphony is a Western Battle of Bands for college groups. Featuring live English performances, the event focuses on originality and synchronization. Shortlisted bands from the online prelims will compete in a finale.",
-            "longDescription": "Polyphony - Western Battle of Bands is a competitive platform for college bands to showcase their musical talent through live English performances. Bands (4-9 members) will participate in an online preliminary round, followed by an on-stage finale for shortlisted teams. The event emphasizes originality, creativity, synchronization, and stage presence, with strict no-backing-track rules to maintain performance authenticity. Finalists will be given a defined stage time and must bring their own instruments (drum kit provided). Registration is Rs.300 per member for bands qualifying for the final round. Decisions by the judging panel will be final.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "4-9"
         }
     },
     {
@@ -11233,59 +11233,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-203",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:28.613Z",
-            "updatedAt": "2026-02-03T18:24:28.613Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 176,
-            "eventName": "Aarambh",
-            "clubName": "Dramatics Club",
-            "eventType": "Drama",
-            "eventFor": "Non-VITian",
-            "startDateAndTime": "2026-02-20T10:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 2499,
-            "participationType": "Team",
-            "eventVenue": "AB-3 - North Square Junction",
-            "shortDescription": "Nukkad Natak is an inter-college street play contest addressing social issues. Teams perform original or adapted plays to spread awareness through raw, energetic drama. Judging focuses on theme relevance, acting, coordination, and audience impact.",
-            "longDescription": "Nukkad Natak is a powerful form of street theatre that brings stories, emotions, and social\nmessages directly to the people. This inter-college street play competition invites teams from various colleges to showcase their acting, creativity, and voice for change. Each team will perform an original or adapted play addressing social, cultural, or political issues that\nresonate with today\u2019s youth. The event aims to spread awareness, inspire thought, and\nentertain through impactful performances filled with energy, rhythm, and dialogue. Judging\nwill be based on theme relevance, acting, coordination, creativity, and audience engagement.\nIt\u2019s not just about performing it\u2019s about making people think, feel, and act. Come witness\ndrama in its rawest, most vibrant form as streets turn into stages and voices turn into\nrevolutions.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "25"
         }
     },
     {

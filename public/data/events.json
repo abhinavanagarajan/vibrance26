@@ -7379,59 +7379,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-122",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:10.262Z",
-            "updatedAt": "2026-02-03T18:25:10.262Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 295,
-            "eventName": "Mehndi Maharani",
-            "clubName": "Hindi literary Association ",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T11:00:00+05:30",
-            "endDateAndTime": "2026-02-19T16:00:00+05:30",
-            "pricePerPerson": 100,
-            "participationType": "Solo",
-            "eventVenue": "AB1 Mini Portico",
-            "shortDescription": "Mehndi Maharani offers a cultural experience featuring professional henna artistry and a handicraft stall. Visitors can receive intricate live mehndi designs while exploring unique, handmade products that showcase traditional artistic talent.",
-            "longDescription": "Event\u2013Mehndi Maharani\nEvent brings a vibrant cultural experience with Mehndi Maharani, featuring a professional mehndi artist along with a beautifully curated handicraft stall. The stall offers intricate mehndi designs and unique handcrafted products that reflect traditional artistry. Visitors can enjoy live mehndi application, explore handmade items, and immerse themselves in rich cultural creativity throughout the day.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-126",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:09.978Z",
@@ -10188,59 +10135,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-183",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:29.301Z",
-            "updatedAt": "2026-02-03T18:24:29.301Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 362,
-            "eventName": "Digital Dual Fest ",
-            "clubName": "SAE Club",
-            "eventType": "Cyber Engage",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-18T11:00:00+05:30",
-            "endDateAndTime": "2026-02-18T12:00:00+05:30",
-            "pricePerPerson": 150,
-            "participationType": "Solo",
-            "eventVenue": "AB3 - 503",
-            "shortDescription": "This premier gaming fest celebrates digital competition and innovation through esports tournaments, console gaming, and virtual reality. It offers participants a platform to showcase talent, strategic thinking, and passion for gaming excellence.",
-            "longDescription": "This gaming fest is a premier event celebrating the spirit of digital competition and innovation. It features engaging esports tournaments, console gaming, and virtual reality experiences. Designed to challenge skills and foster camaraderie, the fest offers participants an opportunity to showcase talent, strategic thinking, and passion for gaming excellence. ",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-179",
             "type": "Entry",
             "createdAt": "2026-02-03T18:24:29.280Z",
@@ -10276,59 +10170,6 @@
             "eventVenue": "AB3 - 201",
             "shortDescription": "This unpredictable general knowledge quiz by VIT Chennai\u2019s Quiz Club covers global news, tech, and pop culture. Participants face fast-paced rounds featuring history and viral trends, testing their quick reactions and broad knowledge in a high-energy, co",
             "longDescription": "Get ready for a quiz that pulls questions from every corner of the world and every corner of the internet. Everything, Everywhere, All at Once is a fast, fun and unpredictable general knowledge event that mixes international news, science, sports, pop culture, history, tech, entertainment and even a bit of hot gossip.\n\nIf it happened, trended, went viral, or made people talk, it might show up here. The rounds are designed to keep everyone on their toes, with a mix of serious questions, light moments and a few surprises to keep the energy high.\n\nWhether you follow global affairs, binge movies, scroll through social media all day, or simply love random facts, this quiz has something for you. Bring your best thinking, your quickest reactions and a team that can keep up with the chaos.\n\nEverything, Everywhere, All at Once\nPresented by the Quiz Club of VIT Chennai.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-181",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:29.261Z",
-            "updatedAt": "2026-02-03T18:24:29.261Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 360,
-            "eventName": "The Convergence",
-            "clubName": "IEEE Photonics Society ",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T09:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 100,
-            "participationType": "Solo",
-            "eventVenue": "AB3 - 501",
-            "shortDescription": "Teams navigate three rooms testing creativity, reflexes, and logic. From movie-themed puzzles to rapid-response tasks and a final logic battle, participants work together to identify weak points and secure victory under pressure.",
-            "longDescription": "The Multi-Themed Challenge Rooms event is a fast-paced, team-based competition designed to test creativity, logic, and performance under pressure. Room 1: Movie-Based Challenge Room engages participants with cinematic puzzles such as identifying films from background scores, guessing movies through character descriptions, silent acting, recognizing directors\u2019 signature styles, and solving film-inspired crime cases. Teams must complete all challenges to unlock progression. Room 2: Reaction Time Challenge Room shifts focus to speed and reflexes through rapid-response tasks including color recognition, light or sound-based actions, hand-eye coordination, and instant command execution, where accuracy and timing are critical. Room 3: Boss Battle \u2013 Final Logic Strike serves as the high-stakes finale. Teams analyze structured clues to identify the boss\u2019s exact weak point and execute a single irreversible verbal strike within strict time limits. One decision determines victory or elimination, emphasizing clarity, teamwork, and composure.",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"

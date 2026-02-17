@@ -12,8 +12,20 @@
         "tierName": "Partners",
         "sponsors": [
             {
+                "name": "Media Partner",
+                "logo": "https://cdn.a2ys.dev/images/photos/70475f98-08d7-4ab4-9dc4-cb6af09e38d1-thehindu.webp"
+            },
+            {
+                "name": "Television Partner",
+                "logo": "https://cdn.a2ys.dev/images/photos/b6946b01-8d52-499d-9f8a-1c0a167891a1-news7logo.webp"
+            },
+            {
                 "name": "Radio Partner",
                 "logo": "https://cdn.a2ys.dev/images/photos/3e9102fe-884d-45a1-b6ef-2de4e10c0c28-hellofm.webp"
+            },
+            {
+                "name": "Banking Partner",
+                "logo": "https://cdn.a2ys.dev/images/photos/ad8d0c18-8e9b-4123-b9d3-2a4e489f8aaa-indianbank.webp"
             },
             {
                 "name": "Marathon Partner",

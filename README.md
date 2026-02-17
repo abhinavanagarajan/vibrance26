@@ -1,4 +1,4 @@
-# Vibrance 2026 ⚡️
+# Vibrance 2026 
 
 The official website for **Vibrance 2026**, the annual cultural fest of **VIT Chennai**.
 
@@ -9,7 +9,7 @@ The official website for **Vibrance 2026**, the annual cultural fest of **VIT Ch
 
 This repository hosts the source code for the Vibrance '26 website, featuring a cutting-edge aesthetic with 3D elements, smooth animations, and a vibrant, dark-mode design.
 
-**Live Demo**: [Coming Soon]
+**Live Demo**: vibrance.vit.ac.in
 
 ## 🛠 Tech Stack
 
@@ -26,14 +26,6 @@ Built with the latest in web technologies for performance and visual fidelity:
     -   [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/)
     -   [Drei](https://github.com/pmndrs/drei)
 -   **Routing**: [React Router DOM](https://reactrouter.com/)
-
-## ✨ Key Features
-
--   **Immersive 3D Backgrounds**: A reactive starfield and hero elements.
--   **Cinematic Scroll Experiences**: "Pinned" scroll sequences for ProShows.
--   **Dynamic Data Loading**: Team, Sponsors, and Merch populated via externalized JSON for easy updates.
--   **Custom Cursor**: Interactive cursor with hover states (desktop only).
--   **Mobile Responsive**: Fully optimized with a custom mobile navigation menu.
 
 ## 📦 Installation
 
@@ -72,9 +64,10 @@ Built with the latest in web technologies for performance and visual fidelity:
 
 Data for specific sections can be updated without touching the code:
 -   **Team**: `public/data/team.json`
+-   **Events**: `public/data/events.json`
 -   **Sponsors**: `public/data/sponsors.json`
 -   **Merch**: `public/data/merch.json`
 
 ---
 
-Built with ❤️ by the **Vibrance Tech Team**.
+Abhinav <3

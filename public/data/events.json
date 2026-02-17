@@ -12,6 +12,960 @@
                     "id": "cuzunz84pu17"
                 }
             },
+            "id": "event-226",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:54.306Z",
+            "updatedAt": "2026-02-17T12:44:31.664Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 238,
+            "eventName": "Ridiculous pitches",
+            "clubName": "Business Innovation Community(BIC)",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-18T11:00:00+05:30",
+            "endDateAndTime": "2026-02-18T14:00:00+05:30",
+            "pricePerPerson": 50,
+            "participationType": "Solo",
+            "eventVenue": "AB3 - 109",
+            "shortDescription": "In this unique pitching challenge, participants receive absurdly convoluted and unusable products. They must use their persuasion skills to convince a panel of the item's worth, turning a ridiculous concept into a winning sales pitch.",
+            "longDescription": "Participants are provided with a ridiculous, almost unusable product that is unnecessarily convoluted. They must pitch this product to a panel and convince them of its worth.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-175",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:24:29.528Z",
+            "updatedAt": "2026-02-17T12:43:47.847Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 4,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 354,
+            "eventName": "Therottam",
+            "clubName": "Thanima - Malayalam Literary Association ",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-19T09:00:00+05:30",
+            "endDateAndTime": "2026-02-19T15:00:00+05:30",
+            "pricePerPerson": 100,
+            "participationType": "Duo",
+            "eventVenue": "AB1 - 601",
+            "shortDescription": "Therottam is a tournament-style game show testing quick thinking and teamwork. Participants engage in diverse mini-games like AI image guessing and literary treasure hunts to solve problems and emerge as the ultimate arena champion.",
+            "longDescription": "Therottam is a game show event that combines quick thinking, teamwork, and out-of- the-box problem-solving to crown the ultimate champion of the arena. The event features multiple engaging mini-games, such as guessing a word from an Al-generated image and participating in a literary treasure hunt. Designed in a tournament-style format, teams compete across rounds, testing their creativity, strategy, and speed, until one winner emerges victorious.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "2"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-135",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:24:53.576Z",
+            "updatedAt": "2026-02-17T12:43:02.904Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 309,
+            "eventName": "Green screen 2.0",
+            "clubName": "VITSION - moviemakers club ",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T10:00:00+05:30",
+            "endDateAndTime": "2026-02-20T16:00:00+05:30",
+            "pricePerPerson": 100,
+            "participationType": "Solo",
+            "eventVenue": "AB3 - 101",
+            "shortDescription": "Green Screen challenges blindfolded participants to act out and report on movie clips playing behind them. Guided only by hints from judges, they must maintain a conversation while figuring out the scene to succeed in this unique task.",
+            "longDescription": "Green screen \nIn this event, participants will be blind folded in front of a screen on which a random famous movie clip will be played. \nThe participants are not aware of what clip is playing behind them however they must act and report on what's going on behind them while maintaining conversation with the judges where the judge will drop subtle hints about the clip for the participants to catch on",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-159",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:24:52.582Z",
+            "updatedAt": "2026-02-17T12:42:37.488Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 337,
+            "eventName": "Magadh Mahotsav ",
+            "clubName": "Magadh Mithila club",
+            "eventType": "Informal",
+            "eventFor": "VITian",
+            "startDateAndTime": "2026-02-18T11:00:00+05:30",
+            "endDateAndTime": "2026-02-18T16:00:00+05:30",
+            "pricePerPerson": 50,
+            "participationType": "Duo",
+            "eventVenue": "MGR Circle",
+            "shortDescription": "Magadh Mahotsav Carnival is a lively cultural celebration at Vibrance\u201926 featuring interactive games and playful challenges. Open to duos for a \u20b950 fee, it offers a buzzing space filled with energy, joy, and competitive fun for all.",
+            "longDescription": "\ud83c\udfa1 Magadh Mahotsav Carnival | Vibrance\u201926 \ud83c\udfb6\n\nMagadh Mithila Club presents to you the Magadh Mahotsav Carnival, a lively fusion of joy, culture, and celebration at Vibrance\u201926. Step into a buzzing carnival space where every corner promises excitement, packed with fun and interactive games that challenge, entertain, and bring out your playful side. Jump in, take on the challenges, and let the carnival energy carry you through.\n\n\u2728 Entry: Duos only\n\ud83d\udcb0 Fee: \u20b950 per duo\n\nThe stalls are set, the games are calling, let the fun begin! \u2728",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "2"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-245",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:53.840Z",
+            "updatedAt": "2026-02-17T12:41:42.766Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 4,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 517,
+            "eventName": "Namma Mela 2.0 - Pottery",
+            "clubName": "Kannada Literary Association",
+            "eventType": "Arts",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T08:00:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00:00+05:30",
+            "pricePerPerson": 175,
+            "participationType": "Solo",
+            "eventVenue": "AB1 Lawn",
+            "shortDescription": "",
+            "longDescription": "",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-235",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:53.940Z",
+            "updatedAt": "2026-02-17T12:41:27.761Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 269,
+            "eventName": "Namma Mela 2.0 - Wish Jar",
+            "clubName": "Kannada Literary Association",
+            "eventType": "Arts",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T08:00:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00:00+05:30",
+            "pricePerPerson": 50,
+            "participationType": "Solo",
+            "eventVenue": "AB1 Lawn",
+            "shortDescription": "Namma Mela 2.0 is a vibrant cultural carnival by the Kannada Literary Association featuring games, art, crafts, and hands-on workshops like painting, pottery, and Lippan art\u2014bringing students together through creativity, fun, and connection.\n",
+            "longDescription": "Namma Mela 2.0 is a warm, vibrant carnival organised by the Kannada Literary Association to bring students together through creativity, culture, and shared experiences. The event is designed as an open, interactive space where every participant can explore a new form of expression. Students can challenge their strength and team spirit in Arm Wrestling, or slow down and paint their thoughts on Canvas Painting stations. Those who enjoy crafts can create personalised accessories at the Bracelet Making booth, while the Wish Jar corner invites everyone to pause, reflect, and share their hopes for the year.\nTo celebrate art, we are hosting hands on Lippan Art and Pottery workshops, allowing participants to experience the joy of shaping something with their own hands.\nThis event aims to create a lively cultural atmosphere on campus, one that encourages creativity, connection, and a sense of belonging among\u00a0all\u00a0students.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-234",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:54.161Z",
+            "updatedAt": "2026-02-17T12:41:14.999Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 257,
+            "eventName": "Namma Mela 2.0 - Bracelet Making",
+            "clubName": "Kannada Literary Association",
+            "eventType": "Arts",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T08:00:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00:00+05:30",
+            "pricePerPerson": 75,
+            "participationType": "Solo",
+            "eventVenue": "AB1 Lawn",
+            "shortDescription": "Namma Mela 2.0 is a vibrant cultural carnival by the Kannada Literary Association featuring games, art, crafts, and hands-on workshops like painting, pottery, and Lippan art\u2014bringing students together through creativity, fun, and connection.\n",
+            "longDescription": "Namma Mela 2.0 is a warm, vibrant carnival organised by the Kannada Literary Association to bring students together through creativity, culture, and shared experiences. The event is designed as an open, interactive space where every participant can explore a new form of expression. Students can challenge their strength and team spirit in Arm Wrestling, or slow down and paint their thoughts on Canvas Painting stations. Those who enjoy crafts can create personalised accessories at the Bracelet Making booth, while the Wish Jar corner invites everyone to pause, reflect, and share their hopes for the year.\nTo celebrate art, we are hosting hands on Lippan Art and Pottery workshops, allowing participants to experience the joy of shaping something with their own hands.\nThis event aims to create a lively cultural atmosphere on campus, one that encourages creativity, connection, and a sense of belonging among\u00a0all\u00a0students.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-233",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:54.184Z",
+            "updatedAt": "2026-02-17T12:41:03.393Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 256,
+            "eventName": "Namma Mela 2.0 - Canvas Painting",
+            "clubName": "Kannada Literary Association",
+            "eventType": "Arts",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T08:00:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00:00+05:30",
+            "pricePerPerson": 75,
+            "participationType": "Solo",
+            "eventVenue": "AB1 Lawn",
+            "shortDescription": "Namma Mela 2.0 is a vibrant cultural carnival by the Kannada Literary Association featuring games, art, crafts, and hands-on workshops like painting, pottery, and Lippan art\u2014bringing students together through creativity, fun, and connection.\n",
+            "longDescription": "Namma Mela 2.0 is a warm, vibrant carnival organised by the Kannada Literary Association to bring students together through creativity, culture, and shared experiences. The event is designed as an open, interactive space where every participant can explore a new form of expression. Students can challenge their strength and team spirit in Arm Wrestling, or slow down and paint their thoughts on Canvas Painting stations. Those who enjoy crafts can create personalised accessories at the Bracelet Making booth, while the Wish Jar corner invites everyone to pause, reflect, and share their hopes for the year.\nTo celebrate art, we are hosting hands on Lippan Art and Pottery workshops, allowing participants to experience the joy of shaping something with their own hands.\nThis event aims to create a lively cultural atmosphere on campus, one that encourages creativity, connection, and a sense of belonging among\u00a0all\u00a0students.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-232",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:54.265Z",
+            "updatedAt": "2026-02-17T12:40:46.353Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 255,
+            "eventName": "Namma Mela 2.0 - Arm Wrestling",
+            "clubName": "Kannada Literary Association",
+            "eventType": "Arts",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T08:00:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00:00+05:30",
+            "pricePerPerson": 50,
+            "participationType": "Solo",
+            "eventVenue": "AB1 Lawn",
+            "shortDescription": "Namma Mela 2.0 is a vibrant cultural carnival by the Kannada Literary Association featuring games, art, crafts, and hands-on workshops like painting, pottery, and Lippan art\u2014bringing students together through creativity, fun, and connection.\n",
+            "longDescription": "Namma Mela 2.0 is a warm, vibrant carnival organised by the Kannada Literary Association to bring students together through creativity, culture, and shared experiences. The event is designed as an open, interactive space where every participant can explore a new form of expression. Students can challenge their strength and team spirit in Arm Wrestling, or slow down and paint their thoughts on Canvas Painting stations. Those who enjoy crafts can create personalised accessories at the Bracelet Making booth, while the Wish Jar corner invites everyone to pause, reflect, and share their hopes for the year.\nTo celebrate art, we are hosting hands on Lippan Art and Pottery workshops, allowing participants to experience the joy of shaping something with their own hands.\nThis event aims to create a lively cultural atmosphere on campus, one that encourages creativity, connection, and a sense of belonging among\u00a0all\u00a0students.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-178",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:24:29.474Z",
+            "updatedAt": "2026-02-17T12:40:14.184Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 357,
+            "eventName": "Anime Auction: Battle of Builds",
+            "clubName": "Anime Realm ",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T09:00:00+05:30",
+            "endDateAndTime": "2026-02-20T13:00:00+05:30",
+            "pricePerPerson": 80,
+            "participationType": "Trio",
+            "eventVenue": "AB1 - 501",
+            "shortDescription": "Anime Auction: Battle of Builds is a strategic team event where participants bid on characters to create the ultimate lineup. After a qualifying quiz, teams manage budgets and follow specific roster rules to maximize their scores based on character stren",
+            "longDescription": "Anime Auction: Battle of Builds is a team-based strategy event where participants compete to build the ultimate anime character lineup. Teams first play a short quiz round to earn bonus points and narrow down the competition. In the main auction round, each team receives an equal budget and bids on characters from different anime and genres, each with a preset rating. Teams must plan carefully to meet mandatory \u201chard rules\u201d for their roster (such as minimum number of characters, required female characters, and villains), while also considering \u201csoft rules\u201d like team roles (leader, support, tank, etc.). In the final round, teams present their character setups, and scores are calculated from roster strength, quiz bonuses, and efficient budget use.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "2"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-228",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:54.349Z",
+            "updatedAt": "2026-02-17T12:39:29.386Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 5,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 246,
+            "eventName": "Escapade",
+            "clubName": "The English Literary Association",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T11:00:00+05:30",
+            "endDateAndTime": "2026-02-20T16:00:00+05:30",
+            "pricePerPerson": 50,
+            "participationType": "Solo",
+            "eventVenue": "AB1 - 609, 610, 611, 612",
+            "shortDescription": "Classrooms become escape rooms where teams solve literary clues. Themes include Murder Mystery, Harry Potter, and Mythology. Work together to decode puzzles and escape before time runs out in this immersive, story-driven team challenge.",
+            "longDescription": "Classrooms will be turned into Escape rooms, where participants will go in as teams and try to escape the room by solving the series of literary clues provided to them.\nThemes:\nMurder mystery. Solve the murder mystery to get out or get killed by the killer.\nStranger things/Dungeons and dragons\nHarry Potter\nMedieval themed\nGreek/Roman mythology",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-206",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:55.014Z",
+            "updatedAt": "2026-02-17T12:38:16.825Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 189,
+            "eventName": "Horror Escape Room",
+            "clubName": "The Short Film Club",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T09:30:00+05:30",
+            "endDateAndTime": "2026-02-20T15:00:00+05:30",
+            "pricePerPerson": 150,
+            "participationType": "Trio",
+            "eventVenue": "AB3 - 203",
+            "shortDescription": "This horror-themed event challenges participants to solve film-related riddles to escape a haunted room. Players must navigate obstacles and ghosts while working through this immersive blend of a horror house experience and puzzle-solving.",
+            "longDescription": "This event is set up in a horror theme where participants have to solve puzzles in order to escape the horror room. It blends horror house and riddles and puzzles relating to films to be solved so that they advance and find a way out despite the obstacles put out by the ghosts in the room.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "3"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-205",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:24:28.855Z",
+            "updatedAt": "2026-02-17T12:37:57.285Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 188,
+            "eventName": "Horror Escape Room",
+            "clubName": "The Short Film Club",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T09:30:00+05:30",
+            "endDateAndTime": "2026-02-20T15:00:00+05:30",
+            "pricePerPerson": 120,
+            "participationType": "Duo",
+            "eventVenue": "AB3 - 203",
+            "shortDescription": "This horror-themed event challenges participants to solve film-related riddles to escape a haunted room. Players must navigate obstacles and ghosts while working through this immersive blend of a horror house experience and puzzle-solving.",
+            "longDescription": "This event is set up in a horror theme where participants have to solve puzzles in order to escape the horror room. It blends horror house and riddles and puzzles relating to films to be solved so that they advance and find a way out despite the obstacles put out by the ghosts in the room.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "2"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-204",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:24:28.633Z",
+            "updatedAt": "2026-02-17T12:37:40.819Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 187,
+            "eventName": "Horror Escape Room",
+            "clubName": "The Short Film Club",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T09:30:00+05:30",
+            "endDateAndTime": "2026-02-20T15:00:00+05:30",
+            "pricePerPerson": 80,
+            "participationType": "Solo",
+            "eventVenue": "AB3 - 203",
+            "shortDescription": "This horror-themed event challenges participants to solve film-related riddles to escape a haunted room. Players must navigate obstacles and ghosts while working through this immersive blend of a horror house experience and puzzle-solving.",
+            "longDescription": "This event is set up in a horror theme where participants have to solve puzzles in order to escape the horror room. It blends horror house and riddles and puzzles relating to films to be solved so that they advance and find a way out despite the obstacles put out by the ghosts in the room.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-219",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:54.490Z",
+            "updatedAt": "2026-02-17T12:37:01.432Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 230,
+            "eventName": "Treasure hunt",
+            "clubName": "Arignar Anna Thamizh Mandram",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-18T11:00+05:30",
+            "endDateAndTime": "2026-02-18T16:00+05:30",
+            "pricePerPerson": 200,
+            "participationType": "Team",
+            "eventVenue": "AB1 Round Amphitheatre",
+            "shortDescription": "This cultural treasure hunt challenges teams to decode riddles based on Tamil history, literature, and traditions. It combines critical thinking with teamwork, offering an engaging experience that promotes cultural awareness through fun clues.",
+            "longDescription": "A Treasure Hunt event will be organized with clues based on Tamil culture and literature. Participants will decode riddles inspired by Tamil history, language, and traditions. The event will encourage teamwork, critical thinking, and cultural awareness while providing an engaging and enjoyable experience.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "4"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-218",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:54.547Z",
+            "updatedAt": "2026-02-17T12:36:44.947Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 229,
+            "eventName": "Treasure hunt",
+            "clubName": "Arignar Anna Thamizh Mandram",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-18T11:00+05:30",
+            "endDateAndTime": "2026-02-18T16:00+05:30",
+            "pricePerPerson": 200,
+            "participationType": "Team",
+            "eventVenue": "AB1 Round Amphitheatre",
+            "shortDescription": "This cultural treasure hunt challenges teams to decode riddles based on Tamil history, literature, and traditions. It combines critical thinking with teamwork, offering an engaging experience that promotes cultural awareness through fun clues.",
+            "longDescription": "A Treasure Hunt event will be organized with clues based on Tamil culture and literature. Participants will decode riddles inspired by Tamil history, language, and traditions. The event will encourage teamwork, critical thinking, and cultural awareness while providing an engaging and enjoyable experience.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "4"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-217",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:23:54.874Z",
+            "updatedAt": "2026-02-17T12:36:25.582Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 228,
+            "eventName": "Treasure hunt",
+            "clubName": "Arignar Anna Thamizh Mandram",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-18T11:00+05:30",
+            "endDateAndTime": "2026-02-18T16:00+05:30",
+            "pricePerPerson": 150,
+            "participationType": "Trio",
+            "eventVenue": "AB1 Round Amphitheatre",
+            "shortDescription": "This cultural treasure hunt challenges teams to decode riddles based on Tamil history, literature, and traditions. It combines critical thinking with teamwork, offering an engaging experience that promotes cultural awareness through fun clues.",
+            "longDescription": "A Treasure Hunt event will be organized with clues based on Tamil culture and literature. Participants will decode riddles inspired by Tamil history, language, and traditions. The event will encourage teamwork, critical thinking, and cultural awareness while providing an engaging and enjoyable experience.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "3"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-11",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:56.795Z",
+            "updatedAt": "2026-02-17T12:35:43.444Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 4,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 505,
+            "eventName": "Valoverse",
+            "clubName": "CAD CLUB",
+            "eventType": "Game",
+            "eventFor": "VITian",
+            "startDateAndTime": "2026-02-18T11:00:00+05:30",
+            "endDateAndTime": "2026-02-18T16:00:00+05:30",
+            "pricePerPerson": 60,
+            "participationType": "Solo",
+            "eventVenue": "AB3 - 501",
+            "shortDescription": "Gather your team for a high-stakes Valorant E-sports tournament. Compete head-to-head in this thrilling tactical shooter showdown where strategy and skill determine the winner. Experience the intense competitive energy of elite gaming.",
+            "longDescription": "It's a Valorant E-sport tournament. Each team go head to head for a thrilling valorant showdown ",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
             "id": "event-119",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:10.246Z",
@@ -683,59 +1637,6 @@
             "eventVenue": "Netaji Auditorium",
             "shortDescription": "Crescendo is a solo Western vocal competition featuring English-language performances. Following an online preliminary round, finalists will perform live, judged on vocal technique, pitch accuracy, and stage presence.",
             "longDescription": "Crescendo- Western Vocals is a solo singing competition designed to highlight vocal talent through English-language performances. The event features two stages: an online preliminary round where participants submit their recordings, and a live final round for shortlisted performers. Registration for each participant is Rs.250.\nFinalists may sing with or without instrumental or karaoke accompaniment, though only the vocal performance will be judged. Backing tracks must be instrumental-only and submitted in advance. Each performer is given a maximum of five minutes on stage, and exceeding this limit will result in deductions.\nJudging focuses on vocal technique, pitch accuracy, rhythm, stage presence, song choice, creativity, and overall impact. Any form of vulgarity will lead to immediate disqualification, and the judges\u2019 decision will be final and binding.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-11",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:56.795Z",
-            "updatedAt": "2026-02-03T18:25:56.795Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 505,
-            "eventName": "Valoverse",
-            "clubName": "CAD CLUB",
-            "eventType": "Game",
-            "eventFor": "VITian",
-            "startDateAndTime": "2026-02-18T11:00:00+05:30",
-            "endDateAndTime": "2026-02-18T16:00:00+05:30",
-            "pricePerPerson": 60,
-            "participationType": "Solo",
-            "eventVenue": "AB3 - 501",
-            "shortDescription": "Gather your team for a high-stakes Valorant E-sports tournament. Compete head-to-head in this thrilling tactical shooter showdown where strategy and skill determine the winner. Experience the intense competitive energy of elite gaming.",
-            "longDescription": "It's a Valorant E-sport tournament. Each team go head to head for a thrilling valorant showdown ",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
@@ -6955,59 +7856,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-135",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:53.576Z",
-            "updatedAt": "2026-02-03T18:24:53.576Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 309,
-            "eventName": "Green screen 2.0",
-            "clubName": "VITSION - moviemakers club ",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T10:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 100,
-            "participationType": "Solo",
-            "eventVenue": "AB3 - 307",
-            "shortDescription": "Green Screen challenges blindfolded participants to act out and report on movie clips playing behind them. Guided only by hints from judges, they must maintain a conversation while figuring out the scene to succeed in this unique task.",
-            "longDescription": "Green screen \nIn this event, participants will be blind folded in front of a screen on which a random famous movie clip will be played. \nThe participants are not aware of what clip is playing behind them however they must act and report on what's going on behind them while maintaining conversation with the judges where the judge will drop subtle hints about the clip for the participants to catch on",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-131",
             "type": "Entry",
             "createdAt": "2026-02-03T18:24:53.556Z",
@@ -8704,59 +9552,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-159",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:52.582Z",
-            "updatedAt": "2026-02-03T18:24:52.582Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 337,
-            "eventName": "Magadh Mahotsav ",
-            "clubName": "Magadh Mithila club",
-            "eventType": "Informal",
-            "eventFor": "VITian",
-            "startDateAndTime": "2026-02-18T11:00:00+05:30",
-            "endDateAndTime": "2026-02-18T16:00:00+05:30",
-            "pricePerPerson": 50,
-            "participationType": "Duo",
-            "eventVenue": "Track and Field Court",
-            "shortDescription": "Magadh Mahotsav Carnival is a lively cultural celebration at Vibrance\u201926 featuring interactive games and playful challenges. Open to duos for a \u20b950 fee, it offers a buzzing space filled with energy, joy, and competitive fun for all.",
-            "longDescription": "\ud83c\udfa1 Magadh Mahotsav Carnival | Vibrance\u201926 \ud83c\udfb6\n\nMagadh Mithila Club presents to you the Magadh Mahotsav Carnival, a lively fusion of joy, culture, and celebration at Vibrance\u201926. Step into a buzzing carnival space where every corner promises excitement, packed with fun and interactive games that challenge, entertain, and bring out your playful side. Jump in, take on the challenges, and let the carnival energy carry you through.\n\n\u2728 Entry: Duos only\n\ud83d\udcb0 Fee: \u20b950 per duo\n\nThe stalls are set, the games are calling, let the fun begin! \u2728",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-171",
             "type": "Entry",
             "createdAt": "2026-02-03T18:24:29.673Z",
@@ -9128,59 +9923,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-175",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:29.528Z",
-            "updatedAt": "2026-02-03T18:24:29.528Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 354,
-            "eventName": "Therottam",
-            "clubName": "Thanima - Malayalam Literary Association ",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T09:00:00+05:30",
-            "endDateAndTime": "2026-02-19T15:00:00+05:30",
-            "pricePerPerson": 100,
-            "participationType": "Duo",
-            "eventVenue": "AB3 - 401",
-            "shortDescription": "Therottam is a tournament-style game show testing quick thinking and teamwork. Participants engage in diverse mini-games like AI image guessing and literary treasure hunts to solve problems and emerge as the ultimate arena champion.",
-            "longDescription": "Therottam is a game show event that combines quick thinking, teamwork, and out-of- the-box problem-solving to crown the ultimate champion of the arena. The event features multiple engaging mini-games, such as guessing a word from an Al-generated image and participating in a literary treasure hunt. Designed in a tournament-style format, teams compete across rounds, testing their creativity, strategy, and speed, until one winner emerges victorious.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-177",
             "type": "Entry",
             "createdAt": "2026-02-03T18:24:29.510Z",
@@ -9269,59 +10011,6 @@
             "eventVenue": "AB3 - 403",
             "shortDescription": "Teams compete in a classroom-based escape room to solve a sequence of puzzles within a strict time limit. This challenge tests logical reasoning and coordination as participants race to find the final key and exit before time runs out.",
             "longDescription": "Emergency Exit 3.0 is a team-based escape room event conducted within a closed classroom environment. Participants compete in small teams, with multiple teams playing at the same time. The room contains a sequence of clues and puzzles that must be identified and solved to progress. Teams work within a fixed time limit to locate the final key or solution required to exit the room. The event follows a structured rule set and is designed around problem-solving, logical reasoning, and coordinated team effort.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-178",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:29.474Z",
-            "updatedAt": "2026-02-03T18:24:29.474Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 357,
-            "eventName": "Anime Auction: Battle of Builds",
-            "clubName": "Anime Realm ",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T09:00:00+05:30",
-            "endDateAndTime": "2026-02-20T13:00:00+05:30",
-            "pricePerPerson": 80,
-            "participationType": "Duo",
-            "eventVenue": "AB1 - 501",
-            "shortDescription": "Anime Auction: Battle of Builds is a strategic team event where participants bid on characters to create the ultimate lineup. After a qualifying quiz, teams manage budgets and follow specific roster rules to maximize their scores based on character stren",
-            "longDescription": "Anime Auction: Battle of Builds is a team-based strategy event where participants compete to build the ultimate anime character lineup. Teams first play a short quiz round to earn bonus points and narrow down the competition. In the main auction round, each team receives an equal budget and bids on characters from different anime and genres, each with a preset rating. Teams must plan carefully to meet mandatory \u201chard rules\u201d for their roster (such as minimum number of characters, required female characters, and villains), while also considering \u201csoft rules\u201d like team roles (leader, support, tank, etc.). In the final round, teams present their character setups, and scores are calculated from roster strength, quiz bonuses, and efficient budget use.",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "2"
@@ -10559,165 +11248,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-205",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:28.855Z",
-            "updatedAt": "2026-02-03T18:24:28.855Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 188,
-            "eventName": "Horror Escape Room",
-            "clubName": "The Short Film Club",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T09:30:00+05:30",
-            "endDateAndTime": "2026-02-20T15:00:00+05:30",
-            "pricePerPerson": 120,
-            "participationType": "Duo",
-            "eventVenue": "AB3 - 107",
-            "shortDescription": "This horror-themed event challenges participants to solve film-related riddles to escape a haunted room. Players must navigate obstacles and ghosts while working through this immersive blend of a horror house experience and puzzle-solving.",
-            "longDescription": "This event is set up in a horror theme where participants have to solve puzzles in order to escape the horror room. It blends horror house and riddles and puzzles relating to films to be solved so that they advance and find a way out despite the obstacles put out by the ghosts in the room.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-199",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:28.655Z",
-            "updatedAt": "2026-02-03T18:24:28.655Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 168,
-            "eventName": "Clash of Crews",
-            "clubName": "Dance Club VITC",
-            "eventType": "Dance",
-            "eventFor": "Non-VITian",
-            "startDateAndTime": "2026-02-19T13:30:00+05:30",
-            "endDateAndTime": "2026-02-19T16:00:00+05:30",
-            "pricePerPerson": 600,
-            "participationType": "Team",
-            "eventVenue": "AB3 Amphitheatre",
-            "shortDescription": "Clash of Crews is an intercollegiate team dance competition by VIT Chennai's Dance Club. Teams will test their creativity, adaptability, and stage presence through multiple rounds of unpredictable challenges.",
-            "longDescription": "The Dance Club of VIT Chennai presents Clash of Crews, an intercollegiate team dance competition designed to test creativity, adaptability, and stage presence. Crews will perform under pressure, face unpredictable challenges, and showcase their versatility through multiple rounds. Only the most coordinated and dynamic team will emerge as champions.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "5"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-204",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:28.633Z",
-            "updatedAt": "2026-02-03T18:24:28.633Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 187,
-            "eventName": "Horror Escape Room",
-            "clubName": "The Short Film Club",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T09:30:00+05:30",
-            "endDateAndTime": "2026-02-20T15:00:00+05:30",
-            "pricePerPerson": 80,
-            "participationType": "Solo",
-            "eventVenue": "AB3 - 107",
-            "shortDescription": "This horror-themed event challenges participants to solve film-related riddles to escape a haunted room. Players must navigate obstacles and ghosts while working through this immersive blend of a horror house experience and puzzle-solving.",
-            "longDescription": "This event is set up in a horror theme where participants have to solve puzzles in order to escape the horror room. It blends horror house and riddles and puzzles relating to films to be solved so that they advance and find a way out despite the obstacles put out by the ghosts in the room.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-203",
             "type": "Entry",
             "createdAt": "2026-02-03T18:24:28.613Z",
@@ -10915,59 +11445,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-206",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:55.014Z",
-            "updatedAt": "2026-02-03T18:23:55.014Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 189,
-            "eventName": "Horror Escape Room",
-            "clubName": "The Short Film Club",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T09:30:00+05:30",
-            "endDateAndTime": "2026-02-20T15:00:00+05:30",
-            "pricePerPerson": 150,
-            "participationType": "Trio",
-            "eventVenue": "AB3 - 107",
-            "shortDescription": "This horror-themed event challenges participants to solve film-related riddles to escape a haunted room. Players must navigate obstacles and ghosts while working through this immersive blend of a horror house experience and puzzle-solving.",
-            "longDescription": "This event is set up in a horror theme where participants have to solve puzzles in order to escape the horror room. It blends horror house and riddles and puzzles relating to films to be solved so that they advance and find a way out despite the obstacles put out by the ghosts in the room.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "3"
         }
     },
     {
@@ -11248,59 +11725,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-217",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:54.874Z",
-            "updatedAt": "2026-02-03T18:23:54.874Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 228,
-            "eventName": "Treasure hunt",
-            "clubName": "Arignar Anna Thamizh Mandram",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T11:00:00+05:30",
-            "endDateAndTime": "2026-02-19T16:00:00+05:30",
-            "pricePerPerson": 150,
-            "participationType": "Trio",
-            "eventVenue": "AB1 Round Amphitheatre",
-            "shortDescription": "This cultural treasure hunt challenges teams to decode riddles based on Tamil history, literature, and traditions. It combines critical thinking with teamwork, offering an engaging experience that promotes cultural awareness through fun clues.",
-            "longDescription": "A Treasure Hunt event will be organized with clues based on Tamil culture and literature. Participants will decode riddles inspired by Tamil history, language, and traditions. The event will encourage teamwork, critical thinking, and cultural awareness while providing an engaging and enjoyable experience.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "3"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-212",
             "type": "Entry",
             "createdAt": "2026-02-03T18:23:54.853Z",
@@ -11460,59 +11884,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-218",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:54.547Z",
-            "updatedAt": "2026-02-03T18:23:54.547Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 229,
-            "eventName": "Treasure hunt",
-            "clubName": "Arignar Anna Thamizh Mandram",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T11:00:00+05:30",
-            "endDateAndTime": "2026-02-19T16:00:00+05:30",
-            "pricePerPerson": 200,
-            "participationType": "Team",
-            "eventVenue": "AB1 Round Amphitheatre",
-            "shortDescription": "This cultural treasure hunt challenges teams to decode riddles based on Tamil history, literature, and traditions. It combines critical thinking with teamwork, offering an engaging experience that promotes cultural awareness through fun clues.",
-            "longDescription": "A Treasure Hunt event will be organized with clues based on Tamil culture and literature. Participants will decode riddles inspired by Tamil history, language, and traditions. The event will encourage teamwork, critical thinking, and cultural awareness while providing an engaging and enjoyable experience.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "4"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-215",
             "type": "Entry",
             "createdAt": "2026-02-03T18:23:54.528Z",
@@ -11601,59 +11972,6 @@
             "eventVenue": "AB1 - 410",
             "shortDescription": "This IPL Auction event starts with a cricket quiz to shortlist participants. Teams then use a virtual budget to bid on players, mimicking the real IPL. The event concludes by announcing the owners with the most strategic squad selections.",
             "longDescription": "The IPL Auction event will begin with registration of all participants, followed by a short cricket quiz to test knowledge and shortlist the top 40 contenders. From these, 10 team owners will be selected, and each owner will form a 4-member team. Once teams are finalized, the main auction will begin where each team, with a fixed virtual budget, bids on players from different categories to build their squad, just like in the real IPL auction. The auctioneer will announce players, manage bids, and track team budgets until all squads are complete. The event will conclude with announcing the best team selections.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "4"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-219",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:54.490Z",
-            "updatedAt": "2026-02-03T18:23:54.490Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 230,
-            "eventName": "Treasure hunt",
-            "clubName": "Arignar Anna Thamizh Mandram",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T11:00:00+05:30",
-            "endDateAndTime": "2026-02-19T16:00:00+05:30",
-            "pricePerPerson": 200,
-            "participationType": "Team",
-            "eventVenue": "AB1 Round Amphitheatre",
-            "shortDescription": "This cultural treasure hunt challenges teams to decode riddles based on Tamil history, literature, and traditions. It combines critical thinking with teamwork, offering an engaging experience that promotes cultural awareness through fun clues.",
-            "longDescription": "A Treasure Hunt event will be organized with clues based on Tamil culture and literature. Participants will decode riddles inspired by Tamil history, language, and traditions. The event will encourage teamwork, critical thinking, and cultural awareness while providing an engaging and enjoyable experience.",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "4"
@@ -11990,59 +12308,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-228",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:54.349Z",
-            "updatedAt": "2026-02-03T18:23:54.349Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 246,
-            "eventName": "Escapade",
-            "clubName": "The English Literary Association",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T11:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 50,
-            "participationType": "Solo",
-            "eventVenue": "AB1 - 212",
-            "shortDescription": "Classrooms become escape rooms where teams solve literary clues. Themes include Murder Mystery, Harry Potter, and Mythology. Work together to decode puzzles and escape before time runs out in this immersive, story-driven team challenge.",
-            "longDescription": "Classrooms will be turned into Escape rooms, where participants will go in as teams and try to escape the room by solving the series of literary clues provided to them.\nThemes:\nMurder mystery. Solve the murder mystery to get out or get killed by the killer.\nStranger things/Dungeons and dragons\nHarry Potter\nMedieval themed\nGreek/Roman mythology",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-227",
             "type": "Entry",
             "createdAt": "2026-02-03T18:23:54.328Z",
@@ -12096,59 +12361,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-226",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:54.306Z",
-            "updatedAt": "2026-02-03T18:23:54.306Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 238,
-            "eventName": "Ridiculous pitches",
-            "clubName": "Business Innovation Community(BIC)",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-18T11:00:00+05:30",
-            "endDateAndTime": "2026-02-18T14:00:00+05:30",
-            "pricePerPerson": 50,
-            "participationType": "Solo",
-            "eventVenue": "AB3 - 106",
-            "shortDescription": "In this unique pitching challenge, participants receive absurdly convoluted and unusable products. They must use their persuasion skills to convince a panel of the item's worth, turning a ridiculous concept into a winning sales pitch.",
-            "longDescription": "Participants are provided with a ridiculous, almost unusable product that is unnecessarily convoluted. They must pitch this product to a panel and convince them of its worth.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-231",
             "type": "Entry",
             "createdAt": "2026-02-03T18:23:54.285Z",
@@ -12184,59 +12396,6 @@
             "eventVenue": "AB1 - 308",
             "shortDescription": "This mini-magazine workshop invites literature lovers to create personal Zines. Engage in a hands-on session of writing, doodling, and collaging to express your creative identity. Every participant leaves with their own unique publication.",
             "longDescription": "An event where literary themes find artistic expression. A mini-magaZine making workshop for literature enthusiasts and creative minds alike! \nParticipants get to engage in a hands-on session where they can write, doodle, collage, annotate and create their own mini magazine. \nZines are a powerful instrument for self-expression and creative identity similar to literature, and by the end of the workshop, each participant gets to walk away with their very own, personalized Zine!\n",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-232",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:54.265Z",
-            "updatedAt": "2026-02-03T18:23:54.265Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 255,
-            "eventName": "Namma Mela 2.0 - Arm Wrestling",
-            "clubName": "Kannada Literary Association",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T08:00:00+05:30",
-            "endDateAndTime": "2026-02-21T16:00:00+05:30",
-            "pricePerPerson": 50,
-            "participationType": "Solo",
-            "eventVenue": "AB3 Junction",
-            "shortDescription": "Namma Mela 2.0 is a vibrant cultural carnival by the Kannada Literary Association featuring games, art, crafts, and hands-on workshops like painting, pottery, and Lippan art\u2014bringing students together through creativity, fun, and connection.\n",
-            "longDescription": "Namma Mela 2.0 is a warm, vibrant carnival organised by the Kannada Literary Association to bring students together through creativity, culture, and shared experiences. The event is designed as an open, interactive space where every participant can explore a new form of expression. Students can challenge their strength and team spirit in Arm Wrestling, or slow down and paint their thoughts on Canvas Painting stations. Those who enjoy crafts can create personalised accessories at the Bracelet Making booth, while the Wish Jar corner invites everyone to pause, reflect, and share their hopes for the year.\nTo celebrate art, we are hosting hands on Lippan Art and Pottery workshops, allowing participants to experience the joy of shaping something with their own hands.\nThis event aims to create a lively cultural atmosphere on campus, one that encourages creativity, connection, and a sense of belonging among\u00a0all\u00a0students.",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
@@ -12414,112 +12573,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-233",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:54.184Z",
-            "updatedAt": "2026-02-03T18:23:54.184Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 256,
-            "eventName": "Namma Mela 2.0 - Canvas Painting",
-            "clubName": "Kannada Literary Association",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T08:00:00+05:30",
-            "endDateAndTime": "2026-02-21T16:00:00+05:30",
-            "pricePerPerson": 75,
-            "participationType": "Solo",
-            "eventVenue": "AB3 Junction",
-            "shortDescription": "Namma Mela 2.0 is a vibrant cultural carnival by the Kannada Literary Association featuring games, art, crafts, and hands-on workshops like painting, pottery, and Lippan art\u2014bringing students together through creativity, fun, and connection.\n",
-            "longDescription": "Namma Mela 2.0 is a warm, vibrant carnival organised by the Kannada Literary Association to bring students together through creativity, culture, and shared experiences. The event is designed as an open, interactive space where every participant can explore a new form of expression. Students can challenge their strength and team spirit in Arm Wrestling, or slow down and paint their thoughts on Canvas Painting stations. Those who enjoy crafts can create personalised accessories at the Bracelet Making booth, while the Wish Jar corner invites everyone to pause, reflect, and share their hopes for the year.\nTo celebrate art, we are hosting hands on Lippan Art and Pottery workshops, allowing participants to experience the joy of shaping something with their own hands.\nThis event aims to create a lively cultural atmosphere on campus, one that encourages creativity, connection, and a sense of belonging among\u00a0all\u00a0students.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-234",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:54.161Z",
-            "updatedAt": "2026-02-03T18:23:54.161Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 257,
-            "eventName": "Namma Mela 2.0 - Bracelet Making",
-            "clubName": "Kannada Literary Association",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T08:00:00+05:30",
-            "endDateAndTime": "2026-02-21T16:00:00+05:30",
-            "pricePerPerson": 75,
-            "participationType": "Solo",
-            "eventVenue": "AB3 Junction",
-            "shortDescription": "Namma Mela 2.0 is a vibrant cultural carnival by the Kannada Literary Association featuring games, art, crafts, and hands-on workshops like painting, pottery, and Lippan art\u2014bringing students together through creativity, fun, and connection.\n",
-            "longDescription": "Namma Mela 2.0 is a warm, vibrant carnival organised by the Kannada Literary Association to bring students together through creativity, culture, and shared experiences. The event is designed as an open, interactive space where every participant can explore a new form of expression. Students can challenge their strength and team spirit in Arm Wrestling, or slow down and paint their thoughts on Canvas Painting stations. Those who enjoy crafts can create personalised accessories at the Bracelet Making booth, while the Wish Jar corner invites everyone to pause, reflect, and share their hopes for the year.\nTo celebrate art, we are hosting hands on Lippan Art and Pottery workshops, allowing participants to experience the joy of shaping something with their own hands.\nThis event aims to create a lively cultural atmosphere on campus, one that encourages creativity, connection, and a sense of belonging among\u00a0all\u00a0students.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-238",
             "type": "Entry",
             "createdAt": "2026-02-03T18:23:54.040Z",
@@ -12555,59 +12608,6 @@
             "eventVenue": "AB4 Portico",
             "shortDescription": "This hands-on Dhol Workshop introduces the powerful rhythms and cultural spirit of Maharashtra. Participants learn authentic drumming techniques and connect with the communal energy of traditional dhol performances in this session.",
             "longDescription": "Dhol Workshop is an energetic, hands-on experience designed to introduce participants to the powerful rhythms and vibrant cultural spirit of Maharashtra\u2019s traditional dhol. This immersive session takes you beyond simply listening\u2014inviting you to feel the pulse, learn authentic techniques, and connect with the communal energy that defines dhol performances.\n",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-235",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:53.940Z",
-            "updatedAt": "2026-02-03T18:23:53.940Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 269,
-            "eventName": "Namma Mela 2.0 - Wish Jar",
-            "clubName": "Kannada Literary Association",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T08:00:00+05:30",
-            "endDateAndTime": "2026-02-21T16:00:00+05:30",
-            "pricePerPerson": 50,
-            "participationType": "Solo",
-            "eventVenue": "AB3 Junction",
-            "shortDescription": "Namma Mela 2.0 is a vibrant cultural carnival by the Kannada Literary Association featuring games, art, crafts, and hands-on workshops like painting, pottery, and Lippan art\u2014bringing students together through creativity, fun, and connection.\n",
-            "longDescription": "Namma Mela 2.0 is a warm, vibrant carnival organised by the Kannada Literary Association to bring students together through creativity, culture, and shared experiences. The event is designed as an open, interactive space where every participant can explore a new form of expression. Students can challenge their strength and team spirit in Arm Wrestling, or slow down and paint their thoughts on Canvas Painting stations. Those who enjoy crafts can create personalised accessories at the Bracelet Making booth, while the Wish Jar corner invites everyone to pause, reflect, and share their hopes for the year.\nTo celebrate art, we are hosting hands on Lippan Art and Pottery workshops, allowing participants to experience the joy of shaping something with their own hands.\nThis event aims to create a lively cultural atmosphere on campus, one that encourages creativity, connection, and a sense of belonging among\u00a0all\u00a0students.",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
@@ -12711,7 +12711,7 @@
             "endDateAndTime": "2026-02-21T16:00:00+05:30",
             "pricePerPerson": 300,
             "participationType": "Duo",
-            "eventVenue": "AB4 - 203",
+            "eventVenue": "AB4 - 314",
             "shortDescription": "",
             "longDescription": "",
             "specialEvent": false,

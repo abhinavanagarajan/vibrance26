@@ -12,6 +12,112 @@
                     "id": "cuzunz84pu17"
                 }
             },
+            "id": "event-13",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:56.734Z",
+            "updatedAt": "2026-02-17T14:01:22.315Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 507,
+            "eventName": "Component Chaos",
+            "clubName": "Havoltz ",
+            "eventType": "Cyber Engage",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T09:00+05:30",
+            "endDateAndTime": "2026-02-21T12:30:00+05:30",
+            "pricePerPerson": 150,
+            "participationType": "Duo",
+            "eventVenue": "AB1 - 304",
+            "shortDescription": "Component Chaos is a hands-on electronics challenge where teams receive a box of random parts with no instructions. Participants must analyze components and design a working circuit, testing their practical knowledge and creativity.",
+            "longDescription": "Component Chaos is a hands-on electronics challenge where participants are given a sealed box containing a random set of electronic components. With no circuit diagram or prior instructions, teams must analyze the components, understand their purpose, and design a working circuit within the given time. This event tests participants\u2019 practical electronics knowledge, problem-solving skills, teamwork, and creativity under pressure. The goal is not just to make a circuit work, but to think like an engineer and bring logic out of chaos.\n",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "2"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-12",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:56.775Z",
+            "updatedAt": "2026-02-17T14:00:56.728Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 4,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 506,
+            "eventName": "Component Chaos",
+            "clubName": "Havoltz ",
+            "eventType": "Cyber Engage",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T09:00+05:30",
+            "endDateAndTime": "2026-02-21T12:30:00+05:30",
+            "pricePerPerson": 100,
+            "participationType": "Solo",
+            "eventVenue": "AB1 - 304",
+            "shortDescription": "Component Chaos is a hands-on electronics challenge where teams receive a box of random parts with no instructions. Participants must analyze components and design a working circuit, testing their practical knowledge and creativity.",
+            "longDescription": "Component Chaos is a hands-on electronics challenge where participants are given a sealed box containing a random set of electronic components. With no circuit diagram or prior instructions, teams must analyze the components, understand their purpose, and design a working circuit within the given time. This event tests participants\u2019 practical electronics knowledge, problem-solving skills, teamwork, and creativity under pressure. The goal is not just to make a circuit work, but to think like an engineer and bring logic out of chaos.\n",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
             "id": "event-7",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:56.892Z",
@@ -2132,59 +2238,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-12",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:56.775Z",
-            "updatedAt": "2026-02-03T18:25:56.775Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 506,
-            "eventName": "Component Chaos",
-            "clubName": "Havoltz ",
-            "eventType": "Cyber Engage",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T11:00:00+05:30",
-            "endDateAndTime": "2026-02-21T12:30:00+05:30",
-            "pricePerPerson": 100,
-            "participationType": "Solo",
-            "eventVenue": "AB1 - 304",
-            "shortDescription": "Component Chaos is a hands-on electronics challenge where teams receive a box of random parts with no instructions. Participants must analyze components and design a working circuit, testing their practical knowledge and creativity.",
-            "longDescription": "Component Chaos is a hands-on electronics challenge where participants are given a sealed box containing a random set of electronic components. With no circuit diagram or prior instructions, teams must analyze the components, understand their purpose, and design a working circuit within the given time. This event tests participants\u2019 practical electronics knowledge, problem-solving skills, teamwork, and creativity under pressure. The goal is not just to make a circuit work, but to think like an engineer and bring logic out of chaos.\n",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-15",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:56.753Z",
@@ -2223,59 +2276,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-13",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:56.734Z",
-            "updatedAt": "2026-02-03T18:25:56.734Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 507,
-            "eventName": "Component Chaos",
-            "clubName": "Havoltz ",
-            "eventType": "Cyber Engage",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T11:00:00+05:30",
-            "endDateAndTime": "2026-02-21T12:30:00+05:30",
-            "pricePerPerson": 150,
-            "participationType": "Duo",
-            "eventVenue": "AB1 - 304",
-            "shortDescription": "Component Chaos is a hands-on electronics challenge where teams receive a box of random parts with no instructions. Participants must analyze components and design a working circuit, testing their practical knowledge and creativity.",
-            "longDescription": "Component Chaos is a hands-on electronics challenge where participants are given a sealed box containing a random set of electronic components. With no circuit diagram or prior instructions, teams must analyze the components, understand their purpose, and design a working circuit within the given time. This event tests participants\u2019 practical electronics knowledge, problem-solving skills, teamwork, and creativity under pressure. The goal is not just to make a circuit work, but to think like an engineer and bring logic out of chaos.\n",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "2"
         }
     },
     {
@@ -3934,59 +3934,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-47",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:27.277Z",
-            "updatedAt": "2026-02-03T18:25:27.277Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 426,
-            "eventName": "R\u00e8gne de Terreur",
-            "clubName": "French Club ",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T09:00:00+05:30",
-            "endDateAndTime": "2026-02-19T14:30:00+05:30",
-            "pricePerPerson": 260,
-            "participationType": "Team",
-            "eventVenue": "AB1 - 402",
-            "shortDescription": "Inspired by the \"Reign of Terror,\" teams must identify a secret spy while completing tasks for points. Captains use clues to find the traitor, navigating enemy factions and safe zones in this strategic, revolutionary-themed game.",
-            "longDescription": "Our event is inspired by Maximilien Robespierre\u2019s \u201cReign of Terror,\u201d where participants play revolutionaries attempting to overthrow him in a strategic team-based game. Each team consists of four members: one captain and three soldiers, among whom one is secretly a spy from Robespierre\u2019s Ghost Agents tasked with eliminating the entire team.\n\nThe captain\u2019s role is to identify and eliminate the spy within a fixed time limit. Only the captain can make this decision, based on clues provided and team discussions held only at designated checkpoints. Teams must also complete tasks to earn points, which are required to hand over the spy. Rule violations lead to point deductions, and repeated violations result in disqualification.\n\nTeams are divided into allied and enemy factions, with some tasks requiring cooperation between allies. Enemy teams may eliminate one opposing member after earning sufficient points. National Guards mark safe zones where eliminations are prohibited. Winners are determined by points and successful identification of the spy.\n",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "4"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-44",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:27.260Z",
@@ -4075,59 +4022,6 @@
             "eventVenue": "Kamaraj Auditorium",
             "shortDescription": "A collaboration between TEDx VIT Chennai, History TV18, and the UN, this event features a series of insightful talks. Experts and speakers share powerful ideas and perspectives aimed at shaping the future and understanding our modern world.",
             "longDescription": "A collaborative event between TEDX VIT CHENNAI, History TV18, City of Kitchener and United Nations where we will be having a series  of talks that shape the modern world. ",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-46",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:27.228Z",
-            "updatedAt": "2026-02-03T18:25:27.228Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 425,
-            "eventName": "R\u00e8gne de Terreur",
-            "clubName": "French Club ",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T09:00:00+05:30",
-            "endDateAndTime": "2026-02-19T14:30:00+05:30",
-            "pricePerPerson": 150,
-            "participationType": "Duo",
-            "eventVenue": "AB1 - 402",
-            "shortDescription": "Inspired by the \"Reign of Terror,\" teams must identify a secret spy while completing tasks for points. Captains use clues to find the traitor, navigating enemy factions and safe zones in this strategic, revolutionary-themed game.",
-            "longDescription": "Our event is inspired by Maximilien Robespierre\u2019s \u201cReign of Terror,\u201d where participants play revolutionaries attempting to overthrow him in a strategic team-based game. Each team consists of four members: one captain and three soldiers, among whom one is secretly a spy from Robespierre\u2019s Ghost Agents tasked with eliminating the entire team.\n\nThe captain\u2019s role is to identify and eliminate the spy within a fixed time limit. Only the captain can make this decision, based on clues provided and team discussions held only at designated checkpoints. Teams must also complete tasks to earn points, which are required to hand over the spy. Rule violations lead to point deductions, and repeated violations result in disqualification.\n\nTeams are divided into allied and enemy factions, with some tasks requiring cooperation between allies. Enemy teams may eliminate one opposing member after earning sufficient points. National Guards mark safe zones where eliminations are prohibited. Winners are determined by points and successful identification of the spy.\n",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "2"
@@ -5842,112 +5736,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-87",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:26.277Z",
-            "updatedAt": "2026-02-03T18:25:26.277Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 472,
-            "eventName": "Battle of Cultures",
-            "clubName": "Namami Axom",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T10:00:00+05:30",
-            "endDateAndTime": "2026-02-21T12:00:00+05:30",
-            "pricePerPerson": 160,
-            "participationType": "Team",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Teams showcase creative acts like dance, music, or drama. After judge critiques and audience cheers, winners are chosen based on scores and crowd response. This event celebrates diverse cultural roots through artistic expression and teamwork.",
-            "longDescription": "Battle of Culture is a friendly performance face-off where creativity meets fun. The event kicks off with a short introduction of the participants and a quick audience warm-up to set the mood. Each team or performer then takes the stage to present their act\u2014this could be dance, music, drama, or any art form that represents their cultural roots or personal style.After every performance, the judges share brief comments, and the audience gets a chance to cheer for their favorites. Once all acts have performed, there\u2019s a short break before the final results. The judges\u2019 scores and crowd response decide who takes home the prize money.The evening wraps up with a light-hearted closing segment, celebrating all participants and the diverse cultures they bring together. It\u2019s an event about expression, teamwork, and enjoying art in its many forms.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "4"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-85",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:10.949Z",
-            "updatedAt": "2026-02-03T18:25:10.949Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 470,
-            "eventName": "Battle of Cultures",
-            "clubName": "Namami Axom",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T10:00:00+05:30",
-            "endDateAndTime": "2026-02-21T12:00:00+05:30",
-            "pricePerPerson": 90,
-            "participationType": "Duo",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Teams showcase creative acts like dance, music, or drama. After judge critiques and audience cheers, winners are chosen based on scores and crowd response. This event celebrates diverse cultural roots through artistic expression and teamwork.",
-            "longDescription": "Battle of Culture is a friendly performance face-off where creativity meets fun. The event kicks off with a short introduction of the participants and a quick audience warm-up to set the mood. Each team or performer then takes the stage to present their act\u2014this could be dance, music, drama, or any art form that represents their cultural roots or personal style.After every performance, the judges share brief comments, and the audience gets a chance to cheer for their favorites. Once all acts have performed, there\u2019s a short break before the final results. The judges\u2019 scores and crowd response decide who takes home the prize money.The evening wraps up with a light-hearted closing segment, celebrating all participants and the diverse cultures they bring together. It\u2019s an event about expression, teamwork, and enjoying art in its many forms.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-89",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:10.930Z",
@@ -5983,59 +5771,6 @@
             "eventVenue": "AB3 - 201",
             "shortDescription": "This unpredictable general knowledge quiz by VIT Chennai\u2019s Quiz Club covers global news, tech, and pop culture. Participants face fast-paced rounds featuring history and viral trends, testing their quick reactions and broad knowledge in a high-energy, co",
             "longDescription": "Get ready for a quiz that pulls questions from every corner of the world and every corner of the internet. Everything, Everywhere, All at Once is a fast, fun and unpredictable general knowledge event that mixes international news, science, sports, pop culture, history, tech, entertainment and even a bit of hot gossip.\n\nIf it happened, trended, went viral, or made people talk, it might show up here. The rounds are designed to keep everyone on their toes, with a mix of serious questions, light moments and a few surprises to keep the energy high.\n\nWhether you follow global affairs, binge movies, scroll through social media all day, or simply love random facts, this quiz has something for you. Bring your best thinking, your quickest reactions and a team that can keep up with the chaos.\n\nEverything, Everywhere, All at Once\nPresented by the Quiz Club of VIT Chennai.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "3"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-86",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:10.909Z",
-            "updatedAt": "2026-02-03T18:25:10.909Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 471,
-            "eventName": "Battle of Cultures",
-            "clubName": "Namami Axom",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T10:00:00+05:30",
-            "endDateAndTime": "2026-02-21T12:00:00+05:30",
-            "pricePerPerson": 120,
-            "participationType": "Trio",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Teams showcase creative acts like dance, music, or drama. After judge critiques and audience cheers, winners are chosen based on scores and crowd response. This event celebrates diverse cultural roots through artistic expression and teamwork.",
-            "longDescription": "Battle of Culture is a friendly performance face-off where creativity meets fun. The event kicks off with a short introduction of the participants and a quick audience warm-up to set the mood. Each team or performer then takes the stage to present their act\u2014this could be dance, music, drama, or any art form that represents their cultural roots or personal style.After every performance, the judges share brief comments, and the audience gets a chance to cheer for their favorites. Once all acts have performed, there\u2019s a short break before the final results. The judges\u2019 scores and crowd response decide who takes home the prize money.The evening wraps up with a light-hearted closing segment, celebrating all participants and the diverse cultures they bring together. It\u2019s an event about expression, teamwork, and enjoying art in its many forms.",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "3"
@@ -7644,59 +7379,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-123",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:53.647Z",
-            "updatedAt": "2026-02-03T18:24:53.647Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 296,
-            "eventName": "R\u00e8gne de Terreur",
-            "clubName": "French Club ",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T09:00:00+05:30",
-            "endDateAndTime": "2026-02-19T14:30:00+05:30",
-            "pricePerPerson": 90,
-            "participationType": "Solo",
-            "eventVenue": "AB1 - 402",
-            "shortDescription": "Inspired by the \"Reign of Terror,\" teams must identify a secret spy while completing tasks for points. Captains use clues to find the traitor, navigating enemy factions and safe zones in this strategic, revolutionary-themed game.",
-            "longDescription": "Our event is inspired by Maximilien Robespierre\u2019s \u201cReign of Terror,\u201d where participants play revolutionaries attempting to overthrow him in a strategic team-based game. Each team consists of four members: one captain and three soldiers, among whom one is secretly a spy from Robespierre\u2019s Ghost Agents tasked with eliminating the entire team.\n\nThe captain\u2019s role is to identify and eliminate the spy within a fixed time limit. Only the captain can make this decision, based on clues provided and team discussions held only at designated checkpoints. Teams must also complete tasks to earn points, which are required to hand over the spy. Rule violations lead to point deductions, and repeated violations result in disqualification.\n\nTeams are divided into allied and enemy factions, with some tasks requiring cooperation between allies. Enemy teams may eliminate one opposing member after earning sufficient points. National Guards mark safe zones where eliminations are prohibited. Winners are determined by points and successful identification of the spy.\n",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-128",
             "type": "Entry",
             "createdAt": "2026-02-03T18:24:53.629Z",
@@ -8209,59 +7891,6 @@
             "eventVenue": "AB1 Amphitheatre ",
             "shortDescription": "Teams navigate a fracturing multiverse to solve Sherlock\u2019s murder by identifying the one true reality. Through puzzles, decoding, and time travel, participants gather clues to catch the killer before the timelines completely collapse.",
             "longDescription": "Sherlock exists across multiple parallel realities. When the multiverse fractures, he is found dead in every universe and each death an echo of a single, true crime. Only one universe holds the real murder. The rest are distortions created by collapsing timelines.\n\nTeams must travel across these universes, each governed by different rules, challenges, and truths. As realities overlap and time itself destabilizes, participants gather fragmented clues about the killer, the weapon, and the world by eliminating false paths to uncover the one reality where the crime truly occurred.\n\nChallenges include logic and tech puzzles, audio-based decoding, visual illusion tasks, hands-on team activities, and chaos relay featuring elements like Morse-code walk, riddle resolutions,sabotage cards, etc.\n\nA limited time-travel window allows teams to revisit the past, alter their deductions, and gain critical insights before the multiverse collapses completely.\n\nA high-intensity, story-driven mystery that blends multiverse chaos, strategic deduction, and immersive\u00a0gameplay.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-137",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:53.407Z",
-            "updatedAt": "2026-02-03T18:24:53.407Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 311,
-            "eventName": "Battle of Cultures",
-            "clubName": "Namami Axom",
-            "eventType": "Arts",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T10:00:00+05:30",
-            "endDateAndTime": "2026-02-21T12:00:00+05:30",
-            "pricePerPerson": 50,
-            "participationType": "Solo",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Teams showcase creative acts like dance, music, or drama. After judge critiques and audience cheers, winners are chosen based on scores and crowd response. This event celebrates diverse cultural roots through artistic expression and teamwork.",
-            "longDescription": "Battle of Culture is a friendly performance face-off where creativity meets fun. The event kicks off with a short introduction of the participants and a quick audience warm-up to set the mood. Each team or performer then takes the stage to present their act\u2014this could be dance, music, drama, or any art form that represents their cultural roots or personal style.After every performance, the judges share brief comments, and the audience gets a chance to cheer for their favorites. Once all acts have performed, there\u2019s a short break before the final results. The judges\u2019 scores and crowd response decide who takes home the prize money.The evening wraps up with a light-hearted closing segment, celebrating all participants and the diverse cultures they bring together. It\u2019s an event about expression, teamwork, and enjoying art in its many forms.",
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
@@ -11763,112 +11392,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-220",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:54.431Z",
-            "updatedAt": "2026-02-03T18:23:54.431Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 232,
-            "eventName": "Sol Vilaiyatu",
-            "clubName": "Arignar Anna Thamizh Mandram",
-            "eventType": "Literary Events",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T11:30:00+05:30",
-            "endDateAndTime": "2026-02-19T16:00:00+05:30",
-            "pricePerPerson": 100,
-            "participationType": "Duo",
-            "eventVenue": "AB3 - 501",
-            "shortDescription": "Sol Vilaiyatu is an engaging word game event designed to sharpen vocabulary and reasoning. Teams of two to three compete in rounds of clue-based guessing and unscrambling jumbled words, fostering teamwork and logical thinking skills.",
-            "longDescription": "Sol Vilaiyatu is a word game event designed to enhance vocabulary, reasoning, and teamwork. Teams of 2\u20133 members will participate in two rounds: one involves guessing a word from clues, and the other involves unscrambling a jumbled word. This event helps students sharpen their language skills and logical thinking.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-221",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:23:54.411Z",
-            "updatedAt": "2026-02-03T18:23:54.411Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 233,
-            "eventName": "Sol Vilaiyatu",
-            "clubName": "Arignar Anna Thamizh Mandram",
-            "eventType": "Literary Events",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-19T11:30:00+05:30",
-            "endDateAndTime": "2026-02-19T16:00:00+05:30",
-            "pricePerPerson": 120,
-            "participationType": "Trio",
-            "eventVenue": "AB3 - 501",
-            "shortDescription": "Sol Vilaiyatu is an engaging word game event designed to sharpen vocabulary and reasoning. Teams of two to three compete in rounds of clue-based guessing and unscrambling jumbled words, fostering teamwork and logical thinking skills.",
-            "longDescription": "Sol Vilaiyatu is a word game event designed to enhance vocabulary, reasoning, and teamwork. Teams of 2\u20133 members will participate in two rounds: one involves guessing a word from clues, and the other involves unscrambling a jumbled word. This event helps students sharpen their language skills and logical thinking.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "3"
         }
     },
     {

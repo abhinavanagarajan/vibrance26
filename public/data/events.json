@@ -12,6 +12,642 @@
                     "id": "cuzunz84pu17"
                 }
             },
+            "id": "event-78",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:26.440Z",
+            "updatedAt": "2026-02-17T13:25:34.533Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 462,
+            "eventName": "The Great Prompt Off",
+            "clubName": "THE DAO COMMUNITY ",
+            "eventType": "Cyber Engage",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T10:00+05:30",
+            "endDateAndTime": "2026-02-20T12:30+05:30",
+            "pricePerPerson": 150,
+            "participationType": "Trio",
+            "eventVenue": "Nethaji Auditorium",
+            "shortDescription": "PromptCraft is an AI-based challenge where participants use written prompts to recreate or reinterpret images and concepts. It focuses on creativity and intentionality, encouraging beginners to experiment with AI-driven visual storytelling.",
+            "longDescription": "PromptCraft is a creative, AI-based challenge where ideas matter more than technical skills. Participants are given a reference image, video concept, or a set of objects, and their task is to recreate or reinterpret it using AI through carefully written prompts. The challenge lies in how well you can translate an idea into words and guide the AI to generate an output that feels accurate, creative, and intentional.\n\nThere are no restrictions on style or imagination. Some may aim for close accuracy, while others may turn the same reference into something completely unexpected. PromptCraft is designed to be beginner-friendly and open to anyone curious about creativity and AI. It encourages experimentation, attention to detail, and thinking beyond the obvious.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "3"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-151",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:24:52.908Z",
+            "updatedAt": "2026-02-17T13:25:18.035Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 329,
+            "eventName": "The Great Prompt Off",
+            "clubName": "THE DAO COMMUNITY ",
+            "eventType": "Cyber Engage",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-20T10:00+05:30",
+            "endDateAndTime": "2026-02-20T12:30+05:30",
+            "pricePerPerson": 100,
+            "participationType": "Duo",
+            "eventVenue": "Nethaji Auditorium",
+            "shortDescription": "PromptCraft is an AI-based challenge where participants use written prompts to recreate or reinterpret images and concepts. It focuses on creativity and intentionality, encouraging beginners to experiment with AI-driven visual storytelling.",
+            "longDescription": "PromptCraft is a creative, AI-based challenge where ideas matter more than technical skills. Participants are given a reference image, video concept, or a set of objects, and their task is to recreate or reinterpret it using AI through carefully written prompts. The challenge lies in how well you can translate an idea into words and guide the AI to generate an output that feels accurate, creative, and intentional.\n\nThere are no restrictions on style or imagination. Some may aim for close accuracy, while others may turn the same reference into something completely unexpected. PromptCraft is designed to be beginner-friendly and open to anyone curious about creativity and AI. It encourages experimentation, attention to detail, and thinking beyond the obvious.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "2"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-118",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:10.380Z",
+            "updatedAt": "2026-02-17T13:24:49.484Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 291,
+            "eventName": "Rhythmic reflections 2.6",
+            "clubName": "Chapter-seraphic",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T13:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00+05:30",
+            "pricePerPerson": 180,
+            "participationType": "Team",
+            "eventVenue": "MBA Amphitheatre",
+            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
+            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "7"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-117",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:10.299Z",
+            "updatedAt": "2026-02-17T13:24:25.904Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 290,
+            "eventName": "Rhythmic reflections 2.5",
+            "clubName": "Chapter-seraphic",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T13:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00+05:30",
+            "pricePerPerson": 160,
+            "participationType": "Team",
+            "eventVenue": "MBA Amphitheatre",
+            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
+            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "6"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-116",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:10.045Z",
+            "updatedAt": "2026-02-17T13:23:44.392Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 289,
+            "eventName": "Rhythmic reflections 2.4",
+            "clubName": "Chapter-seraphic",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T13:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00+05:30",
+            "pricePerPerson": 140,
+            "participationType": "Team",
+            "eventVenue": "MBA Amphitheatre",
+            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
+            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "5"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-115",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:10.494Z",
+            "updatedAt": "2026-02-17T13:23:28.416Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 288,
+            "eventName": "Rhythmic reflections 2.3",
+            "clubName": "Chapter-seraphic",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T13:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00+05:30",
+            "pricePerPerson": 120,
+            "participationType": "Team",
+            "eventVenue": "MBA Amphitheatre",
+            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
+            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "4"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-114",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:10.458Z",
+            "updatedAt": "2026-02-17T13:23:14.365Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 287,
+            "eventName": "Rhythmic reflections 2.2",
+            "clubName": "Chapter-seraphic",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T13:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00+05:30",
+            "pricePerPerson": 100,
+            "participationType": "Trio",
+            "eventVenue": "MBA Amphitheatre",
+            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
+            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "3"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-113",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:10.399Z",
+            "updatedAt": "2026-02-17T13:22:57.991Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 286,
+            "eventName": "Rhythmic reflections 2.1",
+            "clubName": "Chapter-seraphic",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T13:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00+05:30",
+            "pricePerPerson": 70,
+            "participationType": "Duo",
+            "eventVenue": "MBA Amphitheatre",
+            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
+            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "2"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-112",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:10.423Z",
+            "updatedAt": "2026-02-17T13:22:45.525Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 285,
+            "eventName": " Rhythmic reflections 2.0",
+            "clubName": "Chapter-seraphic",
+            "eventType": "Informal",
+            "eventFor": "Both",
+            "startDateAndTime": "2026-02-21T13:00+05:30",
+            "endDateAndTime": "2026-02-21T16:00+05:30",
+            "pricePerPerson": 50,
+            "participationType": "Solo",
+            "eventVenue": "MBA Amphitheatre",
+            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
+            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-10",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:56.814Z",
+            "updatedAt": "2026-02-17T13:22:09.411Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 504,
+            "eventName": " Prelims : Crescendo - Western vocals",
+            "clubName": "Music Club`",
+            "eventType": "Music",
+            "eventFor": "Non-VITian",
+            "startDateAndTime": "2026-02-21T09:00+05:30",
+            "endDateAndTime": "2026-02-21T14:00+05:30",
+            "pricePerPerson": 0,
+            "participationType": "Solo",
+            "eventVenue": "Netaji Auditorium",
+            "shortDescription": "Crescendo is a solo Western vocal competition featuring English-language performances. Following an online preliminary round, finalists will perform live, judged on vocal technique, pitch accuracy, and stage presence.",
+            "longDescription": "Crescendo- Western Vocals is a solo singing competition designed to highlight vocal talent through English-language performances. The event features two stages: an online preliminary round where participants submit their recordings, and a live final round for shortlisted performers. Registration for each participant is Rs.250.\nFinalists may sing with or without instrumental or karaoke accompaniment, though only the vocal performance will be judged. Backing tracks must be instrumental-only and submitted in advance. Each performer is given a maximum of five minutes on stage, and exceeding this limit will result in deductions.\nJudging focuses on vocal technique, pitch accuracy, rhythm, stage presence, song choice, creativity, and overall impact. Any form of vulgarity will lead to immediate disqualification, and the judges\u2019 decision will be final and binding.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-7",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:56.892Z",
+            "updatedAt": "2026-02-17T13:21:15.172Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 501,
+            "eventName": "Prelims : Aakar - Eastern Vocals",
+            "clubName": "Music Club",
+            "eventType": "Music",
+            "eventFor": "Non-VITian",
+            "startDateAndTime": "2026-02-21T09:00+05:30",
+            "endDateAndTime": "2026-02-21T14:00+05:30",
+            "pricePerPerson": 0,
+            "participationType": "Solo",
+            "eventVenue": "Netaji Auditorium",
+            "shortDescription": "Akaar is a solo singing contest for regional music. After online prelims, finalists perform live for five minutes. Judging focuses on vocal technique, pitch, and stage presence. Registration is Rs.250, and instrumental backing tracks are allowed.",
+            "longDescription": "Akaar- Eastern Vocals is a solo singing competition celebrating the richness of regional music through expressive and technically strong performances. The event follows an online preliminary round where participants submit their recordings, and a live final round for shortlisted performers. Each participant registers with a fee of Rs.250.\nFinalists may perform with or without instrumental or karaoke accompaniment; however, only the vocal performance will be evaluated. Backing tracks must be instrumental-only and submitted in advance. Each performer is allotted a maximum of five minutes on stage, with deductions for exceeding the time limit.\nJudging will focus on vocal technique, pitch and intonation, rhythm, creativity, song choice, stage presence, and overall impact. Any form of vulgarity will result in immediate disqualification, and the judges\u2019 decision will be final and binding.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "1"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
+            "id": "event-9",
+            "type": "Entry",
+            "createdAt": "2026-02-03T18:25:56.831Z",
+            "updatedAt": "2026-02-17T13:20:50.327Z",
+            "environment": {
+                "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                }
+            },
+            "publishedVersion": 3,
+            "revision": 2,
+            "contentType": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "event"
+                }
+            },
+            "locale": "en-US"
+        },
+        "fields": {
+            "eventId": 503,
+            "eventName": "Prelims : Polyphony - Western Battle of Bands",
+            "clubName": "Music Club",
+            "eventType": "Music",
+            "eventFor": "Non-VITian",
+            "startDateAndTime": "2026-02-20T11:00+05:30",
+            "endDateAndTime": "2026-02-20T16:00+05:30",
+            "pricePerPerson": 0,
+            "participationType": "Team",
+            "eventVenue": "MBA Amphitheatre",
+            "shortDescription": "Polyphony is a Western Battle of Bands for college groups. Featuring live English performances, the event focuses on originality and synchronization. Shortlisted bands from the online prelims will compete in a finale.",
+            "longDescription": "Polyphony - Western Battle of Bands is a competitive platform for college bands to showcase their musical talent through live English performances. Bands (4-9 members) will participate in an online preliminary round, followed by an on-stage finale for shortlisted teams. The event emphasizes originality, creativity, synchronization, and stage presence, with strict no-backing-track rules to maintain performance authenticity. Finalists will be given a defined stage time and must bring their own instruments (drum kit provided). Registration is Rs.300 per member for bands qualifying for the final round. Decisions by the judging panel will be final.",
+            "specialEvent": false,
+            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
+            "teamSize": "4-9"
+        }
+    },
+    {
+        "metadata": {
+            "tags": [],
+            "concepts": []
+        },
+        "sys": {
+            "space": {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "cuzunz84pu17"
+                }
+            },
             "id": "event-226",
             "type": "Entry",
             "createdAt": "2026-02-03T18:23:54.306Z",
@@ -1390,59 +2026,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-7",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:56.892Z",
-            "updatedAt": "2026-02-03T18:25:56.892Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 501,
-            "eventName": "Prelims : Aakar - Eastern Vocals",
-            "clubName": "Music Club",
-            "eventType": "Music",
-            "eventFor": "Non-VITian",
-            "startDateAndTime": "2026-02-20T09:00:00+05:30",
-            "endDateAndTime": "2026-02-20T14:00:00+05:30",
-            "pricePerPerson": 0,
-            "participationType": "Solo",
-            "eventVenue": "Netaji Auditorium",
-            "shortDescription": "Akaar is a solo singing contest for regional music. After online prelims, finalists perform live for five minutes. Judging focuses on vocal technique, pitch, and stage presence. Registration is Rs.250, and instrumental backing tracks are allowed.",
-            "longDescription": "Akaar- Eastern Vocals is a solo singing competition celebrating the richness of regional music through expressive and technically strong performances. The event follows an online preliminary round where participants submit their recordings, and a live final round for shortlisted performers. Each participant registers with a fee of Rs.250.\nFinalists may perform with or without instrumental or karaoke accompaniment; however, only the vocal performance will be evaluated. Backing tracks must be instrumental-only and submitted in advance. Each performer is allotted a maximum of five minutes on stage, with deductions for exceeding the time limit.\nJudging will focus on vocal technique, pitch and intonation, rhythm, creativity, song choice, stage presence, and overall impact. Any form of vulgarity will result in immediate disqualification, and the judges\u2019 decision will be final and binding.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-4",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:56.871Z",
@@ -1534,112 +2117,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "4-9"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-9",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:56.831Z",
-            "updatedAt": "2026-02-03T18:25:56.831Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 503,
-            "eventName": "Prelims : Polyphony - Western Battle of Bands",
-            "clubName": "Music Club",
-            "eventType": "Music",
-            "eventFor": "Non-VITian",
-            "startDateAndTime": "2026-02-18T11:00:00+05:30",
-            "endDateAndTime": "2026-02-18T16:00:00+05:30",
-            "pricePerPerson": 0,
-            "participationType": "Team",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Polyphony is a Western Battle of Bands for college groups. Featuring live English performances, the event focuses on originality and synchronization. Shortlisted bands from the online prelims will compete in a finale.",
-            "longDescription": "Polyphony - Western Battle of Bands is a competitive platform for college bands to showcase their musical talent through live English performances. Bands (4-9 members) will participate in an online preliminary round, followed by an on-stage finale for shortlisted teams. The event emphasizes originality, creativity, synchronization, and stage presence, with strict no-backing-track rules to maintain performance authenticity. Finalists will be given a defined stage time and must bring their own instruments (drum kit provided). Registration is Rs.300 per member for bands qualifying for the final round. Decisions by the judging panel will be final.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "4-9"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-10",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:56.814Z",
-            "updatedAt": "2026-02-03T18:25:56.814Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 504,
-            "eventName": " Prelims : Crescendo - Western vocals",
-            "clubName": "Music Club`",
-            "eventType": "Music",
-            "eventFor": "Non-VITian",
-            "startDateAndTime": "2026-02-20T09:00:00+05:30",
-            "endDateAndTime": "2026-02-20T14:00:00+05:30",
-            "pricePerPerson": 0,
-            "participationType": "Solo",
-            "eventVenue": "Netaji Auditorium",
-            "shortDescription": "Crescendo is a solo Western vocal competition featuring English-language performances. Following an online preliminary round, finalists will perform live, judged on vocal technique, pitch accuracy, and stage presence.",
-            "longDescription": "Crescendo- Western Vocals is a solo singing competition designed to highlight vocal talent through English-language performances. The event features two stages: an online preliminary round where participants submit their recordings, and a live final round for shortlisted performers. Registration for each participant is Rs.250.\nFinalists may sing with or without instrumental or karaoke accompaniment, though only the vocal performance will be judged. Backing tracks must be instrumental-only and submitted in advance. Each performer is given a maximum of five minutes on stage, and exceeding this limit will result in deductions.\nJudging focuses on vocal technique, pitch accuracy, rhythm, stage presence, song choice, creativity, and overall impact. Any form of vulgarity will lead to immediate disqualification, and the judges\u2019 decision will be final and binding.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
         }
     },
     {
@@ -4994,59 +5471,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-78",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:26.440Z",
-            "updatedAt": "2026-02-03T18:25:26.440Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 462,
-            "eventName": "The Great Prompt Off",
-            "clubName": "THE DAO COMMUNITY ",
-            "eventType": "Cyber Engage",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T10:00:00+05:30",
-            "endDateAndTime": "2026-02-21T12:30:00+05:30",
-            "pricePerPerson": 150,
-            "participationType": "Trio",
-            "eventVenue": "Nethaji Auditorium",
-            "shortDescription": "PromptCraft is an AI-based challenge where participants use written prompts to recreate or reinterpret images and concepts. It focuses on creativity and intentionality, encouraging beginners to experiment with AI-driven visual storytelling.",
-            "longDescription": "PromptCraft is a creative, AI-based challenge where ideas matter more than technical skills. Participants are given a reference image, video concept, or a set of objects, and their task is to recreate or reinterpret it using AI through carefully written prompts. The challenge lies in how well you can translate an idea into words and guide the AI to generate an output that feels accurate, creative, and intentional.\n\nThere are no restrictions on style or imagination. Some may aim for close accuracy, while others may turn the same reference into something completely unexpected. PromptCraft is designed to be beginner-friendly and open to anyone curious about creativity and AI. It encourages experimentation, attention to detail, and thinking beyond the obvious.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "3"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-76",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:26.425Z",
@@ -6743,59 +7167,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-115",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:10.494Z",
-            "updatedAt": "2026-02-03T18:25:10.494Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 288,
-            "eventName": "Rhythmic reflections 2.3",
-            "clubName": "Chapter-seraphic",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T13:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 120,
-            "participationType": "Team",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
-            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "4"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-111",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:10.478Z",
@@ -6834,59 +7205,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-114",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:10.458Z",
-            "updatedAt": "2026-02-03T18:25:10.458Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 287,
-            "eventName": "Rhythmic reflections 2.2",
-            "clubName": "Chapter-seraphic",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T13:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 100,
-            "participationType": "Trio",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
-            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "3"
         }
     },
     {
@@ -6955,165 +7273,6 @@
                     "id": "cuzunz84pu17"
                 }
             },
-            "id": "event-112",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:10.423Z",
-            "updatedAt": "2026-02-03T18:25:10.423Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 285,
-            "eventName": " Rhythmic reflections 2.0",
-            "clubName": "Chapter-seraphic",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T13:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 50,
-            "participationType": "Solo",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
-            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-113",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:10.399Z",
-            "updatedAt": "2026-02-03T18:25:10.399Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 286,
-            "eventName": "Rhythmic reflections 2.1",
-            "clubName": "Chapter-seraphic",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T13:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 70,
-            "participationType": "Duo",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
-            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "2"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-118",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:10.380Z",
-            "updatedAt": "2026-02-03T18:25:10.380Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 291,
-            "eventName": "Rhythmic reflections 2.6",
-            "clubName": "Chapter-seraphic",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T13:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 180,
-            "participationType": "Team",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
-            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "7"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
             "id": "event-121",
             "type": "Entry",
             "createdAt": "2026-02-03T18:25:10.359Z",
@@ -7152,59 +7311,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-117",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:10.299Z",
-            "updatedAt": "2026-02-03T18:25:10.299Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 290,
-            "eventName": "Rhythmic reflections 2.5",
-            "clubName": "Chapter-seraphic",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T13:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 160,
-            "participationType": "Team",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
-            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "6"
         }
     },
     {
@@ -7311,59 +7417,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-116",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:25:10.045Z",
-            "updatedAt": "2026-02-03T18:25:10.045Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 289,
-            "eventName": "Rhythmic reflections 2.4",
-            "clubName": "Chapter-seraphic",
-            "eventType": "Informal",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-20T13:00:00+05:30",
-            "endDateAndTime": "2026-02-20T16:00:00+05:30",
-            "pricePerPerson": 140,
-            "participationType": "Team",
-            "eventVenue": "MBA Amphitheatre",
-            "shortDescription": "Showcase your unique skills at this vibrant talent show! Whether it is dancing, singing, or magic, students can perform individually or in groups. It is the perfect platform to express creativity and shine before an audience.",
-            "longDescription": "Students can showcase their talents and skills, can include dance, singing, magic show. Can be individual as well as a group event",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "5"
         }
     },
     {
@@ -8795,59 +8848,6 @@
             "specialEvent": false,
             "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
             "teamSize": "1"
-        }
-    },
-    {
-        "metadata": {
-            "tags": [],
-            "concepts": []
-        },
-        "sys": {
-            "space": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Space",
-                    "id": "cuzunz84pu17"
-                }
-            },
-            "id": "event-151",
-            "type": "Entry",
-            "createdAt": "2026-02-03T18:24:52.908Z",
-            "updatedAt": "2026-02-03T18:24:52.908Z",
-            "environment": {
-                "sys": {
-                    "id": "master",
-                    "type": "Link",
-                    "linkType": "Environment"
-                }
-            },
-            "publishedVersion": 1,
-            "revision": 1,
-            "contentType": {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "ContentType",
-                    "id": "event"
-                }
-            },
-            "locale": "en-US"
-        },
-        "fields": {
-            "eventId": 329,
-            "eventName": "The Great Prompt Off",
-            "clubName": "THE DAO COMMUNITY ",
-            "eventType": "Cyber Engage",
-            "eventFor": "Both",
-            "startDateAndTime": "2026-02-21T10:00:00+05:30",
-            "endDateAndTime": "2026-02-21T12:30:00+05:30",
-            "pricePerPerson": 100,
-            "participationType": "Duo",
-            "eventVenue": "Nethaji Auditorium",
-            "shortDescription": "PromptCraft is an AI-based challenge where participants use written prompts to recreate or reinterpret images and concepts. It focuses on creativity and intentionality, encouraging beginners to experiment with AI-driven visual storytelling.",
-            "longDescription": "PromptCraft is a creative, AI-based challenge where ideas matter more than technical skills. Participants are given a reference image, video concept, or a set of objects, and their task is to recreate or reinterpret it using AI through carefully written prompts. The challenge lies in how well you can translate an idea into words and guide the AI to generate an output that feels accurate, creative, and intentional.\n\nThere are no restrictions on style or imagination. Some may aim for close accuracy, while others may turn the same reference into something completely unexpected. PromptCraft is designed to be beginner-friendly and open to anyone curious about creativity and AI. It encourages experimentation, attention to detail, and thinking beyond the obvious.",
-            "specialEvent": false,
-            "registrationLink": "https://chennaievents.vit.ac.in/vitchennai_vibrance/",
-            "teamSize": "2"
         }
     },
     {

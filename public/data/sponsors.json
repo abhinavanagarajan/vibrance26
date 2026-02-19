@@ -11,10 +11,6 @@
         "tierName": "Partners",
         "sponsors": [
             {
-                "name": "Media Partner",
-                "logo": "https://cdn.a2ys.dev/images/photos/70475f98-08d7-4ab4-9dc4-cb6af09e38d1-thehindu.webp"
-            },
-            {
                 "name": "Television Partner",
                 "logo": "https://cdn.a2ys.dev/images/photos/b6946b01-8d52-499d-9f8a-1c0a167891a1-news7logo.webp"
             },

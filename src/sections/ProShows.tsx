@@ -240,7 +240,7 @@ export function ProShows() {
 
 
                         {/* Book Now Button */}
-                        <div style={{
+                        {/* <div style={{
                             display: 'flex',
                             flexDirection: "column",
                             gap: '10px',
@@ -251,7 +251,6 @@ export function ProShows() {
                             width: '100%',
                             fontFamily: '--var(--font-display)'
                         }}>
-                            {/* <p>Don't miss the last chance!!</p> */}
 
                             <a
                                 // href="https://chennaievents.vit.ac.in/vitchennai_vibrance/studentLogin"
@@ -272,7 +271,7 @@ export function ProShows() {
                             >
                                 Sold Out
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </HoverSlider>
 

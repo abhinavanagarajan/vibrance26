@@ -63,7 +63,7 @@ const Events = () => {
 
             }}
         >
-            <h2
+            {/* <h2
                 style={{
                     fontSize: '3rem',
                     fontFamily: 'var(--font-display)',
@@ -76,8 +76,39 @@ const Events = () => {
                 }}
             >
                 Events
-            </h2>
-            <EventsPage eventData={eventData} assetData={assetData} />
+            </h2> */}
+            <div style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                minHeight: '100vh',
+                width: '100%',
+            }}>
+
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', backgroundColor: 'rgba(122, 122, 122, 0.1)', backdropFilter: 'blur(10px)', borderRadius: '10px', padding: '20px' }}>
+                    <h3 style={{ fontSize: '1.25rem', fontFamily: 'var(--font-vast)', marginBottom: '1rem', textAlign: 'center', textTransform: 'uppercase', fontWeight: 900, color: '#ffffff', textShadow: '2px 2px 10px rgba(0,0,0,0.5)' }}>
+                        200+ Events
+                    </h3>
+                    <h3 style={{ fontSize: '1.25rem', fontFamily: 'var(--font-vast)', marginBottom: '1rem', textAlign: 'center', textTransform: 'uppercase', fontWeight: 900, color: '#ffffff', textShadow: '2px 2px 10px rgba(0,0,0,0.5)' }}>
+                        15,000+ Participants
+                    </h3>
+                    <h4 style={{ fontSize: '2.5rem', fontFamily: 'var(--font-vast)', marginBottom: '1rem', textAlign: 'center', textTransform: 'uppercase', fontWeight: 900, color: '#ffffff', textShadow: '2px 2px 10px rgba(0,0,0,0.5)' }}>
+                        Thanks for making <h3 style={{
+                            fontSize: '2.8rem',
+                            fontWeight: 'bold',
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.1em',
+                            fontFamily: 'var(--font-display)',
+                            color: 'transparent',
+                            WebkitTextStroke: '1px white'
+                        }}>
+                            VIBRANCE'26
+                        </h3> a grand success!!
+                    </h4>
+
+                </div>
+
+            </div>
         </section>
     );
 };

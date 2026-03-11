@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, LayoutGrid, Users, DollarSign, Filter, ChevronUp, ChevronDown } from 'lucide-react';
+import { Calendar, LayoutGrid, Users, IndianRupee, Filter, ChevronUp, ChevronDown } from 'lucide-react';
 import '../../styles/events.css';
 
 type FilterState = {
@@ -183,7 +183,7 @@ const EventFilter: React.FC<EventFilterProps> = ({ onFilterChange, availableDate
 
                 {/* Price Range Filter */}
                 <div className="filter-section">
-                    {renderSectionHeader('Price Range', <DollarSign size={18} />, 'price')}
+                    {renderSectionHeader('Price Range', <IndianRupee size={18} />, 'price')}
                     {!collapsed.price && (
                         <>
                             <div className="price-display">
